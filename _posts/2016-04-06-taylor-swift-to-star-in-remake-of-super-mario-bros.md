@@ -1,0 +1,14 @@
+---
+layout: post
+title: Taylor Swift to Star in Remake of Super Mario Bros
+author: 7347pwpadmin
+comments: true
+categories: [Brad Garrett, Idris Elba, Jack Nicholson, King Koopa, Life, Luigi, Mario, Nintendo, Super Mario Bros, Taylor Swift]
+---
+What was hot in the 90s is clearly hot again! Hardcore Nintendo fans were cruelly disappointed by the 1993 game-to-film adaptation of Super Mario Bros, feeling that it was irrelevant to the beloved franchise about Italian plumbers stomping on turtles and chasing coins. But in the 90s the industry was still young and Hollywood has had a chance to learn, particularly from such unforgettable classics like Mortal Kombat: Annihilation, House of the Dead, and Uwe Boll's entire body of work.
+
+In the ongoing sea of remakes and re-imaginings, dream team Michael Bay and J.J. Abrams will be reviving Super Marios Bros with a bang. Bay decided to use the original film strictly as source material opposed to the numerous new games in the Mario world that have been released since the film's debut, but has subtly hinted at replacing the subterranean dinosaurs seen in the original with aliens. Regardless, explosions will be plentiful and leaving filmgoers anxious for the next showdown.
+
+The star-studded cast includes Jack Nicholson has been cast as King Koopa, Idris Elba as Mario, and Brad Garrett as Luigi. Amidst concerns that Elba would not fit in with the cast, he has embraced the role of Mario with zeal and hanging around the Brooklyn plumbers' union for inspiration. Garrett can't wait to start deploying "Everyone loves Mario!" as a catchphrase and hopes the film will ignite interest in his proposed reboot of Everybody Loves Raymond in the wake of Girl Meets World and Fuller House, Everybody Still Loves Raymond.
+
+Most notably, Abrams has confirmed that Taylor Swift will be playing the role of Princess Daisy. He anticipates receiving a horde of tweets protesting "No, it's Becky!" after countless Nintendo fans voiced discontent that even a remake later, Princess Daisy was the chosen Princess over Princess Peach. While the announcement of casting Swift angered a great deal of gamers who were hoping for a geekdom mainstay like Felicia Day to play the part, the gaming press showed a shocking amount praise for this casting decision. A Gamasutra editor stated that Swift's contributions to Bay's and Abrams' remake's soundtrack could usher in a golden age of video game films, particularly a film adaptation of Goat Simulator with "I Knew You Were a Goat When I Walked In".

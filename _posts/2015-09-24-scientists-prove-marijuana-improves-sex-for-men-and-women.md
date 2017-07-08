@@ -1,0 +1,12 @@
+---
+layout: post
+title: Scientists Prove Marijuana Improves Sex for Men and Women
+author: 7347pwpadmin
+comments: true
+categories: [Life, Marijuana, Men, pot, Science, Scientists, Sex, Sexy, weed, Women]
+---
+Before the modern era of pharmaceutical companies, people in all societies were reliant on more natural ways to enhance and complement their sex life. One of these enhancers was, and still is, cannabis. Cannabis has been used for centuries as an aid to sexual life and the plant has cultural and spiritual significance as such, especially in the Tantric sexuality. Cannabis is a mild hallucinogen that can sharpen senses, allowing us to feel, see and touch everything better. This is a good reason to try cannabis in bed. Scientists have established that the rise of pleasure will be phenomenal. Cannabis reacts with the brain in a very similar manner to all chemicals that excite us and bring pleasure, replicating the effects of dopamine and anandamide. This causes an increase in the production of hormones, increased heart rate and increased blood flow. If your mind has the will, cannabis can really help to refer sexual desire in the right direction.
+
+Interestingly enough, a study funded by top universities in the US including MIT, Harvard, and UCLA indicate that 40% of men say that cannabis helps them to perform better and have a longer activity over time, while 90% of women indicate that sexual pleasure is better and 40% of these women reported a more intense orgasm. Men reported feeling better resistance, longer and stronger orgasms and better sensitivity to touch. Women reported better vaginal moisture, better ability of excitement and better control of the vaginal muscles. However, while this is not necessarily the result of chemical reactions. Relaxation and comfort level associated with cannabis use could well be the cause, as a placebo effect. The effects of marijuana on the sexual life depends on the level of intoxication. Recent studies show that with a moderate or low level of consumption, majority of people experience better communication skills in their relationship and increased body awareness.
+
+The scientists had seen the significance of their studies and had sought to validate their facts and assumptions by smoking marijuana themselves and having sex with each other. They found that it’s fucking awesome. Really, awesome. I mean, you should try it… really… hey, want to order a pizza?

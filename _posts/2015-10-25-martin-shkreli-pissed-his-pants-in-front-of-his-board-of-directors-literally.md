@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Martin Shkreli Pissed His Pants in Front of His Board of Directors, Literally"
+author: 7347pwpadmin
+comments: true
+---
+<!--categories: [Bernie Sanders, CEO, FeelTheBern, Imprimis Pharmaceuticals, Martin Shkreli, Martin Shkreli Phrama Bro, Martin Shkreli Pissed His Pants, Martin Shkreli pissed pants, Politics, Salary, Stocks, Turing Pharmaceuticals]-->
+In a hastily called meeting last week, embattled “Pharma Bro” Turing Pharmaceuticals CEO Martin Shkreli sought guidance from his board of directors after hearing devastating news. With international media reporting that competitor Imprimis Pharmaceuticals <a style="font-style: inherit; font-weight: inherit;" href="http://fortune.com/tag/turing-pharmaceuticals/">will undercut the price</a> of Turing’s AIDS drug by nearly 100 percent, Shkreli began to unravel as he realized that his diabolically greedy plan had been foiled.
+
+In August, Turing acquired the rights to Daraprim, a drug used by AIDS, HIV and cancer patients. Shkreli became widely derided as the “Pharma Bro” and “Complete Douchebag” after opting to raise the drug’s price <a style="font-style: inherit; font-weight: inherit;" href="http://www.bbc.com/news/world-us-canada-34323006">from $13.50 to $750 per pill</a> and giving a number of interviews in which he firmly established his reputation as a culturally tone-deaf piece of shit.
+
+In the meeting, Shkreli became so worked up over losing vast amounts of money from his greedy bet that he pissed himself. With urine visibly trickling through the crotch and down the leg of his Valentino skinny jeans, Shkreli ran out of the room, crying like a toddler and repeatedly stating, “It’s not fair! Daddy, I don’t like this. Make them stop! I want a corn dog!” while beating his fists on the walls and stomping his feet.
+
+Following the ridiculous and childish outburst by the man-child CEO, board Chair Schmall Weiner attempted to refocus directors on the business at hand — continuing to essentially steal obscene amounts of money from terminally ill patients — in the wake of news that competitor Imprimis would offer a Daraprim alternative at just $1 per pill. “Ladies and gentlemen of the board,” Schmall Weiner began, to a visibly worried room. “What the fuck are we going to do? Shkreli’s saving grace before was that he made us money… some even thought he was cool, but not after pissing his pants. People never forget. “
+
+Shkreli, wearing a fresh pair of Versace slacks, somehow still reeking of urine, returned to the meeting. Calmly taking his seat, Shkreli listened for approximately 17 seconds, then stated, “I’m bored. I challenge Bernie Sanders to a wet T-shirt contest.<a style="font-style: inherit; font-weight: inherit;" href="https://twitter.com/martinshkreli">Tweet that!</a>”
+
+Shkreli recently became embroiled in <a style="font-style: inherit; font-weight: inherit;" href="http://www.advocate.com/politics/2015/10/16/bernie-sanders-gives-martin-shkrelis-donation-hiv-clinic">another controversy</a> as he attempted to gain a coerced audience with Presidential contender Sanders by writing a My Little Pony check for $2,700, the maximum allowed by law. The Sanders campaign promptly rebuffed Shkreli’s advances, donating the money to an AIDS charity and denying the narcissism-riddled CEO’s requests for a listening session.
+
+The diminutive chief executive tweeted that he was so disturbed by Sanders’ refusal to accept his gracious bribe that he could punch a wall. He then tweeted an image of his allegedly <a style="font-style: inherit; font-weight: inherit;" href="http://www.addictinginfo.org/2015/10/19/pharma-bro-martin-shkreli-tweets-fake-wrist-injury-gets-owned-by-internet-screenshots/">broken wrist</a>, which the Twitterverse immediately found to be lifted from a medical website. Shkreli later tweeted an image of himself playing guitar, demanding a corn dog and noting that he would <a style="font-style: inherit; font-weight: inherit;" href="http://www.salon.com/2015/10/23/pharmaceutical_ceo_martin_shkrelis_very_public_temper_tantrum_continues_i_would_destroy_bernie_sanders_in_a_debate/">destroy Sanders</a> in a debate.
