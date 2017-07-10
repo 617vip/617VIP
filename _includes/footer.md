@@ -29,7 +29,7 @@
     </div>
     <div class="foot-links flex out">
       {% for category in site.data.footer %}
-        <a class="child small flex" href="/{{  category | slugify}}/">{{ category | capitalize }}</a>
+        <a class="child small flex" href="{{site.baseurl}}/{{  category | slugify}}/">{{ category | capitalize }}</a>
       {% endfor %}
         <span class = 'duo'>{{ site.copyright | escape }}</span>
     </div>
