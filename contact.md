@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /contact-617vip/
+published: true
 ---
 <style>
    form{
@@ -17,6 +18,7 @@ permalink: /contact-617vip/
      display:block;
      border:none;
      outline:none;
+     -webkit-appearance:none;
      background-color:rgba(0,255,0,0.07);
      transition: all 0.3s ease-in-out; 
    }
@@ -26,6 +28,9 @@ permalink: /contact-617vip/
    textarea:focus{
      background-color:#fafafa;
    }
+  ::-webkit-input-placeholder{
+    color:#444;
+    }
    textarea{
      min-height:100px;
    }
