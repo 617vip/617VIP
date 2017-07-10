@@ -10,7 +10,7 @@
           <span class="menu-icon">
           </span>
           {% for category in site.data.menu %}
-            <a class="{{category}}" href="/category/{{  category}}">{{ category | upcase }}</a>
+            <a class="{{category}}" href="{{site.baseurl}}/category/{{  category}}">{{ category | upcase }}</a>
           {% endfor %}
         </nav>
       {% endif %}
