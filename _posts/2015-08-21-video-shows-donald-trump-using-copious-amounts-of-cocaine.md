@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Video Shows Donald Trump Using Copious Amounts of Cocaine
-author: 7347pwpadmin
+permalink: /video-shows-donald-trump-using-copious-amounts-of-cocaine/
 comments: true
 categories: [Cocaine, Donald Trump, Donald Trump Cocaine, El Chapo, Mexico, Politics, President Trump, Scarface, Trump, USA]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Biologist Suggest Next Step in Human Evolution: Development of Third Eye"
-author: 7347pwpadmin
+permalink: /biologist-suggest-next-step-in-human-evolution-is-development-of-a-third-eye/
 comments: true
 categories: [Evolution, God, Hipsters, SayWhatAgain, Tech, third eye]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kid Destroys Priceless Artifact While Playing Kinect
-author: 7347pwpadmin
+permalink: /kid-destroys-priceless-artifact-while-playing-kinect/
 comments: true
 categories: [Kinect, Microsoft, Tech, Xbox One]
 ---

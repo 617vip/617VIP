@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coca-Cola, McDonalds, Announce Big Mac Soda
-author: 7347pwpadmin
+permalink: /coca-cola-mcdonalds-announce-big-mac-soda/
 comments: true
 categories: [Big Mac Soda, Coca-Cola, Life, McDonalds]
 ---

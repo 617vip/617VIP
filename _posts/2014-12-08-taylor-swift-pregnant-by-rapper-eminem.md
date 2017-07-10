@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Taylor Swift Pregnant by Rapper Eminem
-author: 7347pwpadmin
+permalink: /taylor-swift-pregnant-by-rapper-eminem/
 comments: true
 categories: [Country, Eminem, Kayne West, Kim Kardashian, Life, Music, Pop, Rap, Taylor Swift]
 ---

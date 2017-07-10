@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paris Hilton and deadmau5 to Perform Together at EDC Las Vegas 2015
-author: 7347pwpadmin
+permalink: /paris-hilton-and-deadmau5-to-perform-together-at-edc-las-vegas-2015/
 comments: true
 categories: [deadmau5, EDC, Electric Daisy Carnival, Las Vegas, Life, Paris Hilton]
 ---

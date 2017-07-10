@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thor Introduced Into Star Wars Universe
-author: 7347pwpadmin
+permalink: /thor-introduced-into-star-wars-universe/
 comments: true
 categories: [Chris Hemsworth, Life, Marvel, Star Wars, Thor]
 ---

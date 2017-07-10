@@ -1,7 +1,7 @@
 ---
 layout: post
 title: $65,000 Worth of Pizza Recalled, Delivery Personnel on Massive Retrieval Campaign
-author: 7347pwpadmin
+permalink: /65000-worth-of-pizza-recalled-delivery-personnel-on-massive-retrieval-campaign/
 comments: true
 categories: [Domino’s Pizza, Local, miami, pizza]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Republicans Plan to Nominate Ronald Reagan
-author: 7347pwpadmin
+permalink: /republicans-plan-to-nominate-ronald-reagan/
 comments: true
 categories: [2016, GOP, Politics, President, Republicans, Ronald Reagan, Ronald Reagan 2016]
 ---

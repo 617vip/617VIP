@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Donald Trump Picks Unconventional VP Candidate
-author: 7347pwpadmin
+permalink: /donald-trump-picks-unconventional-vp-candidate/
 comments: true
 categories: [Donald Trump, McDonalds, Politics, Trump, Vice President]
 ---

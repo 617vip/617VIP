@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sarah Palin And Paul Ryan: 2016's Hottest Republican Team"
-author: 7347pwpadmin
+permalink: /sarah-palin-and-paul-ryan-2016s-hottest-republican-team/
 comments: true
 categories: [Alaska, America, Freedom, Paul Ryan, Politics, President of The United States, Sarah Palin, USA]
 ---

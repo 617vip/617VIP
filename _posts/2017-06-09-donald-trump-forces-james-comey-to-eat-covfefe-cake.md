@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Donald Trump Forces James Comey to Eat Covfefe Cake
-author: 7347pwpadmin
+permalink: /donald-trump-forces-james-comey-to-eat-covfefe-cake/
 comments: true
 categories: [cake, chocolate cake, Covfefe, Donald Trump, James Comey, Politics, President Trump, Trump]
 ---

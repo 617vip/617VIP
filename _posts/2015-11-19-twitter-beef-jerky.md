@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Twitter Beef Jerky
-author: 7347pwpadmin
+permalink: /twitter-beef-jerky/
 comments: true
-categories: [Chris Brown Twitter Beef Jerky, Drake Twitter Beef Jerky, Meek Mill Twitter Beef Jerky, Rihanna Twitter Beef Jerky, Tech, Twitter, Twitter Beef, Twitter Beef Guy, Twitter Beef Jerky, TWTR]
+categories: [Chris Brown Twitter Beef Jerky, Drake Twitter Beef Jerky, Meek Mill Twitter Beef Jerky, Rihanna Twitter Beef Jerky, Tech, Twitter, Twitter Beef]
 ---
 In an effort to recover from a disappointing third quarter, Twitter is making a bold move into the next big tech boom: Beef Jerky.
 

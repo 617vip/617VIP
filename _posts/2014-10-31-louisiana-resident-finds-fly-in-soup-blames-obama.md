@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Louisiana Resident Finds Fly in Soup, Blames Obama
-author: 7347pwpadmin
+permalink: /louisiana-resident-finds-fly-in-soup-blames-obama/
+image: ''
 comments: true
 categories: [Barack Obama, fly, Local, Obama, Politics, President Obama, soup]
 ---

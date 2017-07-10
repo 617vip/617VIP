@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Proof Jesus Evolved from a Monkey
-author: 7347pwpadmin
+permalink: /proof-jesus-evolved-from-a-monkey/
 comments: true
 categories: [Evolution, Jesus Christ, Monkey, religion, Science, Tech]
 ---

@@ -1,11 +1,7 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+<footer>
+   <div class = 'flex'>
+      <div class=" child quad">
+        <p>{{ site.title | escape }}</p>
         <ul class="contact-list">
           <li>
             {% if site.author %}
@@ -19,10 +15,8 @@
             {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-2">
+      <div class="child duo">
         <ul class="social-media-list">
-        
           {% if site.twitter_username %}
           <li>
             twitter
@@ -30,12 +24,13 @@
           {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.copyright | escape }}</p>
+      <div class="child quad">
       </div>
     </div>
-
-  </div>
-
+    <div class="foot-links flex out">
+      {% for category in site.data.footer %}
+        <a class="child small flex" href="/{{  category | slugify}}/">{{ category | capitalize }}</a>
+      {% endfor %}
+        <span class = 'duo'>{{ site.copyright | escape }}</span>
+    </div>
 </footer>

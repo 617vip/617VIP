@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bitcoin as New Russian Currency
-author: 7347pwpadmin
+permalink: /bitcoin-as-new-russian-currency/
 comments: true
 categories: [Bitcoin, CCCP, Politics, Putin, Russia, Tech]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recent Undergraduate Art Major Actually Has Really Cool Etsy Shop
-author: 7347pwpadmin
+permalink: /recent-undergraduate-art-major-actually-has-really-cool-etsy-shop/
 comments: true
 categories: [Art, AwesomeSauce, ETSY, Life, Painting]
 ---

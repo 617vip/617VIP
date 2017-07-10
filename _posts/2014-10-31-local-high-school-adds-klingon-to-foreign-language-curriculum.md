@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Local High School adds Klingon to Foreign Language Curriculum
-author: 7347pwpadmin
+permalink: /local-high-school-adds-klingon-to-foreign-language-curriculum/
+image: Local-High-School-adds-Klingon-to-Foreign-Language-Curriculum
 comments: true
 categories: [intergalactic, Klingon, Local, Nerds, Star Trek]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Cubs Manager, Joe Maddon, Invites Female College Softball Player to Spring Training
-author: 7347pwpadmin
+permalink: /new-cubs-manager-joe-maddon-invites-female-college-softball-player-to-spring-training/
 comments: true
 categories: [Chicago Cubs, Joe Maddon, Sports, Theo Epstein]
 ---

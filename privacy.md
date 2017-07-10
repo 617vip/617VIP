@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-author: 7347pwpadmin
-comments: true
-categories: []
+permalink: /privacy-policy/
 ---
 We won't sell your email and will respect your privacy.
 

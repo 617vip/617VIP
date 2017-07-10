@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scientists Prove Why Marijuana is Awesome
-author: 7347pwpadmin
+permalink: /scientists-prove-why-marijuana-is-awesome/
 comments: true
 categories: [420, Awesome, Herb, Life, Marijuana, pot, Scientists, Stoned, weed]
 ---

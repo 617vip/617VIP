@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NFL's New Study Suggests Football Is Less Fun Without Concussions
-author: 7347pwpadmin
+permalink: /nfls-new-study-suggests-football-is-less-fun-without-concussions/
 comments: true
 categories: [Sports]
 ---

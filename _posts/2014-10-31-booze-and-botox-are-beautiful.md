@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Booze and Botox Are Beautiful
-author: 7347pwpadmin
+permalink: /booze-and-botox-are-beautiful/
+image: Booze-and-Botox-Are-Beautiful
 comments: true
 categories: [booze, Botox, cosmetic surgery, Life]
 ---

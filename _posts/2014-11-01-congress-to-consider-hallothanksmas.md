@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Congress to Consider HalloThanksMas
-author: 7347pwpadmin
+permalink: /congress-to-consider-hallothanksmas/
 comments: true
 categories: [Christmas, congress, HalloThanksMas, Halloween, Politics, Thanksgiving]
 ---

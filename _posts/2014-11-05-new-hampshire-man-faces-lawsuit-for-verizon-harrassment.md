@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Hampshire Man Faces Lawsuit for Verizon Harrassment
-author: 7347pwpadmin
+permalink: /new-hampshire-man-faces-lawsuit-for-verizon-harrassment/
 comments: true
 categories: [Local, New Hampshire, Verizon]
 ---

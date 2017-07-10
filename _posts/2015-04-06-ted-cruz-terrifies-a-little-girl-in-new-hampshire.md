@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ted Cruz Terrifies a Little Girl in New Hampshire
-author: 7347pwpadmin
+permalink: /ted-cruz-terrifies-a-little-girl-in-new-hampshire/
 comments: true
 categories: ['#FlamesAndButter', AK-47. GetOffMyLawn, GOP, New Hampshire, NRA, Politics, Republicans, Ted Cruz, Thanks Obama]
 ---

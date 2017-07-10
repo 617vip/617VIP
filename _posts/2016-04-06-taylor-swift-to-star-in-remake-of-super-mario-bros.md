@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Taylor Swift to Star in Remake of Super Mario Bros
-author: 7347pwpadmin
+permalink: /taylor-swift-to-star-in-remake-of-super-mario-bros/
 comments: true
 categories: [Brad Garrett, Idris Elba, Jack Nicholson, King Koopa, Life, Luigi, Mario, Nintendo, Super Mario Bros, Taylor Swift]
 ---

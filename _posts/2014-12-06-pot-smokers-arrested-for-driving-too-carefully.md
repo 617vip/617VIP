@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pot Smokers Arrested For Driving Too Carefully
-author: 7347pwpadmin
+permalink: /pot-smokers-arrested-for-driving-too-carefully/
 comments: true
 categories: [ganja, Local, Marijuana, police, pot, weed]
 ---

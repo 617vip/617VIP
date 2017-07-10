@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Transgender Stormtrooper Forced to Use Men's Restroom
-author: 7347pwpadmin
+permalink: /transgender-stormtrooper-forced-to-use-mens-restroom/
 comments: true
 categories: [bathrooms, FN-2022, Hannah Clark, Life, Pissing everywhere, Star Wars, Transgender Stormtrooper, USA]
 ---

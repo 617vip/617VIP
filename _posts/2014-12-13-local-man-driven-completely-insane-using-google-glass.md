@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Local Man Driven Completely Insane Using Google Glass
-author: 7347pwpadmin
+permalink: /local-man-driven-completely-insane-using-google-glass/
 comments: true
 categories: [Android, Google, Google Glass, Internet, Local, Tech]
 ---

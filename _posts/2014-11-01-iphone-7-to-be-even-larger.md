@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iPhone 7 To Be Even Larger 
-author: 7347pwpadmin
+permalink: /iphone-7-to-be-even-larger/
 comments: true
 categories: [Apple, desktop, iPhone, iPhone 7, large, Tech]
 ---

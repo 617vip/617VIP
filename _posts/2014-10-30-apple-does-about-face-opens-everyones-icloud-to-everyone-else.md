@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Apple Does About Face, Opens Everyone's iCloud to Everyone Else
-author: 7347pwpadmin
+permalink: /apple-does-about-face-opens-everyones-icloud-to-everyone -else/
+image: Apple-Does-About-Face-Opens-Everyones-iCloud-to-Everyone-Else
 comments: true
 categories: [Apple, iCloud, iMe, iOS, Tech]
 ---

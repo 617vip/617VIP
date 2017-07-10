@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ronda Rousey to Face Off Against Soda Popinski
-author: 7347pwpadmin
+permalink: /ronda-rousey-to-face-off-against-soda-popinski/
 comments: true
 categories: [Boxing, Mike Tyson, MMA, NES, Nintendo, Punch Out, Ronda Rousey, Soda Popinski, Sports, UFC]
 ---

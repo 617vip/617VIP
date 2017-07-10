@@ -1,0 +1,135 @@
+*,
+*:after,
+*:before{
+  box-sizing: border-box;
+}
+body,div,section,footer,input,p,ul,li,main{
+  margin:0;
+  padding:0;
+}
+body{
+  width:100%;
+  font-family: sans-serif;
+}
+footer{
+  background-color:#222;
+  color:#dedede;
+  padding:25px;
+}
+a{
+  color:inherit;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+ul,li{
+  list-style:none;
+}
+a:visited{
+  color:inherit;
+}
+a:hover,
+a:focus{
+  color:inherit;
+  text-decoration: none !important;
+  opacity: 0.8;
+}
+.flex{
+  width:100%;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.flex.out{
+  justify-content: space-between;
+}
+.child{
+  width:100%;
+}
+main{
+  min-height:72vh;
+  padding:25px;
+}
+nav a{
+  display: inline-block;
+  padding:7.5px 15px;
+  background-color:#111;
+  transition: all 0.3s ease-in-out;
+  color:#fff !important;
+}
+nav a:hover{
+  background-color:#fff;
+}
+.quad a{
+  color:#111;
+}
+.quad a:hover,
+nav a:hover{
+  text-decoration: none;
+}
+nav a.local:hover{
+  color:#cc6633 !important;
+}
+nav a.politics:hover{
+  color:#993333 !important; 
+}
+nav a.sports:hover{
+  color:#009966 !important;
+}
+nav a.tech:hover{
+  color:#336699 !important; 
+}
+nav a.life:hover{
+  color:#9933cc !important; 
+}
+main img{
+  margin:7.5px auto;
+  width: 100%;
+  max-width: 640px;
+}
+.foot-links{
+   border-top:1px solid #555;
+   padding-top:15px;
+}
+.foot-links a{
+  font-weight:300;
+  text-align:center;
+  color:#aaa;
+  border-right: 1px solid #bbb;
+}
+.post-content p{
+  padding:17.5px 0;
+}
+@media screen and (min-width: 567px) {
+  .duo{
+    width:49%;
+  }
+  header .quad{
+    text-align: right;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: -1px
+  }
+  .third{
+    width:32%;
+  }
+  .quad{
+    width:25%;
+  }
+  .small{
+    width:12.5%;
+  }
+  .main{
+    width: 67%;
+  }
+  .header{
+    background:linear-gradient(#fff 97%, rgba(0,0,0,0.1));
+  }
+  header,
+  main{
+    max-width:1128px;
+    padding:15px 25px;
+    margin:0 auto;
+  }
+}

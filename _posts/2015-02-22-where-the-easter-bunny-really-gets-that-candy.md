@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Where the Easter Bunny Really Gets That Candy
-author: 7347pwpadmin
+permalink: /where-the-easter-bunny-really-gets-that-candy/
 comments: true
 categories: [Candy, Easter Bunny, Life]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kayne West and Kim Kardashian Volunteered to Live on Mars Forever
-author: 7347pwpadmin
+permalink: /kayne-west-and-kim-kardashian-volunteered-to-live-on-mars-forever/
 comments: true
 categories: [Kayne West, Kim Kardashian, Life, Mars, NASA]
 ---

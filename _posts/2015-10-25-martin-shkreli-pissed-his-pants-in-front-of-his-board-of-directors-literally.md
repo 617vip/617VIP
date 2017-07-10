@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Martin Shkreli Pissed His Pants in Front of His Board of Directors, Literally"
-author: 7347pwpadmin
+permalink: /martin-shkreli-pissed-his-pants-in-front-of-his-board-of-directors-literally/
 comments: true
+categories: [Bernie Sanders, CEO, Politics, Salary, Stocks, Turing ]
 ---
-<!--categories: [Bernie Sanders, CEO, FeelTheBern, Imprimis Pharmaceuticals, Martin Shkreli, Martin Shkreli Phrama Bro, Martin Shkreli Pissed His Pants, Martin Shkreli pissed pants, Politics, Salary, Stocks, Turing Pharmaceuticals]-->
 In a hastily called meeting last week, embattled “Pharma Bro” Turing Pharmaceuticals CEO Martin Shkreli sought guidance from his board of directors after hearing devastating news. With international media reporting that competitor Imprimis Pharmaceuticals <a style="font-style: inherit; font-weight: inherit;" href="http://fortune.com/tag/turing-pharmaceuticals/">will undercut the price</a> of Turing’s AIDS drug by nearly 100 percent, Shkreli began to unravel as he realized that his diabolically greedy plan had been foiled.
 
 In August, Turing acquired the rights to Daraprim, a drug used by AIDS, HIV and cancer patients. Shkreli became widely derided as the “Pharma Bro” and “Complete Douchebag” after opting to raise the drug’s price <a style="font-style: inherit; font-weight: inherit;" href="http://www.bbc.com/news/world-us-canada-34323006">from $13.50 to $750 per pill</a> and giving a number of interviews in which he firmly established his reputation as a culturally tone-deaf piece of shit.

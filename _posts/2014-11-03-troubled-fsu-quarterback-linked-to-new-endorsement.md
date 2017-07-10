@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Troubled FSU Quarterback Linked to new Endorsement?
-author: 7347pwpadmin
+permalink: /troubled-fsu-quarterback-linked-to-new-endorsement/
 comments: true
 categories: [Florida State, Florida State Seminoles, Jameis Winston, Sports]
 ---

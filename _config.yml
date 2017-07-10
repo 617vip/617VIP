@@ -10,7 +10,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 copyright: Copyright 617VIP, Inc. All Rights Reserved
 twitter_username: jekyllrb
 github_username:  jekyll
-
 # Build settings
 markdown: kramdown
 theme: minima

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: David Guetta to Teach Justin Bieber How to DJ
-author: 7347pwpadmin
+permalink: /david-guetta-to-teach-justin-bieber-how-to-dj/
 comments: true
 categories: [Dance Music, David Guetta, EDM, Justin Bieber, Life, Nightclubs]
 ---

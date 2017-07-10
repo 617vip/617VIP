@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pence's Attitude Toward Transgender Toilet Use Causes Literal Shitstorm
-author: 7347pwpadmin
+permalink: /pences-attitude-toward-transgender-toilet-use-causes-literal-shitstorm/
 comments: true
 categories: [Mike Pence, Pency boy, Politics, The Pencanator, The Penceter, Totally Not Gay, Vice President, VP]
 ---

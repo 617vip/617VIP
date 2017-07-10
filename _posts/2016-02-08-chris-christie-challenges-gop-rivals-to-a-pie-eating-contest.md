@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Chris Christie Challenges GOP Rivals to a Pie Eating Contest
-author: 7347pwpadmin
+permalink: /chris-christie-challenges-gop-rivals-to-a-pie-eating-contest/
 comments: true
+categories: [Barack Obama, Ben Carson, Chris Christie, Donald Trump, Jeb Bush, Marco Rubio, Politics, President Obama, Ted Cruz]
 ---
-<!--categories: [Barack Obama, Ben Carson, Chris Christie, Chris Christie is a 400 pound elephant, Chris Christie is really fat, Donald Trump, Jeb Bush, Marco Rubio, Politics, President Obama, Ted Cruz]-->
 Chris Christie set the political world in a tailspin by offering a novel approach to deciding the next Republican Presidential Nomination - a good, old fashion pie eating contest. He estimates that he has the best chance of winning this type of contest. He was quoted as saying, "I know I'm the fattest. I'm the 400 pound elephant in the room! And out of all of my fellow candidates, I'm the only one willing to dig my hands in and get dirty. As a Governor I’m accountable to the people!"
 
 His opponent, Marco Rubio, quickly pointed out, "Get his hands dirty? Two years ago at the New Jersey Pie Eating Contest, Christie was adamantly opposed to contestants using their hands. He stated, and I quote, "People who eat with their hands cheat the system." Just like everything else about Christie, he flip flops to serve his current interest. Besides, he doesn’t think Barack Obama knows what he is doing? Trust me, Obama knows exactly what he’s doing! The pies are filled with GMOs from Monsanto! And laxatives! This makes you the ultimate Washington insider."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tomi Lahren Teaches Black People How to Behave
-author: 7347pwpadmin
+permalink: /tomi-lahren-teaches-black-people-how-to-behave/
 comments: true
 categories: [Black Lives Matter, Colin Kaepernick, Glenn Beck, Politics, The Blaze, Tomi Lahren]
 ---
