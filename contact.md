@@ -51,6 +51,11 @@ published: true
      text-align:center;
    }
 </style>
+<ul class="address">
+    {% if site.address %}
+    <li>{{ site.address }}</li>
+    {% endif %}
+</ul>
 <div class = 'form flex'>
   <div class = 'main child'><h2>Contact 617VIP</h2></div>
   <form class = 'child main'>

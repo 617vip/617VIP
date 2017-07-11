@@ -2,10 +2,6 @@
   <header class = 'flex'>
     <div class=" child quad">
       <a class="" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      <ul class="address">
-          {% if site.address %}
-          <li>{{ site.address }}</li>
-          {% endif %}
       </ul>
     </div>
     <div class="child duo">
@@ -20,7 +16,11 @@
   <div class="foot-links">
     <header class = 'flex-in'>
       {% for category in site.data.footer %}
-        <a class="child small flex" href="{{site.baseurl}}/{{  category | slugify}}/">{{ category | capitalize }}</a>
+        {% if category == 'home' %} 
+         <a class="child small flex" href="{{ "/" | relative_url }}">{{ category | capitalize }}</a>
+        {% else %}
+          <a class="child small flex" href="{{site.baseurl}}/{{  category | slugify}}/">{{ category | capitalize }}</a>
+        {% endif %}
       {% endfor %}
       <span class = 'duo flex'>{{ site.copyright | escape }}</span>
     </header>
