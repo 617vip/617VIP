@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<div class = 'tablet flex'>
+   {% include share.md %}
+</div>
 <section class = 'flex-in'>
   <article class="post child main" itemscope itemtype="http://schema.org/BlogPosting">
     <section class="post-header">
@@ -19,6 +22,7 @@ layout: default
     <div class="post-content" itemprop="articleBody">
       {{ content }}
     </div>
+    {% include mobile.md %}
     {% if site.disqus.shortname %}
       {% include disqus_comments.md %}
     {% endif %}

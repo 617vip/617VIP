@@ -231,7 +231,23 @@ nav.toggled .desc{
   background-color: #2f86c5;
   width:100%;
 }
+.tablet{
+  display:none;
+}
 @media screen and (min-width: 667px) {
+  .tablet{
+    display:flex;
+    position: fixed;
+    width:75px;
+    top:0;
+    left:0;
+    height:80vh;
+    background-color:transparent;
+    z-index:999;
+  }
+  .mobile{
+    display:none;
+  }
   .top-header .small:last-of-type,
   .top-header nav{
     display:initial;
