@@ -16,15 +16,15 @@ published: true
     display:block;
     width:100%;
     max-width:360px !important;
-     margin:17.5px auto;
-     padding:12.5px 15px;
-     font-size:1.2em;
-     border-radius:6px;
-     border:none;
-     outline:none;
-     -webkit-appearance:none;
-     background-color:#eeffee;
-     transition: all 0.3s ease-in-out; 
+    margin:17.5px auto;
+    padding:12.5px 15px;
+    font-size:1.2em;
+    border-radius:6px;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    background-color:#eeffee;
+    transition: all 0.3s ease-in-out; 
    }
    input:hover,
    input:focus,
@@ -47,9 +47,13 @@ published: true
      opacity:0.8;
      color:#eee;
    }
+   .form h2{
+     text-align:center;
+   }
 </style>
 <div class = 'form flex'>
-  <form>
+  <div class = 'main child'><h2>Contact 617VIP</h2></div>
+  <form class = 'child main'>
     <input type = 'text' placeholder = 'Name' name = 'name'>
     <input type = 'email' placeholder = 'Email Address' name = 'email'>
     <textarea placeholder = 'Type your message' name = 'message'></textarea>

@@ -29,6 +29,7 @@
        margin:0 auto;
        margin-top:12.5px !important;
        width:100% !important;
+       max-width:360px !important;
        border-radius:5px;
        outline:none !important;
        border:none !important;
