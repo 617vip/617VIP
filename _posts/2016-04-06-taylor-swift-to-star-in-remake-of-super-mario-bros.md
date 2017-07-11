@@ -2,8 +2,7 @@
 layout: post
 title: Taylor Swift to Star in Remake of Super Mario Bros
 permalink: /taylor-swift-to-star-in-remake-of-super-mario-bros/
-comments: true
-categories: [Brad Garrett, Idris Elba, Jack Nicholson, King Koopa, Life, Luigi, Mario, Nintendo, Super Mario Bros, Taylor Swift]
+categories: [Life]
 ---
 What was hot in the 90s is clearly hot again! Hardcore Nintendo fans were cruelly disappointed by the 1993 game-to-film adaptation of Super Mario Bros, feeling that it was irrelevant to the beloved franchise about Italian plumbers stomping on turtles and chasing coins. But in the 90s the industry was still young and Hollywood has had a chance to learn, particularly from such unforgettable classics like Mortal Kombat: Annihilation, House of the Dead, and Uwe Boll's entire body of work.
 

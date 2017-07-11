@@ -2,8 +2,7 @@
 layout: post
 title: New Kraft Macaroni Recipe Fails to Cause Internal Afterglow
 permalink: /new-kraft-macaroni-recipe-fails-to-cause-internal-afterglow/
-comments: true
-categories: [Foodbabe, Kraft, Life, Macaroni, NaturalNews, sungazing]
+categories: [Life]
 ---
 Some bad news for Kraft Foods as well as its many loyal customers, a class action lawsuit has just been filed accusing the brand of losing its mojo. Apparently, while the company has boasted of a recent switch to a “new and improved” recipe free of artificial ingredients <a href="http://www.eater.com/2016/3/7/11173858/kraft-mac-and-cheese-different">without anyone noticing</a>, they didn't take into account that the magic of the original formula had been lost.
 

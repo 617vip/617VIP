@@ -2,8 +2,7 @@
 layout: post
 title: Kayne West and Kim Kardashian Volunteered to Live on Mars Forever
 permalink: /kayne-west-and-kim-kardashian-volunteered-to-live-on-mars-forever/
-comments: true
-categories: [Kayne West, Kim Kardashian, Life, Mars, NASA]
+categories: [Life]
 ---
 Lest we confuse our readers with a fuzzy definition right out of the gate, let’s be clear: when we say “volunteered,” we mean they <em>were </em>volunteered. Specifically, Kayne West and Kim Kardashian have been volunteered by NASA to live on Mars.
 

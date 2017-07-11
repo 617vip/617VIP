@@ -2,7 +2,6 @@
 layout: post
 title: NFL's New Study Suggests Football Is Less Fun Without Concussions
 permalink: /nfls-new-study-suggests-football-is-less-fun-without-concussions/
-comments: true
 categories: [Sports]
 ---
 The NFL has published a new study that suggests there may be a significant correlation between football's "fun factor" and player concussions. The study found that as concussions occur less frequently, patron "fun" also decreased.

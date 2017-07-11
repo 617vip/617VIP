@@ -2,8 +2,7 @@
 layout: post
 title: Video Shows Donald Trump Using Copious Amounts of Cocaine
 permalink: /video-shows-donald-trump-using-copious-amounts-of-cocaine/
-comments: true
-categories: [Cocaine, Donald Trump, Donald Trump Cocaine, El Chapo, Mexico, Politics, President Trump, Scarface, Trump, USA]
+categories: [Politics]
 ---
 <em>Nestled away in a "Make America Great Again" trucker cap, a gram of uncut cocaine awaited Mr. Trump in video leak.</em>
 

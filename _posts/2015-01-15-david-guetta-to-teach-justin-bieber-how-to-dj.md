@@ -3,7 +3,7 @@ layout: post
 title: David Guetta to Teach Justin Bieber How to DJ
 permalink: /david-guetta-to-teach-justin-bieber-how-to-dj/
 comments: true
-categories: [Dance Music, David Guetta, EDM, Justin Bieber, Life, Nightclubs]
+categories: [Life]
 ---
 David Guetta, renowned international DJ and producer, has decided to cancel his world tour again, but this time the reason is far more ridiculous. After much deliberation, Guetta has decided to take on Justin Bieber as his new DJ student.  David Guetta will spend six months full time - 24/7 with Mr. Bieber for an undisclosed sum. The Canadian pop singer has been in a bit of slump since his recent run ins with legal law enforcement in the U.S.
 

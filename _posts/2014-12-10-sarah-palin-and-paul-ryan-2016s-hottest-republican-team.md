@@ -2,8 +2,7 @@
 layout: post
 title: "Sarah Palin And Paul Ryan: 2016's Hottest Republican Team"
 permalink: /sarah-palin-and-paul-ryan-2016s-hottest-republican-team/
-comments: true
-categories: [Alaska, America, Freedom, Paul Ryan, Politics, President of The United States, Sarah Palin, USA]
+categories: [Politics]
 ---
 When Sarah Palin ditched her job as as Governor of Alaska, she did not do so for the mere purpose of taking on the Fox News circuit or policing her out-of-control daughters. The politician merely needed a little me time prior to her takeover of presidential politics. She also wanted to ensure that Tina Fey was as far out of the Saturday Night Live loop as possible, so as to minimize future embarrassingly accurate portrayals alongside Amy Poehler.
 

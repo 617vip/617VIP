@@ -2,8 +2,7 @@
 layout: post
 title: Donald Trump Has a TINY FACE! Did He Go Too Far This Time?
 permalink: /donald-trump-has-a-tiny-face-did-he-go-too-far-this-time/
-comments: true
-categories: [Donald Trump, Politics, President Trump, Tiny Face, TinyFaceTrump, Trump]
+categories: [Politics]
 ---
 A Voodoo curse directed at presidential hopeful Donald Trump has allegedly shrunk his head - and the resulting fervor has threatened to increase his lead in the latest polls.
 

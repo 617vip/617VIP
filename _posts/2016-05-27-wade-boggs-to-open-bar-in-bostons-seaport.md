@@ -2,8 +2,7 @@
 layout: post
 title: Wade Boggs to Open Bar in Boston's Seaport
 permalink: /wade-boggs-to-open-bar-in-bostons-seaport/
-comments: true
-categories: [beer, Boston, Boston's Seaport, chicken, Jerry Remy, Red Sox, Sports, Wade Boggs, wicked]
+categories: [Sports]
 ---
 In honor of his storied baseball career in Boston with the Red Sox, as well as his well-known <a href="http://wror.com/2016/05/26/listen-hall-famer-wade-boggs/">love of chicken</a> and beer, Hall of Famer Wade Boggs is opening **Third Base Wade's** in Boston seaport, right across from Jerry Remy's Seaport location. Boggs himself used to drunkenly frequent Cheers with Jerry Remy in frustration every year after Boston failed to make the playoffs when the two played together towards the end of Remy’s career. Sources close to Boggs say that he believes the bar would be welcome in the community.
 

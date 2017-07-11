@@ -2,8 +2,7 @@
 layout: post
 title: Obama Issues Executive Order, Blames Disney For "Frozen" Northeast
 permalink: /obama-issues-executive-order-blames-disney-for-frozen-northeast/
-comments: true
-categories: [Anna, Disney, Frozen Elsa, Obama, Politics, President Obama, Thanks Obama]
+categories: [Politics]
 ---
 Finally buckling to the demands of evangelical Christians, United States President Barack Obama issued a nationwide ban today on the sale of all products related to the Disney film, "Frozen." President Obama claims that Disney's freezing grip on the little girls of America has surely prompted the deluge of snow and record-low temperatures across the country, especially in the Northeast. The ban, which took effect this morning, has sparked an outcry from “Frozen” fans everywhere, who demand that Elsa and Anna-themed toys, clothing and party supplies be returned to stores immediately.
 

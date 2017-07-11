@@ -2,8 +2,7 @@
 layout: post
 title: $65,000 Worth of Pizza Recalled, Delivery Personnel on Massive Retrieval Campaign
 permalink: /65000-worth-of-pizza-recalled-delivery-personnel-on-massive-retrieval-campaign/
-comments: true
-categories: [Domino’s Pizza, Local, miami, pizza]
+categories: [ Local]
 ---
 A series of Domino’s Pizza franchises in Miami, FL this week has suffered a major financial setback as $65,000 worth of pizza had to be recalled for violating a recently adopted Comfort Food Quality (CFQ) statute that had been imposed by a county board late last year during their bi-annual Christmas Holiday Cruise.
 Pizza delivery personnel have been alerted and scrambled due to an odd bit of wording to the statute stating that the same persons who initially delivered the comfort food items shall also be responsible for the recovery of said confections.

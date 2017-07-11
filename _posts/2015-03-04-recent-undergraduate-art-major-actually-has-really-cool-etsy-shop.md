@@ -2,8 +2,7 @@
 layout: post
 title: Recent Undergraduate Art Major Actually Has Really Cool Etsy Shop
 permalink: /recent-undergraduate-art-major-actually-has-really-cool-etsy-shop/
-comments: true
-categories: [Art, AwesomeSauce, ETSY, Life, Painting]
+categories: [ Life]
 ---
 Over the last couple weeks, an Etsy shop featuring original artwork by Trevor Ryan has generated buzz over social media for having “really cool stuff,” according to fellow art major, Ryan, since graduating in May of last year, is pursuing an art career mainly through the online peer-to-peer commerce site.
 

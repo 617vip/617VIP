@@ -2,8 +2,7 @@
 layout: post
 title: Chris Christie Challenges GOP Rivals to a Pie Eating Contest
 permalink: /chris-christie-challenges-gop-rivals-to-a-pie-eating-contest/
-comments: true
-categories: [Barack Obama, Ben Carson, Chris Christie, Donald Trump, Jeb Bush, Marco Rubio, Politics, President Obama, Ted Cruz]
+categories: [Politics]
 ---
 Chris Christie set the political world in a tailspin by offering a novel approach to deciding the next Republican Presidential Nomination - a good, old fashion pie eating contest. He estimates that he has the best chance of winning this type of contest. He was quoted as saying, "I know I'm the fattest. I'm the 400 pound elephant in the room! And out of all of my fellow candidates, I'm the only one willing to dig my hands in and get dirty. As a Governor I’m accountable to the people!"
 

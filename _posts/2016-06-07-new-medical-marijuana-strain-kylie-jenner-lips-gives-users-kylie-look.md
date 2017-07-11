@@ -2,8 +2,7 @@
 layout: post
 title: New Medical Marijuana strain, Kylie Jenner Lips, Gives Users 'Kylie' Look
 permalink: /new-medical-marijuana-strain-kylie-jenner-lips-gives-users-kylie-look/
-comments: true
-categories: [California, Kardashian, Kylie Jenner Lips, Life, lips, Marijuana, medical marijuana, pot, puffy lips, weed]
+categories: [Life]
 ---
 Without a doubt, plump and pouty lips are all the rage in the world of fashion. Many young women are willing to try anything to achieve alluring, full lips. In fact, millions of women have tried the <a href="https://www.youtube.com/watch?v=mc7JSdcoyBU">Kylie Jenner challenge</a> in hopes of attaining the famed 'Kylie' look.
 

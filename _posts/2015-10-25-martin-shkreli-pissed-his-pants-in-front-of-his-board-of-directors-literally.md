@@ -2,8 +2,7 @@
 layout: post
 title: "Martin Shkreli Pissed His Pants in Front of His Board of Directors, Literally"
 permalink: /martin-shkreli-pissed-his-pants-in-front-of-his-board-of-directors-literally/
-comments: true
-categories: [Bernie Sanders, CEO, Politics, Salary, Stocks, Turing ]
+categories: [Politics]
 ---
 In a hastily called meeting last week, embattled “Pharma Bro” Turing Pharmaceuticals CEO Martin Shkreli sought guidance from his board of directors after hearing devastating news. With international media reporting that competitor Imprimis Pharmaceuticals <a style="font-style: inherit; font-weight: inherit;" href="http://fortune.com/tag/turing-pharmaceuticals/">will undercut the price</a> of Turing’s AIDS drug by nearly 100 percent, Shkreli began to unravel as he realized that his diabolically greedy plan had been foiled.
 

@@ -2,8 +2,7 @@
 layout: post
 title: iPhone 7 To Be Even Larger 
 permalink: /iphone-7-to-be-even-larger/
-comments: true
-categories: [Apple, desktop, iPhone, iPhone 7, large, Tech]
+categories: [Tech]
 ---
 On the heels of the release of the iPhone6, anticipation turns to what lies ahead for the iPhone.
 

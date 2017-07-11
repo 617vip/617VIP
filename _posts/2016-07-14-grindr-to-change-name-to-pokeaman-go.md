@@ -2,8 +2,7 @@
 layout: post
 title: Grindr to Change Name to Pokeaman Go
 permalink: /grindr-to-change-name-to-pokeaman-go/
-comments: true
-categories: [gay, gay apps, gay dating, gay games, Gay Pokemon, Grindr, Life, Pokeaman, Pokeaman Go, Pokemon Go, so gay, Tech]
+categories: [Life, Tech]
 ---
 Nearby Buddy Finder, LLC (NBF) has announced plans to rename its popular Gay and Bisexual matching app **Grindr** to **Pokeaman** **Go**, a tongue and cheek play on the hugely popular Nintendo **Pokemon Go** app, which has skyrocketed to the Top Free app in both Apple and Google Play Stores.  The overwhelming popularity of the app has led to a 25% gain in Nintendo stock this week, poising the company to finally make a significant push within the mobile gaming industry.  While Grindr is no slouch itself with over 10 million users worldwide, “it was time for a change” according to NBF spokesman Gerardo Velasco.  He quips “In many ways the apps are remarkably similar.  They both use geo-location to allow users to find pocket sized monsters to play with, but more importantly they both take you places to explore and have fun.”
 

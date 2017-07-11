@@ -2,8 +2,7 @@
 layout: post
 title: Republicans Plan to Nominate Ronald Reagan
 permalink: /republicans-plan-to-nominate-ronald-reagan/
-comments: true
-categories: [2016, GOP, Politics, President, Republicans, Ronald Reagan, Ronald Reagan 2016]
+categories: [Politics]
 ---
 In a move to guarantee they win the White House, the GOP has decided to stop reminiscing about the Reagan years and renominate him.
 

@@ -2,8 +2,7 @@
 layout: post
 title: Bitcoin as New Russian Currency
 permalink: /bitcoin-as-new-russian-currency/
-comments: true
-categories: [Bitcoin, CCCP, Politics, Putin, Russia, Tech]
+categories: [ Politics, Tech]
 ---
 Shtoh eto Moscow? With the Russian economy as cold as Siberia in December What options does Putin have to improve conditions?
 

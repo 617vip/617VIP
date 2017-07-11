@@ -16,15 +16,11 @@
         </ul>
       </div>
       <div class="child duo">
-        <ul class="social-media-list">
-          {% if site.twitter_username %}
-          <li>
-            twitter
-          </li>
-          {% endif %}
-        </ul>
       </div>
       <div class="child quad">
+         {% for item in site.data.social %}
+          <a href = '{{ item.url }}' class = ' flex {{ item.icon}} social' target = '_blank'><i class = 'fa fa-{{ item.icon }}' aria-hidden = 'true'></i></a>
+        {% endfor %}
       </div>
     </div>
     <div class="foot-links flex out">

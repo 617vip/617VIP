@@ -2,8 +2,7 @@
 layout: post
 title: People Unanimously Agree New Bathroom Law Is Fun
 permalink: /people-unanimously-agree-new-bathroom-law-is-fun/
-comments: true
-categories: [bathrooms, Politics, restrooms, trans, transgender]
+categories: [Politics]
 ---
 Regardless of which side of the issue you stand on, everyone agrees that it's fun to talk about whether or not people who were genetically born as male should be able to use the bathroom with the gender they identify with and vice versa. We talked to people to find out more.
 

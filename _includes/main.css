@@ -10,11 +10,11 @@ body,div,section,footer,input,p,ul,li,main{
 body{
   width:100%;
   font-family: sans-serif;
+  line-height: 1.6em;
 }
 footer{
   background-color:#222;
   color:#dedede;
-  padding:25px;
 }
 a{
   color:inherit;
@@ -33,13 +33,20 @@ a:focus{
   text-decoration: none !important;
   opacity: 0.8;
 }
-.flex{
+.flex, .flex-in{
   width:100%;
   display:flex;
   flex-flow: row wrap;
+}
+.flex{
   justify-content: center;
   align-items: center;
 }
+.flex-in{
+  justify-content: space-between;
+  padding:25px 0;
+}
+
 .flex.out{
   justify-content: space-between;
 }
@@ -59,9 +66,6 @@ nav a{
 }
 nav a:hover{
   background-color:#fff;
-}
-.quad a{
-  color:#111;
 }
 .quad a:hover,
 nav a:hover{
@@ -87,9 +91,13 @@ main img{
   width: 100%;
   max-width: 640px;
 }
+footer > .flex{
+  padding: 20px 25px;
+}
 .foot-links{
-   border-top:1px solid #555;
-   padding-top:15px;
+   background-color: #333;
+   padding:25px;
+   margin-top: 15px;
 }
 .foot-links a{
   font-weight:300;
@@ -100,6 +108,55 @@ main img{
 .post-content p{
   padding:17.5px 0;
 }
+.more{
+  width:100%;
+  background-color: #fff796;
+  text-align: center;
+  text-transform: uppercase;
+  padding:12.5px;
+}
+h3.category-head{
+  width:100%;
+  padding:7.5px 12.5px;
+  margin:0;
+  text-align:right;
+  font-size: 1em;
+  color:#fff;
+}
+.category-head.life{
+  background-color: #9933cc;
+}
+.category-head.local{
+  background-color: #cc6633;
+}
+.category-head.sports{
+  background-color: #009966;
+}
+.category-head.politics{
+  background-color: #993333;
+}
+.category-head.tech{
+  background-color: #336699;
+}
+.archive-item{
+  border-bottom: 1px solid #eee;
+  padding:15px 7.5px;
+}
+.social{
+  display: inline-flex;
+  height:32px;
+  width:32px;
+  color:#fff;
+}
+.social .fa{
+  color:inherit;
+}
+.facebook{
+  background-color: #3b5998;
+}
+.twitter{
+  background-color: #4099FF;
+}
 @media screen and (min-width: 567px) {
   .duo{
     width:49%;
@@ -109,7 +166,8 @@ main img{
     font-size: 26px;
     font-weight: 300;
     line-height: 54px;
-    letter-spacing: -1px
+    letter-spacing: -1px;
+    color:#111;
   }
   .third{
     width:32%;
@@ -122,6 +180,7 @@ main img{
   }
   .main{
     width: 67%;
+    max-width: 640px;
   }
   .header{
     background:linear-gradient(#fff 97%, rgba(0,0,0,0.1));
@@ -129,7 +188,7 @@ main img{
   header,
   main{
     max-width:1128px;
-    padding:15px 25px;
+    padding:0 25px;
     margin:0 auto;
   }
 }

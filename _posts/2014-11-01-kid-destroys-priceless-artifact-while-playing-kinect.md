@@ -2,8 +2,7 @@
 layout: post
 title: Kid Destroys Priceless Artifact While Playing Kinect
 permalink: /kid-destroys-priceless-artifact-while-playing-kinect/
-comments: true
-categories: [Kinect, Microsoft, Tech, Xbox One]
+categories: [Tech]
 ---
 The Museum of Natural History opened its doors on a new exhibit this week, one that incorporated an Xbox One with Kinect into a collection of priceless Ming vases.
 

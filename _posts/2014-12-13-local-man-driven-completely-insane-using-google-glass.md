@@ -2,8 +2,7 @@
 layout: post
 title: Local Man Driven Completely Insane Using Google Glass
 permalink: /local-man-driven-completely-insane-using-google-glass/
-comments: true
-categories: [Android, Google, Google Glass, Internet, Local, Tech]
+categories: [ Local, Tech]
 ---
 Bob Raider is speaking out about his addiction to the Internet. He says he always knew having a smartphone with a data plan wasn't helping, but it was the release of Google Glass that took his addiction to a whole new level. No matter where Bob went, he was connected to the Internet 24/7. He even slept with Google Glass on and had it wake him up via an alarm clock every two hours so he could check his Facebook updates.
 

@@ -2,8 +2,7 @@
 layout: post
 title: Hillary Clinton Plans to Open Area 51 to Public
 permalink: /hillary-clinton-plans-to-open-area-51-to-public/
-comments: true
-categories: [ Aliens, Area 51, Hillary Clinton, Politics]
+categories: [ Politics]
 ---
 There has been a lot of talk about the secrecy in the Hillary Clinton campaign camp. Reporters want to know just what her role was in certain scandals during her term as Secretary of State under President Obama. They also want the release of emails sent and received from official State Department computers.
 

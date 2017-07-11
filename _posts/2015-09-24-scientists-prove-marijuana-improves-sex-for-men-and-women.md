@@ -2,8 +2,7 @@
 layout: post
 title: Scientists Prove Marijuana Improves Sex for Men and Women
 permalink: /scientists-prove-marijuana-improves-sex-for-men-and-women/
-comments: true
-categories: [Life, Marijuana, Men, pot, Science, Scientists, Sex, Sexy, weed, Women]
+categories: [Life]
 ---
 Before the modern era of pharmaceutical companies, people in all societies were reliant on more natural ways to enhance and complement their sex life. One of these enhancers was, and still is, cannabis. Cannabis has been used for centuries as an aid to sexual life and the plant has cultural and spiritual significance as such, especially in the Tantric sexuality. Cannabis is a mild hallucinogen that can sharpen senses, allowing us to feel, see and touch everything better. This is a good reason to try cannabis in bed. Scientists have established that the rise of pleasure will be phenomenal. Cannabis reacts with the brain in a very similar manner to all chemicals that excite us and bring pleasure, replicating the effects of dopamine and anandamide. This causes an increase in the production of hormones, increased heart rate and increased blood flow. If your mind has the will, cannabis can really help to refer sexual desire in the right direction.
 

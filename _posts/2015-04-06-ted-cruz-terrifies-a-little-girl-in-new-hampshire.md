@@ -2,8 +2,7 @@
 layout: post
 title: Ted Cruz Terrifies a Little Girl in New Hampshire
 permalink: /ted-cruz-terrifies-a-little-girl-in-new-hampshire/
-comments: true
-categories: ['#FlamesAndButter', AK-47. GetOffMyLawn, GOP, New Hampshire, NRA, Politics, Republicans, Ted Cruz, Thanks Obama]
+categories: [Politics]
 ---
 Nothing says “American Freedom” more than inadvertently scaring tiny children.
 During a recent speech, Ted Cruz said, “The Obama economy is a disaster, Obamacare is a train wreck and the Obama-Clinton foreign policy of leading from behind – the whole world is on fire.”
