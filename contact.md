@@ -13,16 +13,17 @@ published: true
      padding:20px 25px;
    }
    input,textarea{
-     width:100%;
+    display:block;
+    width:100%;
+    max-width:360px !important;
      margin:17.5px auto;
      padding:12.5px 15px;
      font-size:1.2em;
      border-radius:6px;
-     display:block;
      border:none;
      outline:none;
      -webkit-appearance:none;
-     background-color:rgba(0,255,0,0.07);
+     background-color:#eeffee;
      transition: all 0.3s ease-in-out; 
    }
    input:hover,
