@@ -3,7 +3,7 @@
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
       <div class = 'child quad'>
-      <a class="flex" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <a class="" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
       </div>
       {% if page_paths %}
         <nav class=" duo child">

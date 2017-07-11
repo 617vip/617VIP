@@ -4,6 +4,9 @@ permalink: /contact-617vip/
 published: true
 ---
 <style>
+  .form{
+     min-height:72vh;
+  }
    form{
      width:100%;
      max-width:480px;

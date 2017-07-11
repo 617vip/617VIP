@@ -1,14 +1,9 @@
 <footer>
    <div class = 'flex'>
       <div class=" child quad">
-        <p>{{ site.title | escape }}</p>
         <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
+            <li>
+              <a class="" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
             </li>
             {% if site.address %}
             <li>{{ site.address }}</li>
@@ -16,8 +11,9 @@
         </ul>
       </div>
       <div class="child duo">
+         {% include subscribe.md %}
       </div>
-      <div class="child quad">
+      <div class="child quad flex">
          {% for item in site.data.social %}
           <a href = '{{ item.url }}' class = ' flex {{ item.icon}} social' target = '_blank'><i class = 'fa fa-{{ item.icon }}' aria-hidden = 'true'></i></a>
         {% endfor %}
