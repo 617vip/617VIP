@@ -52,11 +52,11 @@
    onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
      <i class="fa fa-twitter"></i>
    </a>
-  
+<!--  
    <a class = 'linkedin flex' href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{site.baseurl}}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=617vip" 
    onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
      <i class="fa fa-linkedin"></i>
-   </a>
+   </a>-->
    
    <a class = 'whatsapp flex' href="whatsapp://send?text={{ site.url }}{{site.baseurl}}{{ page.url }}" data-action="share/whatsapp/share">
      <i class="fa fa-whatsapp"></i>

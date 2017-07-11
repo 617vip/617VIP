@@ -172,6 +172,7 @@ h3.category-head{
 .header{
   width:100%;
   top:0;
+  background-color: #fff;
 }
 header{
   position:relative;
