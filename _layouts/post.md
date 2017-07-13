@@ -13,7 +13,7 @@ layout: default
         {% endif %}
       </p>
       <img src = '{{ site.baseurl }}/assets/posts/{{ page. permalink | remove: '/'}}.jpg' alt = '{{ page. permalink | remove: '/'}}'>
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <h1 class="post-title {{ page.categories | first | downcase}}" itemprop="name headline">{{ page.title | escape }}</h1>
     </section>
     <div class="post-content" itemprop="articleBody">
       {{ content }}

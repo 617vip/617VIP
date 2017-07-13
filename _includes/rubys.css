@@ -14,4 +14,7 @@
   span.{{ category.name }} {
     color: {{ category.color }};
   }
+  h1.post-title.{{ category.name }} {
+    color: {{ category.color }};
+  }
 {% endfor %}
