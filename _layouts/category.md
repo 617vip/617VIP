@@ -7,11 +7,11 @@ layout: default
 {% assign firstPost = pageLoop | first %}
 <div class = 'flex featured'>
   <div class = 'child third flex'>
-     <div class = 'catch items'>
+     <div class = 'catch items child'>
       <div class = 'left'>{{ 'Wicked story' | upcase }}</div>
       <div class = 'right'>{{ 'of the day' | upcase }}</div>
      </div>
-     <a  href = '{{ firstPost.url | relative_url }}' class = 'title {{ page.title | downcase }} items'>
+     <a  href = '{{ firstPost.url | relative_url }}' class = 'title {{ page.title | downcase }} items child flex'>
       <h1>{{ firstPost.title }}</h1>
       <span>{{ page.title | upcase }} &raquo;</span>
      </a>
@@ -48,7 +48,7 @@ layout: default
         {% if category_name != page.title %}
         <div id="#{{ category_name | slugize }}"></div>
         <p></p>
-        <a  href="{{site.baseurl}}/category/{{  category_name | downcase}}"><h3 class="category-head {{ category_name |downcase }}">{{ category_name | upcase}}</h3></a>
+        <a  href="{{site.baseurl}}/category/{{  category_name | downcase}}"><h3 class="right category-head {{ category_name |downcase }}">{{ category_name | upcase}}</h3></a>
         <a name="{{ category_name | slugize }}"></a>
         {% for post in site.categories[category_name] limit : 3 %}
         <div class="archive-item">

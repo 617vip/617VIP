@@ -19,14 +19,16 @@ layout: default
       {{ content }}
     </div>
     <div class = 'meta-tags'>
+     Tagged With:
       {% for tag in page.tags %}
-          <a href = '/'>{{ tag | capitalize }}</a>
+        <a href = '/'>{{ tag | capitalize }}</a>
       {% endfor %}
     </div>
     {% include nextprev.md %}
     {% if site.disqus.shortname %}
       {% include disqus_comments.md %}
     {% endif %}
+    <a  href="{{site.baseurl}}/category/{{  cat | downcase}}"><h3 class="flex category-head {{ cat |downcase }}"><span>MORE SILLY {{ category_name | upcase}} NEWS</span></h3></a>
   </article>
   <aside class = ' child third'>
    <div id="archives">
@@ -34,16 +36,19 @@ layout: default
       {% for category in site.categories %}
       <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}
-        <div id="#{{ category_name | slugize }}"></div>
-        <p></p>
-        <a  href="{{site.baseurl}}/category/{{  category_name}}"><h3 class="category-head {{ category_name |downcase }}">{{ category_name | upcase}}</h3></a>
-        <a name="{{ category_name | slugize }}"></a>
-        {% for post in site.categories[category_name] limit : 3 %}
-        <div class="archive-item">
-          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
-          <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
-        </div>
-        {% endfor %}
+        {% assign cat = cat | downcase %}
+          {% unless category_name == cat %}
+          <div id="#{{ category_name | slugize }}"></div>
+          <p></p>
+          <a  href="{{site.baseurl}}/category/{{  category_name}}"><h3 class="category-head {{ category_name |downcase }}">{{ category_name | upcase}}</h3></a>
+          <a name="{{ category_name | slugize }}"></a>
+          {% for post in site.categories[category_name] limit : 3 %}
+            <div class="archive-item">
+              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
+              <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
+            </div>
+          {% endfor %}
+          {% endunless %}
       </div>
     {% endfor %}
     </div>
