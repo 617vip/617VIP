@@ -13,7 +13,7 @@ tags:
   - Wade Boggs
   - wicked
 ---
-In honor of his storied baseball career in Boston with the Red Sox, as well as his well-known <a href="http://wror.com/2016/05/26/listen-hall-famer-wade-boggs/">love of chicken</a> and beer, Hall of Famer Wade Boggs is opening **Third Base Wade's** in Boston seaport, right across from Jerry Remy's Seaport location. Boggs himself used to drunkenly frequent Cheers with Jerry Remy in frustration every year after Boston failed to make the playoffs when the two played together towards the end of Remy’s career. Sources close to Boggs say that he believes the bar would be welcome in the community.
+In honor of his storied baseball career in Boston with the Red Sox, as well as his well-known [love of chicken](http://wror.com/2016/05/26/listen-hall-famer-wade-boggs/) and beer, Hall of Famer Wade Boggs is opening **Third Base Wade's** in Boston seaport, right across from Jerry Remy's Seaport location. Boggs himself used to drunkenly frequent Cheers with Jerry Remy in frustration every year after Boston failed to make the playoffs when the two played together towards the end of Remy’s career. Sources close to Boggs say that he believes the bar would be welcome in the community.
 
 Early press releases for **Third Base Wade's** boast that the new bar will have a full selection of Boggs' favorite meals, chicken and beer. It seems they will serve only chicken dishes and a healthy variety of beer on tap. The Special is called “The Clean Up” which includes three whole chickens and 33 domestic 12oz beers. Perhaps the name is inspired by the vomit anyone not named Wade Boggs would produce after eating such a meal.
 

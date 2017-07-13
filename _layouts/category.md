@@ -21,21 +21,23 @@ layout: default
   </a>
 </div>
 
-{% assign date_format = "%b %-d, %Y" %}
-<ul class="post-list child main">
+<ul class="post-list">
   {% for post in pageLoop  limit: 5 %}
-    <li>  
-      {% assign cat = post.categories | first | upcase%}
-      <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
-      <a class="post-link" href="{{ post.url | relative_url }}">
+    <li class = 'flex out post-item'>  
+      {% assign date_format = "%b %-d, %Y" %}
+      {% assign cat = page.title | upcase%}
+      <a class="post-image child main" href="{{ post.url | relative_url }}">
         <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
-        <h2>
-          {{ post.title | escape }}
-        </h2>
-        <p class = 'post-excerpt'>{{post.excerpt | truncate: 145 | strip_html }}</p>
+      </a>
+      <a class = 'post-summary child third flex-down' href="{{ post.url | relative_url }}">
+        <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
+        <p><h1>{{ post.title | escape }}</h1></p>
+        <p class = 'post-excerpt'>{{post.excerpt | truncate: 175 | strip_html }}</p>
       </a>
     </li>
     {% endfor %}
+  </ul>
+  <ul class = 'child main'>
   </ul>
   <div class = 'child third'>
     <div id="archives">

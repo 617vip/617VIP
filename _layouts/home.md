@@ -31,7 +31,7 @@ layout: default
       <a class = 'post-summary child third flex-down' href="{{ post.url | relative_url }}">
         <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
         <p><h1>{{ post.title | escape }}</h1></p>
-        <p class = 'post-excerpt'>{{post.excerpt | truncate: 145 | strip_html }}</p>
+        <p class = 'post-excerpt'>{{post.excerpt | truncate: 175 | strip_html }}</p>
       </a>
     </li>
   {% endfor %}
