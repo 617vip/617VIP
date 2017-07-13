@@ -45,6 +45,10 @@ a:focus{
   justify-content: space-between;
   padding:25px 0;
 }
+.flex-down{
+  display:flex;
+  flex-direction: column;
+}
 
 .flex.out{
   justify-content: space-between;
@@ -95,6 +99,9 @@ footer > .flex{
 }
 .post-content p{
   padding:15px 0;
+}
+.post-excerpt{
+  color:#444;
 }
 h1.post-title{
   font-size:36px;
@@ -305,6 +312,16 @@ nav.toggled .desc{
   }
   .right{
     text-align:right;
+  }
+  .post-list .post-item{
+    align-items: stretch;
+  }
+  .post-item{
+    padding-bottom:20px;
+    border-bottom:1px solid #eee;
+  }
+  .post-summary p{
+    flex-grow: 1;
   }
 
 @media screen and (min-width: 667px) {

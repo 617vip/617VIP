@@ -20,39 +20,42 @@ layout: default
      <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
   </a>
 </div>
-  <ul class="post-list main child">
-    {% for post in site.posts limit: 5 %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {% assign cat = post.categories | first | upcase%}
-      <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
-          <h2>
-            {{ post.title | escape }}
-          </h2>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-  <div class = 'child third'>
-   <div id="archives">
-    <p class = 'more'>Even More Wicked</p>
-      {% for category in site.categories %}
-      <div class="archive-group">
-        {% capture category_name %}{{ category | first }}{% endcapture %}
-        <div id="#{{ category_name | slugize }}"></div>
-        <p></p>
-        <a  href="{{site.baseurl}}/category/{{  category_name | downcase}}"><h3 class="category-head {{ category_name |downcase }}">{{ category_name | upcase}}</h3></a>
-        <a name="{{ category_name | slugize }}"></a>
-        {% for post in site.categories[category_name] limit : 3 %}
-        <div class="archive-item">
-          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
-          <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
-        </div>
-        {% endfor %}
+<ul class="post-list">
+  {% for post in site.posts limit: 5 %}
+    <li class = 'flex out post-item'>
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      {% assign cat = post.categories | first | upcase%}
+      <a class="post-image child main" href="{{ post.url | relative_url }}">
+        <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
+      </a>
+      <div class = 'post-summary child third flex-down'>
+        <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
+        <p><h1>{{ post.title | escape }}</h1></p>
+        <p class = 'post-excerpt'>{{post.excerpt | truncate: 145 | strip_html }}</p>
       </div>
-    {% endfor %}
+    </li>
+  {% endfor %}
+</ul>
+<ul class = 'child main'>
+</ul>
+<div class = 'child third'>
+  <div id="archives">
+  <p class = 'more'>Even More Wicked</p>
+    {% for category in site.categories %}
+    <div class="archive-group">
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <div id="#{{ category_name | slugize }}"></div>
+      <p></p>
+      <a  href="{{site.baseurl}}/category/{{  category_name | downcase}}"><h3 class="category-head {{ category_name |downcase }}">{{ category_name | upcase}}</h3></a>
+      <a name="{{ category_name | slugize }}"></a>
+      {% for post in site.categories[category_name] limit : 3 %}
+      <div class="archive-item">
+        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
+        <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
+      </div>
+      {% endfor %}
     </div>
+  {% endfor %}
   </div>
+</div>
 </section>

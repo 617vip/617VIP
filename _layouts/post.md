@@ -20,7 +20,7 @@ layout: default
     </div>
     <div class = 'meta-tags'>
       {% for tag in page.tags %}
-          <a href = '/'>{{ tag }}</a>
+          <a href = '/'>{{ tag | capitalize }}</a>
       {% endfor %}
     </div>
     {% include nextprev.md %}

@@ -32,6 +32,7 @@ layout: default
         <h2>
           {{ post.title | escape }}
         </h2>
+        <p class = 'post-excerpt'>{{post.excerpt | truncate: 145 | strip_html }}</p>
       </a>
     </li>
     {% endfor %}
