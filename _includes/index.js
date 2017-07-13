@@ -11,7 +11,7 @@
     font = document.createElement('link');
     font.type = 'text/css'; 
     font.rel = 'stylesheet';
-    font.href = 'https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700';
+    font.href = 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700';
     s = document.getElementsByTagName('link')[0]; 
     s.parentNode.insertBefore(font, s);
   })();

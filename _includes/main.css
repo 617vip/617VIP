@@ -9,7 +9,7 @@ body,div,section,header,footer,input,p,ul,li,main,form,input,h5{
 }
 body{
   width:100%;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.5em;
 }
 footer{
@@ -66,8 +66,8 @@ main{
 }
 nav a{
   flex: 1 auto;
-  padding:7.5px 15px;
-  margin:2.5px;
+  padding:15px;
+  margin:1.5px;
   background-color:#111;
   transition: all 0.3s ease-in-out;
   color:#fff !important;
@@ -187,6 +187,7 @@ header{
 }
 .top-header{
   min-height:60px;
+  justify-content: flex-start !important;
 }
 .brand{
   margin-left:25px;
@@ -205,7 +206,7 @@ header{
 }
 .top-header .small:last-of-type{
   background-image: url({{ site.baseurl }}/assets/girl.png), url({{ site.baseurl }}/assets/paper.png);
-  height:96px;
+  height:92px;
 }
 .top-header .small:last-of-type,
 .top-header nav{
@@ -298,7 +299,7 @@ nav.toggled .desc{
   }
   .featured .catch{
     background-color: #fff795;
-    padding:25px;
+    padding:25px !important;
     font-size:28px;
   }
   .featured .catch div {
@@ -331,6 +332,7 @@ nav.toggled .desc{
 @media screen and (min-width: 667px) {
   nav a{
     text-align: center;
+    padding:4px;
   }
   .main-menu{
     padding:2.5px 25px;
@@ -371,11 +373,11 @@ nav.toggled .desc{
     max-width: 640px;
   }
   .desc{ 
-    padding:7.5px 0;
+    padding:4px 0;
   }
   .header{
     background:linear-gradient(#fff 97%, rgba(0,0,0,0.07));
-    border-top:2px solid #2f86c5;
+    border-top:3px solid #2f86c5;
   }
   .header header{
     padding:0 35px; 
