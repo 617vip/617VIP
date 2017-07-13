@@ -206,7 +206,7 @@ header{
 }
 .top-header .small:last-of-type{
   background-image: url({{ site.baseurl }}/assets/girl.png), url({{ site.baseurl }}/assets/paper.png);
-  height:92px;
+  height:90px;
 }
 .top-header .small:last-of-type,
 .top-header nav{
