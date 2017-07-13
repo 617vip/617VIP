@@ -5,10 +5,9 @@ layout: default
   <article class="post child main" itemscope itemtype="http://schema.org/BlogPosting">
     <section class="post-header">
       <p class="post-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          {{ page.date | date: date_format }}
-        </time>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {% assign cat = page.categories | first | upcase%}
+      <p class = 'flex out'><time class="post-meta" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
         {% if page.author %}
           • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
         {% endif %}
