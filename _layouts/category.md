@@ -16,7 +16,7 @@ layout: default
       <span>{{ page.title | upcase }} &raquo;</span>
      </a>
   </div>
-  <a '{{ firstPost.url | relative_url }}' class = 'child main '>
+  <a href = '{{ firstPost.url | relative_url }}' class = 'child main '>
      <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
   </a>
 </div>
