@@ -3,6 +3,11 @@ layout: post
 title: Apple Does About Face, Opens Everyone's iCloud to Everyone Else
 permalink: /apple-does-about-face-opens-everyones-icloud-to-everyone -else/
 categories: [ Tech]
+tags:
+  - Apple
+  - iCloud
+  - iMe
+  - iOS
 ---
 Just weeks after Apple's iCloud service made international headlines for exposing the private and sordid photographs of dozens of actresses to the Internet at large, Apple has rebranded the service the "iMe." The new service operates much the same way the old one did, but with one important difference - all passwords have been removed and now cloud-based storage accounts are automatically available to anyone else at all times.
 

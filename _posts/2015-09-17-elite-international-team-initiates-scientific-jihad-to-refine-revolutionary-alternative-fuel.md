@@ -3,6 +3,14 @@ layout: post
 title: Elite International Team Initiates 'Scientific Jihad' To Refine Revolutionary Alternative Fuel
 permalink: /elite-international-team-initiates-scientific-jihad-to-refine-revolutionary-alternative-fuel/
 categories: [Tech]
+tags:
+  - Bill Gates
+  - Bono
+  - Gaia
+  - JFK
+  - Jihad
+  - Soros
+  - Warren Buffet
 ---
 In a desperate effort to save the Earth from the effects of global warming and overpopulation, scientists from around the world have joined forces in what is being called a ‘scientific jihad’ to develop a newly proposed source of energy that promises to revolutionize human society and bring new hope to billions of marginalized and impoverished people.
 

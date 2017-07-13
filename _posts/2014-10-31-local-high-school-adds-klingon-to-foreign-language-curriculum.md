@@ -3,6 +3,11 @@ layout: post
 title: Local High School adds Klingon to Foreign Language Curriculum
 permalink: /local-high-school-adds-klingon-to-foreign-language-curriculum/
 categories: [Local]
+tags:
+  - intergalactic
+  - Klingon
+  - Nerds
+  - Star Trek
 ---
 ROSWELL, NM – The Roswell School Board announces that the extraterrestrial language of Klingon will be added to the foreign language curriculum at the district’s high school. Effective at the start of the 2015-2016 school year, all students attending Roswell High will be required to take two years of Klingon in order to fulfill their graduation requirements.
 

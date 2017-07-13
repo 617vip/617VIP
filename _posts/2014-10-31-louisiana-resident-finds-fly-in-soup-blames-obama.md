@@ -4,6 +4,12 @@ title: Louisiana Resident Finds Fly in Soup, Blames Obama
 permalink: /louisiana-resident-finds-fly-in-soup-blames-obama/
 image: ''
 categories: [Local, Politics]
+tags:
+  - Barack Obama
+  - fly
+  - Obama
+  - President Obama
+  - soup
 ---
 Louisiana restaurant enthusiast Patty Knutson was shocked when she ordered her favorite kidney bean soup, only to discover the ugly truth: President Barack Obama had allowed a fly to contaminate her soup.
 

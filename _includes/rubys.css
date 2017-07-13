@@ -1,0 +1,17 @@
+/* Css with ruby code  */
+{% for category in site.data.categories %}
+   .featured .title.{{ category.name }} {
+     background-color: {{ category.color }};
+     font-size:32px;
+   }
+  nav a.{{ category.name }}:hover{
+     color: {{category.color }} !important;
+  }
+  .category-head.{{ category.name }} {
+     background-color: {{ category.color }};
+     color:#fff;
+   }
+  span.{{ category.name }} {
+    color: {{ category.color }};
+  }
+{% endfor %}

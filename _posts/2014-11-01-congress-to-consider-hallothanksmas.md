@@ -3,6 +3,12 @@ layout: post
 title: Congress to Consider HalloThanksMas
 permalink: /congress-to-consider-hallothanksmas/
 categories: [Politics]
+tags:
+  - Christmas
+  - congress
+  - HalloThanksMas
+  - Halloween
+  - Thanksgiving
 ---
 In reaction to heavy pressure from lobbyists representing big box retailers, large breweries and the healthcare industry, Congress is considering legislation to turn three holidays into one. The so-called “HalloThanksMas” legislation will combine traditions from Halloween, Thanksgiving and Christmas into one 90 day celebration of sexy costumes, drinking, football and credit card spending.
 

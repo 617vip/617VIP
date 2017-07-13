@@ -3,6 +3,11 @@ layout: post
 title: Ebola Nurse Enraged at Being Stopped From Spreading Virus
 permalink: /ebola-nurse-enraged-at-being-stopped-from-spreading-virus/
 categories: [ Politics]
+tags:
+  - Ebola
+  - Ebola Nurse
+  - Nurse
+  - Quarantine
 ---
 NYC governor Andrew Cuomo came under fire for forcing a nurse who had recently returned from Sierra Leone into quarantine.
 

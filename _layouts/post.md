@@ -19,6 +19,12 @@ layout: default
     <div class="post-content" itemprop="articleBody">
       {{ content }}
     </div>
+    <div class = 'meta-tags'>
+      {% for tag in page.tags %}
+          <a href = '/'>{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% include nextprev.md %}
     {% if site.disqus.shortname %}
       {% include disqus_comments.md %}
     {% endif %}

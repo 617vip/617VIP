@@ -1,0 +1,10 @@
+- name: politics
+  color: '#993333'
+- name: sports
+  color: '#009966'
+- name: tech
+  color: '#336699'
+- name: local
+  color: '#cc6633'
+- name: life
+  color: '#9933cc'

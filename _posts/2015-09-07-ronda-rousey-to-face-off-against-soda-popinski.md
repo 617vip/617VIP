@@ -3,6 +3,16 @@ layout: post
 title: Ronda Rousey to Face Off Against Soda Popinski
 permalink: /ronda-rousey-to-face-off-against-soda-popinski/
 categories: [Sports]
+tags:
+  - Boxing
+  - Mike Tyson
+  - MMA
+  - NES
+  - Nintendo
+  - Punch Out
+  - Ronda Rousey
+  - Soda Popinski
+  - UFC
 ---
 Joe Rogan recently levied criticism at the Ronda Rousey / Holly Holm match at UFC 195, citing a "lack of talent" as a major factor in UFC's failure to match Rousey up against a worthwhile opponent. "Rowdy" Ronda Rousey seems to have taken these comments to heart, as the fighter will be looking outside of the ranks of UFC for her next match, accepting a challenge from World Video Boxing Association legend Soda Popinski.
 

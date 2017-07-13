@@ -2,13 +2,13 @@
   <header class="flex out top-header">
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
-      <div class = 'small title flex-in'>
-      <a class="brand flex-in" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <div class = 'quad title flex-in'>
+      <a class="brand flex-in" href="{{ "/" | relative_url }}"></a>
       </div>
       {% if page_paths %}
         <nav class="main main-menu">
           <p class="flex desc">
-          {{ site.desc | upcase }}
+          <img src = '{{ site.baseurl }}/assets/logo-big.png' alt = 'logo'>
           </p>
           <p class = 'flex'>
           {% for category in site.data.menu %}

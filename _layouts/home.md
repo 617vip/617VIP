@@ -3,11 +3,29 @@ layout: default
 ---
 {{ content }}
 <section class = 'flex-in'>
+{% assign pageLoop = site.posts %}
+{% assign firstPost = pageLoop | first %}
+<div class = 'flex featured'>
+  <div class = 'child third flex'>
+     <div class = 'catch items'>
+      <div class = 'left'>{{ 'Wicked story' | upcase }}</div>
+      <div class = 'right'>{{ 'of the day' | upcase }}</div>
+     </div>
+     <a  href = '{{ firstPost.url | relative_url }}' class = 'title {{ firstPost.categories | first | downcase }} items'>
+      <h1>{{ firstPost.title }}</h1>
+      <span>{{ firstPost.categories | first | upcase }} &raquo;</span>
+     </a>
+  </div>
+  <a '{{ firstPost.url | relative_url }}' class = 'child main '>
+     <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
+  </a>
+</div>
   <ul class="post-list main child">
     {% for post in site.posts limit: 5 %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
+        {% assign cat = post.categories | first | upcase%}
+      <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
         <a class="post-link" href="{{ post.url | relative_url }}">
           <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
           <h2>

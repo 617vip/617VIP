@@ -3,6 +3,14 @@ layout: post
 title: Pence's Attitude Toward Transgender Toilet Use Causes Literal Shitstorm
 permalink: /pences-attitude-toward-transgender-toilet-use-causes-literal-shitstorm/
 categories: [Politics]
+tags:
+  - Mike Pence
+  - Pency boy
+  - The Pencanator
+  - The Penceter
+  - Totally Not Gay
+  - Vice President
+  - VP
 ---
 An undercooked breakfast burrito combined with Seattle's inclusive attitudes regarding public bathroom use generated a shitstorm of epic proportions today, all of which occurred in the JC Penney briefs of <a href="https://www.whitehouse.gov/administration/vice-president-pence" target="_blank">Vice President Mike Pence</a>. The Vice President was served the questionable burrito aboard Air Force Two on his trip west from Washington DC. However, the breakfast concoction did not reach its full gastrointestinal potential until Pence had disembarked at Seattle-Tacoma International Airport. When the man who is one heartbeat away from the presidency sought a public toilet to safely eliminate the Mexican fireball, (Trump DID warm him not to trust those Mexican street burritos and to eat a <a href="http://www.trumptowerny.com/trump-grill-lunch-menu" target="_blank">Trump Tower taco bowl</a> instead.) he was met with a challenge unlike any he had ever encountered in the safe bathroom environs of his native Indiana. Unlike in the Hoosier State, Secret Service personnel could not quickly locate any public facility clearly identified as for White, Heterosexual, Christian Males only.
 

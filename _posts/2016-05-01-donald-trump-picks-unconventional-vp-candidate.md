@@ -3,6 +3,11 @@ layout: post
 title: Donald Trump Picks Unconventional VP Candidate
 permalink: /donald-trump-picks-unconventional-vp-candidate/
 categories: [Politics]
+tags:
+  - Donald Trump
+  - McDonalds
+  - Trump
+  - Vice President
 ---
 Donald Trump just “super-sized” his presidential campaign.
 

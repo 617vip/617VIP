@@ -3,6 +3,10 @@ layout: post
 title: Booze and Botox Are Beautiful
 permalink: /booze-and-botox-are-beautiful/
 categories: [ Life]
+tags:
+  - booze
+  - Botox
+  - cosmetic surgery
 ---
 Husbands all across the nation are becoming more interested in Botox, and not for themselves, but for their wives. In an attempt to have the perfect trophy wife hanging on their arms, they are noticing Botox can go a long way in helping them achieve this goal. And moreso, by mixing Botox and booze together, the results are proving to be exceedingly far more effective than they ever thought possible.
 

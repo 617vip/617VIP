@@ -3,6 +3,11 @@ layout: post
 title: Ground Breaking Study Indicates that Thanksgiving is not the Time to Start New Diet
 permalink: /ground-breaking-study-indicates-that-thanksgiving-is-not-the-time-to-start-new-diet/
 categories: [Life]
+tags:
+  - diet
+  - lose weight
+  - Thanksgiving
+  - weight loss
 ---
 In a controversial new study, scientists have came to the conclusion that of all the times to start a new diet plan, Thanksgiving is the worst.
 

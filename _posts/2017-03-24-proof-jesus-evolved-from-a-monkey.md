@@ -3,6 +3,12 @@ layout: post
 title: Proof Jesus Evolved from a Monkey
 permalink: /proof-jesus-evolved-from-a-monkey/
 categories: [ Tech]
+tags:
+  - Evolution
+  - Jesus Christ
+  - Monkey
+  - religion
+  - Science
 ---
 The fact that Jesus was a real man who actually walked the Earth is rarely a point of contention. Sources with no religious undertones say he lived in Nazareth, had disciples, and was crucified. But what evidence do we have that he was actually related to monkeys?
 

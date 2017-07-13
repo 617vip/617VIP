@@ -2,8 +2,11 @@
 layout: post
 title: Coca-Cola, McDonalds, Announce Big Mac Soda
 permalink: /coca-cola-mcdonalds-announce-big-mac-soda/
-comments: true
 categories: [Life]
+tags:
+  - Big Mac Soda
+  - Coca-Cola
+  - McDonalds
 ---
 The two retail food behemoths of the past century, Coca-Cola and McDonalds, last month announced their partnership to create the Big Mac Soda. For the young and old, the Big Mac Soda is the meatiest solution to end the hunger and thirst for food. Americans are fat and lazy, so this is really only the next logical step.
 

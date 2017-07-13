@@ -3,6 +3,10 @@ layout: post
 title: New Cubs Manager, Joe Maddon, Invites Female College Softball Player to Spring Training
 permalink: /new-cubs-manager-joe-maddon-invites-female-college-softball-player-to-spring-training/
 categories: [Sports]
+tags:
+  - Chicago Cubs
+  - Joe Maddon
+  - Theo Epstein
 ---
 New Cubs manager, Joe Maddon, makes headlines again as he invites a Division III college softball player to Spring Training. Aptly named, Crystal Balle, from tiny Skidless College in Cheyenne, Wyoming got a phone call from Joe shortly after the Cubs former manager, Rick Rentaria was asked to step down after only one year managing the up and coming (finally) Chicago Cubs.
 

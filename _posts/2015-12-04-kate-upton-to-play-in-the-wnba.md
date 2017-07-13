@@ -3,6 +3,19 @@ layout: post
 title: Kate Upton to Play in the WNBA
 permalink: /kate-upton-to-play-in-the-wnba/
 categories: [Sports]
+tags:
+  - Atlanta Dream
+  - Candace Parker
+  - Jennifer Lacy
+  - Kate Upton
+  - Leilani Mitchell
+  - San Antonio Stars
+  - Seattle Storm
+  - Skylar Diggins
+  - Supermodels
+  - Tulsa Shock
+  - WNBA
+  - "Women's Basketball"
 ---
 Supermodel Kate Upton Embarks on a New Career!
 
