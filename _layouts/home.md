@@ -19,6 +19,7 @@ layout: default
   <a '{{ firstPost.url | relative_url }}' class = 'child main '>
      <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
   </a>
+  {% include share.md %}
 </div>
 <ul class="post-list">
   {% for post in site.posts limit: 5 %}

@@ -3,7 +3,7 @@
 *:before{
   box-sizing: border-box;
 }
-body,div,section,header,footer,input,p,ul,li,main,form,input,h5{
+body,div,section,header,footer,input,p,ul,li,main,form,input,h5,img{
   margin:0;
   padding:0;
 }
@@ -331,6 +331,9 @@ nav.toggled .desc{
   .share-box{
     display: none;
   }
+  a.child.main {
+     line-height: 0; 
+}
 @media screen and (min-width: 667px) {
   nav a{
     text-align: center;
