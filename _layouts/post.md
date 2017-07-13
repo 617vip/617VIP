@@ -7,7 +7,11 @@ layout: default
       <p class="post-meta">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {% assign cat = page.categories | first | upcase%}
-      <p class = 'flex out'><time class="post-meta" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
+      <p class = 'flex out'>
+        <time class="post-meta" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}</time>
+        <span class = 'right {{ cat | downcase }}'>{{ cat }}</span>
+      </p>
         {% if page.author %}
           • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
         {% endif %}
@@ -29,14 +33,25 @@ layout: default
       {% include disqus_comments.md %}
     {% endif %}
     <a  href="{{site.baseurl}}/category/{{  cat | downcase}}"><h3 class="flex category-head {{ cat |downcase }}"><span>MORE SILLY {{ category_name | upcase}} NEWS</span></h3></a>
+    <div class = 'flex out'>
+      {% assign kind = page.categories | first %}
+       {% for post in site.categories.[kind] | limit: 5 %}
+          {% unless post.url == page.url %}
+           <a href="{{ site.baseurl }}{{ post.url }}" class = 'child duo flex-down'>
+              <img src = '{{ site.baseurl }}/assets/posts/{{ post.permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
+              <h2 itemprop="name headline">{{ page.title | escape }}</h2>
+              <time class="post-meta" >{{ post.date | date: date_format }}</time>
+           </a>
+          {% endunless %}
+       {% endfor %}
+    </div>
   </article>
   <aside class = ' child third'>
    <div id="archives">
-    <p class = 'more'>Even More Wicked</p>
       {% for category in site.categories %}
       <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}
-        {% assign cat = cat | downcase %}
+         {% assign cat = cat | downcase | capitalize %}
           {% unless category_name == cat %}
           <div id="#{{ category_name | slugize }}"></div>
           <p></p>
