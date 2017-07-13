@@ -13,17 +13,17 @@
       {% endfor %}
     </div>
   </header>
-  <div class="foot-links">
-    <header class = 'flex-in'>
+  <div class="foot-links flex-in">
+    <header class = 'child main flex-in'>
       {% for category in site.data.footer %}
         {% if category == 'home' %} 
-         <a class="child small flex" href="{{ "/" | relative_url }}">{{ category | capitalize }}</a>
+         <a class="quad flex" href="{{ "/" | relative_url }}">{{ category | capitalize }}</a>
         {% else %}
-          <a class="child small flex" href="{{site.baseurl}}/{{  category | slugify}}/">{{ category | capitalize }}</a>
+          <a class="quad flex" href="{{site.baseurl}}/{{  category | slugify}}/">{{ category | capitalize }}</a>
         {% endif %}
       {% endfor %}
-      <span class = 'duo flex'>{{ site.copyright | escape }}</span>
     </header>
+    <span class = ' child third flex'>{{ site.copyright | escape }}</span>
   </div>
 </footer>
 <script

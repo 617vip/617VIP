@@ -91,8 +91,8 @@ footer > .flex{
   padding: 20px 25px;
 }
 .foot-links{
-   background-color: #333;
-   padding:25px;
+  border-top:1px solid #333;
+   padding:7.5px;
    margin-top: 15px;
 }
 .foot-links a{
@@ -160,6 +160,9 @@ h3.category-head{
   width:100%;
   top:0;
   background-color: #fff;
+  background:linear-gradient(#fff 97%, rgba(0,0,0,0.07));
+  box-shadow: 1px 2px 3px rgba(0,0,0,.35);
+  border-top:3px solid #2f86c5;
 }
 header{
   position:relative;
@@ -186,12 +189,10 @@ header{
   height:50px;
 }
 .top-header{
-  min-height:60px;
   justify-content: flex-start !important;
 }
 .brand{
   margin-left:25px;
-  background-image: url({{ site.baseurl }}/assets/header-logo-small.png);
   background-size:100%;
   width:150px;
   height: 50px;
@@ -205,7 +206,6 @@ header{
   align-items:center;
 }
 .top-header .small:last-of-type{
-  background-image: url({{ site.baseurl }}/assets/girl.png), url({{ site.baseurl }}/assets/paper.png);
   height:90px;
 }
 .top-header .small:last-of-type,
@@ -311,10 +311,6 @@ nav.toggled .desc{
     font-size:32px;
     padding:0 25px;
   }
-  .featured .main{
-    width:67% !important;
-    padding-left:0 !important;
-  }
   .right{
     text-align:right;
   }
@@ -322,7 +318,10 @@ nav.toggled .desc{
     align-items: stretch;
   }
   .post-item{
-    padding-bottom:20px;
+    padding:7.5px 0;
+    border-top:1px solid #eee;
+  }
+  .post-item:last-child{
     border-bottom:1px solid #eee;
   }
   .post-summary p{
@@ -334,10 +333,22 @@ nav.toggled .desc{
   a.child.main {
      line-height: 0; 
 }
+.featured .title{
+  min-height: 160px;
+}
+@media screen and (max-width: 667px) {
+  .featured img{
+    display: none;
+  }
+}
 @media screen and (min-width: 667px) {
   nav a{
     text-align: center;
     padding:4px;
+  }
+  .featured .main{
+    width:67% !important;
+    padding-left:0 !important;
   }
   .main-menu{
     padding:2.5px 25px;
@@ -352,7 +363,8 @@ nav.toggled .desc{
     display: none;
   }
   .foot-links a{
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #555;
+    line-height: 1em;
   }
   .duo{
     width:49%;
@@ -363,6 +375,9 @@ nav.toggled .desc{
   .foot-links .child,
   .foot-links .flex-in{
     padding:0;
+  }
+  .foot-links .flex-in{
+    flex-flow: row nowrap;
   }
   .third{
     width:33%;
@@ -379,10 +394,6 @@ nav.toggled .desc{
   }
   .desc{ 
     padding:4px 0;
-  }
-  .header{
-    background:linear-gradient(#fff 97%, rgba(0,0,0,0.07));
-    border-top:3px solid #2f86c5;
   }
   .header header{
     padding:0 35px; 
