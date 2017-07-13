@@ -21,9 +21,9 @@ layout: default
   </a>
   {% include share.md %}
 </div>
-
+{% include ads.md %}
 <ul class="post-list">
-  {% for post in pageLoop  limit: 5 %}
+  {% for post in pageLoop  limit: 6 %}
     <li class = 'flex out post-item'>  
       {% assign date_format = "%b %-d, %Y" %}
       {% assign cat = page.title | upcase%}
@@ -39,6 +39,19 @@ layout: default
     {% endfor %}
   </ul>
   <ul class = 'child main'>
+  {% for post in pageLoop  | offset: 6  | limit: 6%}
+    <li class = 'flex out post-item'>  
+      {% assign date_format = "%b %-d, %Y" %}
+      {% assign cat = page.title | upcase%}
+      <a class="post-image child main" href="{{ post.url | relative_url }}">
+        <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
+      </a>
+      <a class = 'post-summary child third flex-down' href="{{ post.url | relative_url }}">
+        <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
+        <p><h1>{{ post.title | escape }}</h1></p>
+      </a>
+    </li>
+    {% endfor %}
   </ul>
   <div class = 'child third'>
     <div id="archives">

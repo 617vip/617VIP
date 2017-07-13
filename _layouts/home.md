@@ -21,6 +21,7 @@ layout: default
   </a>
   {% include share.md %}
 </div>
+{% include ads.md %}
 <ul class="post-list">
   {% for post in site.posts limit: 5 %}
     <li class = 'flex out post-item'>
