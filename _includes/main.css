@@ -201,6 +201,7 @@ header{
   background-size:100%;
   width:150px;
   height: 50px;
+  background-repeat: no-repeat;
 }
 .brand,
 .title{
@@ -420,6 +421,9 @@ nav.toggled .desc{
   }
   .desc{ 
     padding:4px 0;
+  }
+  .top-header .quad{
+    width:17.5%;
   }
   .header header{
     padding:0 35px; 
