@@ -218,6 +218,9 @@ nav.toggled{
   display:initial;
   background-color:#111;
 }
+nav.toggled + .small:last-of-type{
+  display: initial
+}
 nav.toggled a{
   display:block;
   width:100%;
