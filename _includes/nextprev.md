@@ -1,5 +1,5 @@
 <div class="previous-next flex">
-  <a class="previous-post half" href="{{ page.previous.url | relative_url}}">
+  <a class="previous-post half" href="{{ page.previous.url | relative_url }}">
   {% if page.previous.url %}
     <i class="fa fa-chevron-left" aria-hidden="true"></i> {{'Previous News ' | upcase}}
   {% endif %}

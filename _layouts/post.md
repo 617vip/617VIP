@@ -55,7 +55,7 @@ layout: default
           {% unless category_name == cat %}
           <div id="#{{ category_name | slugize }}"></div>
           <p></p>
-          <a  href="{{site.baseurl}}/category/{{  category_name}}"><h3 class="category-head {{ category_name |downcase }}">{{ category_name | upcase}}</h3></a>
+          <a  href="{{site.baseurl}}/category/{{  category_name}}"><h3 class="category-head {{ category_name | downcase }}">{{ category_name | upcase}}</h3></a>
           <a name="{{ category_name | slugize }}"></a>
           {% for post in site.categories[category_name] limit : 3 %}
             <div class="archive-item">
