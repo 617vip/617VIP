@@ -6,21 +6,23 @@ layout: default
 {% assign pageLoopMore = pageLoop %}
 <section class = 'flex-in'>
 {% assign firstPost = pageLoop | first %}
-<div class = 'flex featured'>
-  <div class = 'child third flex'>
-     <div class = 'catch items child'>
-      <div class = 'left'>{{ 'Wicked story' | upcase }}</div>
-      <div class = 'right'>{{ 'of the day' | upcase }}</div>
-     </div>
-     <a  href = '{{ firstPost.url | relative_url }}' class = 'title {{ page.title | downcase }} items child flex'>
-      <h1>{{ firstPost.title }}</h1>
-      <span>{{ page.title | upcase }} &raquo;</span>
-     </a>
+<div class = 'hold-featured'>
+  <div class = 'flex featured'>
+    <div class = 'child third flex'>
+      <div class = 'catch items child'>
+        <div class = 'left'>{{ 'Wicked story' | upcase }}</div>
+        <div class = 'right'>{{ 'of the day' | upcase }}</div>
+      </div>
+      <a  href = '{{ firstPost.url | relative_url }}' class = 'title {{ page.title | downcase }} items child flex'>
+        <h1>{{ firstPost.title }}</h1>
+        <span>{{ page.title | upcase }} &raquo;</span>
+      </a>
+    </div>
+    <a href = '{{ firstPost.url | relative_url }}' class = 'child main '>
+      <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
+    </a>
   </div>
-  <a href = '{{ firstPost.url | relative_url }}' class = 'child main '>
-     <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
-  </a>
-  {% include share.md %}
+    {% include share.md %}
 </div>
 {% include ads.md %}
 <ul class="post-list">

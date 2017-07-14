@@ -266,9 +266,13 @@ nav.toggled .desc{
   .main-menu img{
     width:100%;
   }
+  .hold-featured{
+    position: relative;
+    padding:0;
+    margin:0;
+  }
   .featured{
     align-items: stretch;
-    position: relative;
     line-height: 32px;
     padding-bottom:0;
   }
@@ -415,11 +419,15 @@ nav.toggled .desc{
   }
 }
 @media screen and (min-width: 769px){
-  .top-header .small:last-of-type{
-    display: flex;
-  }
+  
 }
 @media screen and (min-width: 667px) {
+  .top-header .small:last-of-type{
+    display: flex;
+    width:18.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   nav a{
     text-align: center;
     padding:4px;

@@ -1,5 +1,5 @@
 {% if paginator.page %}
-  {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+  {% assign offset = paginator.page  | times:paginator.per_page %}
   {% assign currentPage = paginator.page %}
 {% else %}
   {% assign offset = 6 %}

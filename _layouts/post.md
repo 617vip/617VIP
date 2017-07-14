@@ -25,7 +25,7 @@ layout: default
     <div class = 'meta-tags'>
      Tagged With:
       {% for tag in page.tags %}
-        <a href = '/'>{{ tag | capitalize }}</a>
+        <a href = '{{ '/' | relative_url }}'>{{ tag | capitalize }}</a>
       {% endfor %}
     </div>
     {% include nextprev.md %}

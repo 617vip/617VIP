@@ -25,7 +25,7 @@ function loadMorePosts() {
 
   $(this).addClass("loading");
   
-  $.get("{{ site.baseurl }}/page" + nextPage, function (data) {
+  $.get("{{ site.baseurl }}/page" + nextPage +'/', function (data) {
     var htmlData = $.parseHTML(data);
     var $articles = $(htmlData).find(".more-list");
 
