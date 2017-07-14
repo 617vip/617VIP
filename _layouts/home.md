@@ -6,21 +6,23 @@ layout: default
 {% assign pageLoop = site.posts %}
 {% assign pageLoopMore = site.posts offset: 6 %}
 {% assign firstPost = pageLoop | first %}
-<div class = 'flex featured'>
-  <div class = 'child third flex'>
-     <div class = 'catch items'>
-      <div class = 'left'>{{ 'Wicked story' | upcase }}</div>
-      <div class = 'right'>{{ 'of the day' | upcase }}</div>
-     </div>
-     <a  href = '{{ firstPost.url | relative_url }}' class = 'title {{ firstPost.categories | first | downcase }} items'>
-      <h1>{{ firstPost.title }}</h1>
-      <span>{{ firstPost.categories | first | upcase }} &raquo;</span>
-     </a>
+<div class = 'hold-featured'>
+  <div class = 'flex featured'>
+    <div class = 'child third flex'>
+      <div class = 'catch items'>
+        <div class = 'left'>{{ 'Wicked story' | upcase }}</div>
+        <div class = 'right'>{{ 'of the day' | upcase }}</div>
+      </div>
+      <a  href = '{{ firstPost.url | relative_url }}' class = 'title {{ firstPost.categories | first | downcase }} items'>
+        <h1>{{ firstPost.title }}</h1>
+        <span>{{ firstPost.categories | first | upcase }} &raquo;</span>
+      </a>
+    </div>
+    <a href = '{{ firstPost.url | relative_url }}' class = 'child main '>
+      <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
+    </a>
+    {% include share.md %}
   </div>
-  <a href = '{{ firstPost.url | relative_url }}' class = 'child main '>
-     <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
-  </a>
-  {% include share.md %}
 </div>
 {% include ads.md %}
 <ul class="post-list">
