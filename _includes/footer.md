@@ -1,12 +1,12 @@
 <footer>
   <header class = 'flex'>
-    <div class=" child quad">
+    <div class="quad">
       <a class="" href="{{ "/" | relative_url }}"><img src = '{{ site.baseurl }}/assets/logo.png' alt = 'footer-logo'></a>
     </div>
     <div class="child duo">
         {% include subscribe.md %}
     </div>
-    <div class="child quad flex">
+    <div class="quad flex">
         {% for item in site.data.social %}
         <a href = '{{ item.url }}' class = ' flex {{ item.icon}} social' target = '_blank'><i class = 'fa fa-{{ item.icon }}' aria-hidden = 'true'></i></a>
       {% endfor %}
@@ -16,9 +16,9 @@
     <header class = 'child main flex-in'>
       {% for category in site.data.footer %}
         {% if category == 'home' %} 
-         <a class="quad flex" href="{{ "/" | relative_url }}">{{ category | capitalize }}</a>
+         <a  href="{{ "/" | relative_url }}">{{ category | capitalize }}</a>
         {% else %}
-          <a class="quad flex" href="{{site.baseurl}}/{{  category | slugify}}/">{{ category | capitalize }}</a>
+          <a href="{{site.baseurl}}/{{  category | slugify}}/">{{ category | capitalize }}</a>
         {% endif %}
       {% endfor %}
     </header>

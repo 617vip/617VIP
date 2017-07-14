@@ -14,7 +14,7 @@ body{
 }
 footer{
   background-color:#222;
-  color:#dedede;
+  color:#fff;
 }
 a{
   color:inherit;
@@ -96,8 +96,8 @@ footer > .flex{
 }
 .foot-links{
   border-top:1px solid #333;
-   padding:7.5px;
-   margin-top: 15px;
+  padding:7.5px;
+  margin-top: 15px;
 }
 .foot-links a{
   font-weight:300;
@@ -133,7 +133,7 @@ h3.category-head{
   color:#fff;
 }
 .archive-item{
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #777;
   padding:15px 7.5px;
 }
 .social{
@@ -225,7 +225,7 @@ nav.toggled a{
   display:block;
   width:100%;
   padding-left:25px;
-  border-bottom:1px solid #aaa;
+  border-bottom:1px solid #777;
 }
 nav.toggled a:last-child{
   border-bottom:none;
@@ -233,9 +233,6 @@ nav.toggled a:last-child{
 nav.toggled .desc{
   background-color: #2f86c5;
   width:100%;
-}
-.tablet{
-  display:none;
 }
 .meta-tags a {
     color: #FFF;
@@ -307,9 +304,15 @@ nav.toggled .desc{
     padding:25px !important;
     font-size:28px;
   }
+  .featured .catch div:last-child {
+      margin-bottom: 7.5px;
+      margin-right: 25px;
+      margin-top: 0;
+  }
   .featured .catch div {
-    margin-top:7.5px;
-    font-weight: 700;
+      margin-top: 7.5px;
+      font-weight: 700;
+      margin-left: 25px;
   }
   .featured h1{
     color: #fff !important;
@@ -324,10 +327,10 @@ nav.toggled .desc{
   }
   .post-item{
     padding:7.5px 0;
-    border-top:1px solid #eee;
+    border-top:1px solid #777;
   }
   .post-item:last-child{
-    border-bottom:1px solid #eee;
+    border-bottom:1px solid #777;
   }
   .post-summary p{
     flex-grow: 1;
@@ -335,7 +338,8 @@ nav.toggled .desc{
   .share-box{
     display: none;
   }
-  a.child.main {
+  a.child.main,
+  .share-box a {
      line-height: 0; 
 }
 .featured .title{
@@ -370,6 +374,45 @@ nav.toggled .desc{
     background-repeat: no-repeat;
     border-bottom:3px solid #2f86c5;
   }
+  .featured .items{
+    height: 100px;
+    padding:12.5px !important;
+  }
+  .featured .title{
+    position: absolute;
+    top:100%;
+    min-height:125px;
+  }
+  .featured h1 {
+    margin:0;
+    padding:0;
+    font-size:28px;
+  }
+  .featured{
+    margin-bottom: 180px;
+  }
+  .post-item{
+    position:relative;
+    padding-top:25px;
+  }
+  .post-summary p:first-child{
+    position: absolute;
+    width: 100%;
+    top:5px;
+  }
+  .flex-in{
+    padding:0;
+  }
+  footer header .duo{
+    order:-1;
+  }
+  footer header .quad{
+    width:50%;
+    padding-right:15px;
+  }
+  .foot-links .flex-in{
+    padding: 0 25px;
+  }
 }
 @media screen and (min-width: 769px){
   .top-header .small:last-of-type{
@@ -397,6 +440,7 @@ nav.toggled .desc{
   .foot-links a{
     border-right: 1px solid #555;
     line-height: 1em;
+    flex-grow: 1;
   }
   .duo{
     width:49%;
@@ -458,7 +502,7 @@ nav.toggled .desc{
   } 
   .share-box .fa{
     flex-grow: 1;
-    margin:0 15px;
+    margin:0 2.5px;
   }
   .fa-facebook {
       background-color: #3b5998;
