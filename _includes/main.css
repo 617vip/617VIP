@@ -377,6 +377,7 @@ nav.toggled .desc{
     height:56px;
   }
   .top-header .small:last-of-type{
+    color:#fff;
     padding:25px 0;
     justify-content: center;
     background-repeat: no-repeat;
@@ -437,6 +438,7 @@ nav.toggled .desc{
 }
 @media screen and (min-width: 667px) {
   .top-header .small:last-of-type{
+    color:#fff;
     display: flex;
     width:18.5%;
     background-repeat: no-repeat;
