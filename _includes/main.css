@@ -392,7 +392,7 @@ nav.toggled .desc{
     padding:0;
     font-size:28px;
   }
-  .featured{
+  .hold-featured{
     margin-bottom: 180px;
   }
   .post-item{
@@ -418,8 +418,18 @@ nav.toggled .desc{
     padding: 0 25px;
   }
 }
-@media screen and (min-width: 769px){
-  
+@media screen and (min-width: 667px) and (max-width: 832px){
+  .featured .catch{
+    padding:5px !important;
+  }
+  .featured .catch,
+  .featured .title h1{
+    line-height: 27px;
+  }
+  .featured h1{
+    margin:10px 0;
+    padding:0 15px;
+  }
 }
 @media screen and (min-width: 667px) {
   .top-header .small:last-of-type{
@@ -494,7 +504,7 @@ nav.toggled .desc{
   .share-button {
       margin: 0px 2.5px;
       border: none;
-      padding: 10px;
+      padding: 7.5px;
   }
   .share-box{
     display: flex;
@@ -502,7 +512,7 @@ nav.toggled .desc{
     z-index:2;
     bottom:0;
     right: 40px;
-    width:56%;
+    width:58%;
     padding:0;
   }
   .share-box a{
