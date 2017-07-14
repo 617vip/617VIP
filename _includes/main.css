@@ -133,8 +133,11 @@ h3.category-head{
   color:#fff;
 }
 .archive-item{
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid #aaa;
   padding:15px 7.5px;
+}
+.archive-item:last-child{
+  border-bottom: none;
 }
 .social{
   display: inline-flex;
@@ -225,7 +228,7 @@ nav.toggled a{
   display:block;
   width:100%;
   padding-left:25px;
-  border-bottom:1px solid #777;
+  border-bottom:1px solid #aaa;
 }
 nav.toggled a:last-child{
   border-bottom:none;
@@ -331,10 +334,7 @@ nav.toggled .desc{
   }
   .post-item{
     padding:7.5px 0;
-    border-top:1px solid #777;
-  }
-  .post-item:last-child{
-    border-bottom:1px solid #777;
+    border-top:1px solid #aaa;
   }
   .post-summary p{
     flex-grow: 1;
@@ -493,7 +493,7 @@ nav.toggled .desc{
     width:17.5%;
   }
   .header header{
-    padding:0 35px; 
+    padding:0 35px;
   }
   header,
   main{
