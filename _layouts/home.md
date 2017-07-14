@@ -24,6 +24,7 @@ layout: default
     {% include share.md %}
   </div>
 </div>
+<hr>
 {% include ads.md %}
 <ul class="post-list">
   {% for post in site.posts limit: 5 %}
@@ -34,10 +35,11 @@ layout: default
         <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'/>
       </a>
       <a class = 'post-summary child third flex-down' href="{{ post.url | relative_url }}">
-        <div class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></div>
-        <h1>{{ post.title | escape }}</h1>
+        <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
+        <p><h1>{{ post.title | escape }}</h1></p>
         <p class = 'post-excerpt'>{{post.excerpt | truncate: 175 | strip_html }}</p>
       </a>
+      <hr>
     </li>
   {% endfor %}
 </ul>

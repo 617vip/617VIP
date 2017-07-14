@@ -24,6 +24,7 @@ layout: default
   </div>
     {% include share.md %}
 </div>
+<hr>
 {% include ads.md %}
 <ul class="post-list">
   {% for post in pageLoop  limit: 6 %}
@@ -38,6 +39,7 @@ layout: default
         <p><h1>{{ post.title | escape }}</h1></p>
         <p class = 'post-excerpt'>{{post.excerpt | truncate: 175 | strip_html }}</p>
       </a>
+      <hr>
     </li>
     {% endfor %}
   </ul>

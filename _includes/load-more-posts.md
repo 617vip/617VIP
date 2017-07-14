@@ -25,6 +25,7 @@
           </p>
           <p><h1>{{ post.title | escape }}</h1></p>
         </a>
+        <hr>
       </li>
       {% endfor %}
     </ul>

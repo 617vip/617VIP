@@ -334,7 +334,11 @@ nav.toggled .desc{
   }
   .post-item{
     padding:7.5px 0;
-    border-top:1px solid #aaa;
+  }
+  hr {
+    margin: 2.5px auto;
+    width: 92.5%;
+    border-top: 1px solid #aaa ;
   }
   .post-summary p{
     flex-grow: 1;
