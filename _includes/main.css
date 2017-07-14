@@ -193,6 +193,7 @@ header{
 }
 .top-header{
   justify-content: flex-start !important;
+  align-items: stretch !important;
 }
 .brand{
   margin-left:25px;
@@ -202,16 +203,12 @@ header{
   height: 50px;
   background-repeat: no-repeat;
 }
-.brand,
-.title{
+.brand{
   height:50px;
 }
 .title{
   padding:0;
   align-items:center;
-}
-.top-header .small:last-of-type{
-  height:90px;
 }
 .top-header .small:last-of-type,
 .top-header nav{
