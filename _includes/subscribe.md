@@ -1,1 +1,1 @@
-<!--  Add subscription form -->
+<!--  Paste subscription form code below-->

@@ -2,7 +2,7 @@
 layout: default
 ---
 {{content}}
-{% assign pageLoop = site.categories.[page.title] %}
+{% assign pageLoop = site.categories[page.title] %}
 <section class = 'flex-in'>
 {% assign firstPost = pageLoop | first %}
 <div class = 'flex featured'>
@@ -38,21 +38,9 @@ layout: default
     </li>
     {% endfor %}
   </ul>
-  <ul class = 'child main'>
-  {% for post in pageLoop  | offset: 6  | limit: 6%}
-    <li class = 'flex out post-item'>  
-      {% assign date_format = "%b %-d, %Y" %}
-      {% assign cat = page.title | upcase%}
-      <a class="post-image child main" href="{{ post.url | relative_url }}">
-        <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
-      </a>
-      <a class = 'post-summary child third flex-down' href="{{ post.url | relative_url }}">
-        <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
-        <p><h1>{{ post.title | escape }}</h1></p>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+</section>
+<section class = 'flex-in'>
+  {% include load-more-posts.md %}
   <div class = 'child third'>
     <div id="archives">
     <p class = 'more'>Even More Wicked</p>

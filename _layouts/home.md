@@ -16,7 +16,7 @@ layout: default
       <span>{{ firstPost.categories | first | upcase }} &raquo;</span>
      </a>
   </div>
-  <a '{{ firstPost.url | relative_url }}' class = 'child main '>
+  <a href = '{{ firstPost.url | relative_url }}' class = 'child main '>
      <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
   </a>
   {% include share.md %}
@@ -28,18 +28,21 @@ layout: default
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       {% assign cat = post.categories | first | upcase%}
       <a class="post-image child main" href="{{ post.url | relative_url }}">
-        <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
+        <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'/>
       </a>
       <a class = 'post-summary child third flex-down' href="{{ post.url | relative_url }}">
-        <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
-        <p><h1>{{ post.title | escape }}</h1></p>
+        <div class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></div>
+        <h1>{{ post.title | escape }}</h1>
         <p class = 'post-excerpt'>{{post.excerpt | truncate: 175 | strip_html }}</p>
       </a>
     </li>
   {% endfor %}
-</ul>
-<ul class = 'child main'>
-</ul>
+</ul>s
+</section>
+<section class = 'flex-in'>
+<!-- Load More Posts -->
+{% include load-more-posts.md %}
+
 <div class = 'child third'>
   <div id="archives">
   <p class = 'more'>Even More Wicked</p>

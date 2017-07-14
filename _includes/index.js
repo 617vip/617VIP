@@ -25,9 +25,9 @@ function loadMorePosts() {
 
   $(this).addClass("loading");
   
-  $.get("/blog/page" + nextPage, function (data) {
+  $.get("/page" + nextPage, function (data) {
     var htmlData = $.parseHTML(data);
-    var $articles = $(htmlData).find("article");
+    var $articles = $(htmlData).find(".more-list");
 
     $blogContainer.attr("data-page", nextPage).append($articles);
 

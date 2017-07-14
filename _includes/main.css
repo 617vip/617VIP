@@ -64,6 +64,10 @@ main{
   min-height:72vh;
   padding:75px 25px 25px 25px;
 }
+main .flex-in a:hover{
+  text-decoration: underline !important;
+  text-decoration-color:inherit;
+}
 nav a{
   flex: 1 auto;
   padding:15px;
@@ -193,6 +197,7 @@ header{
 }
 .brand{
   margin-left:25px;
+  margin-right:10px;
   background-size:100%;
   width:150px;
   height: 50px;
@@ -335,10 +340,34 @@ nav.toggled .desc{
 }
 .featured .title{
   min-height: 160px;
+  color:#fff;
 }
-@media screen and (max-width: 667px) {
+.loadMore{
+   background-color: #2f86c5;
+   color:#fff;
+   padding:15px;
+   font-size:1.1em;  
+   position:relative;
+   border:none;
+   outline:none;
+   cursor:pointer;
+}
+.loadMore span{
+   position:absolute;
+   right:0;
+   top:0;
+   padding:15px;
+   background-color: #222;
+   color:inherit;
+}
+@media screen and (max-width: 769px) {
   .featured img{
     display: none;
+  }
+}
+@media screen and (min-width: 769px){
+  .top-header .small:last-of-type{
+    display: flex;
   }
 }
 @media screen and (min-width: 667px) {
@@ -352,9 +381,6 @@ nav.toggled .desc{
   }
   .main-menu{
     padding:2.5px 25px;
-  }
-  .top-header .small:last-of-type{
-    display: flex;
   }
   .top-header nav{
     display:initial;

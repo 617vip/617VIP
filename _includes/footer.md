@@ -2,7 +2,6 @@
   <header class = 'flex'>
     <div class=" child quad">
       <a class="" href="{{ "/" | relative_url }}"><img src = '{{ site.baseurl }}/assets/logo.png' alt = 'footer-logo'></a>
-      </ul>
     </div>
     <div class="child duo">
         {% include subscribe.md %}
