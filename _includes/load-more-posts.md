@@ -5,10 +5,10 @@
   {% assign offset = 6 %}
   {% assign currentPage = 2 %}
 {% endif %}
-
-<div class = 'child main postContainer' id='blogContainer' data-page='{{ currentPage }}' data-totalPages='{{ paginator.total_pages }}'>
-  <ul class = 'more-list'>
-    {% for post in pageLoop  limit:site.paginate offset:offset %}
+<div class = 'child main'>
+  <div class = 'postContainer' id='blogContainer' data-page='{{ currentPage }}' data-totalPages='{{ paginator.total_pages }}'>
+    <ul class = 'more-list'>
+      {% for post in pageLoopMore  limit:site.paginate offset:offset %}
       <li class = 'flex out post-item'>  
         {% assign date_format = '%b %-d, %Y' %}
         {% if page.title != 'Wicked Silly News' %}
@@ -28,9 +28,10 @@
       </li>
       {% endfor %}
     </ul>
-    {% assign postCount = pageLoop | size %}
-    {% assign postsCovered = site.paginate | plus:offset %}
-    {% if postsCovered < postCount %}
-      <button class="loadMore flex">{{ 'show me more wicked news ' | upcase }}<span><i class="fa fa-arrow-down" aria-hidden="true"></i></span></button>
-    {% endif %}
+  </div>
+  {% assign postCount = pageLoop | size %}
+  {% assign postsCovered = site.paginate | plus:offset %}
+  {% if postsCovered < postCount %}
+    <button class="loadMore flex">{{ 'show me more wicked news ' | upcase }}<span><i class="fa fa-arrow-down" aria-hidden="true"></i></span></button>
+  {% endif %}
   </div>

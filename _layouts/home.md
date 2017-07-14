@@ -4,6 +4,7 @@ layout: default
 {{ content }}
 <section class = 'flex-in'>
 {% assign pageLoop = site.posts %}
+{% assign pageLoopMore = site.posts offset: 6 %}
 {% assign firstPost = pageLoop | first %}
 <div class = 'flex featured'>
   <div class = 'child third flex'>

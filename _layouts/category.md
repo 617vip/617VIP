@@ -3,6 +3,7 @@ layout: default
 ---
 {{content}}
 {% assign pageLoop = site.categories[page.title] %}
+{% assign pageLoopMore = pageLoop %}
 <section class = 'flex-in'>
 {% assign firstPost = pageLoop | first %}
 <div class = 'flex featured'>
