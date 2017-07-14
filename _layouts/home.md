@@ -37,7 +37,7 @@ layout: default
       </a>
     </li>
   {% endfor %}
-</ul>s
+</ul>
 </section>
 <section class = 'flex-in'>
 <!-- Load More Posts -->
