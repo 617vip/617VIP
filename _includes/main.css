@@ -435,9 +435,9 @@ nav.toggled .desc{
     margin:0 auto;
   }
   .share-button {
-      margin: 0px;
+      margin: 0px 2.5px;
       border: none;
-      padding: 10px 20px;
+      padding: 10px;
   }
   .share-box{
     display: flex;
