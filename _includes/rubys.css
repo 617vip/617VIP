@@ -24,3 +24,6 @@
 .top-header .small:last-of-type{
   background-image: url({{ site.baseurl }}/assets/girl.png), url({{ site.baseurl }}/assets/paper.png);
 }
+#ic_signupform .elcontainer {
+  background-image: url({{ site.baseurl }}/assets/girls.png);
+}

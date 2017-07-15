@@ -1,9 +1,8 @@
-<!--  Paste subscription form code below-->
 <script type="text/javascript" src="//app.icontact.com/icp/static/form/javascripts/validation.js"></script>
 
 <script type="text/javascript" src="//app.icontact.com/icp/static/form/javascripts/tracking.js"></script>
 
-<link rel="stylesheet" type="text/css" href="//app.icontact.com/icp/static/human/css/signupBuilder/formGlobalStyles.css">
+ <link rel="stylesheet" type="text/css" href="//app.icontact.com/icp/static/human/css/signupBuilder/formGlobalStyles.css"> 
 
 <style type="text/css" id="signupBuilderAdvancedStyles">
 
@@ -11,12 +10,12 @@
 
 <style type="text/css" id="signupBuilderStyles">
 #ic_signupform .elcontainer {
-   background: #ffffff;
+   background-size: 100%; 
+   background-position: center;
+   background-repeat: no-repeat;
    text-align: left;
-   max-width: 450px;
-   padding: 30px 30px;
-   border-radius: 3px;
-   border: 1px solid #ffffff;
+   /* max-width: 450px; */
+   padding: 15px 0 0;
    font-size: 12px;
    color: #5a5a5e;
    font-family: lucida grande;
@@ -31,22 +30,17 @@
 	margin-left: auto; 
 }
 
+#ic_signupform .elcontainer .formEl {
+  padding:0;
+}
+
 #ic_signupform .form-header {
-   
-   background: #ffffff;
-   margin-top: -30px;
-   margin-left: -30px;
-   margin-right: -30px;
-   margin-bottom: 30px; /* using padding on purpose */
-   padding-top: 20px;
-   padding-right: 30px;
-   padding-bottom: 20px;
-   padding-left: 30px;
-   border-radius: calc(3px - 1px) calc(3px - 1px) 0 0;
-   text-align: center;
+   background: transparent;
+   padding: 15px;
+   margin-top:-18px;
+   text-align: left;
    font-size: 150%;
-   color: #333333;
-   border-bottom: 1px solid #dddddd;
+   color: #fff;
 }
 
 #ic_signupform .elcontainer.inline-label-left .formEl.fieldtype-input label,
@@ -89,7 +83,7 @@
 #ic_signupform .elcontainer.inline-label-right .formEl select,
 #ic_signupform .elcontainer.inline-label-right .formEl.fieldtype-radio .option-container,
 #ic_signupform .elcontainer.inline-label-right .formEl.fieldtype-checkbox .option-container {
-   width: 70%;
+   width: 100%;
 }
 
 #ic_signupform .elcontainer.hidden-label .formEl.required:before {
@@ -112,8 +106,7 @@
 #ic_signupform .elcontainer .formEl.fieldtype-input input[type="text"],
 #ic_signupform .elcontainer .formEl.fieldtype-dropdown select {
    background-color: #f5f5f5;
-   border: 1px solid #e7e7e7;
-   border-radius: 3px;
+   border: 1px solid #2f86c5;
 }
 	   
 #ic_signupform .elcontainer .formEl.fieldtype-input input[type="text"],
@@ -149,7 +142,7 @@
 	display: inline-block;
 	box-sizing: border-box;
 	right: -.5em;
-	padding: 0 1em 0 0;
+	padding: 0;
 	position: relative;
 	vertical-align: bottom;
 	margin-bottom: 1em;
@@ -160,7 +153,10 @@
 }
 	
 #ic_signupform .elcontainer.inline-button .sortables {
-	margin-bottom: -1em;
+  max-width: 300px;
+  display:flex;
+  align-items:center;
+  padding-left:10px;
 }
 	
 #ic_signupform .elcontainer.inline-button.generous .sortables {
@@ -172,15 +168,56 @@
 }
 
 #ic_signupform .elcontainer .submit-container input[type="submit"] {
-   background: #1e62d6;
-   border: 0px solid #e7ce4d;
-   border-radius: 10px;
+   background: -webkit-linear-gradient(bottom, rgb(13, 76, 156) 0%, rgb(47, 133, 197) 100%);
+   cursor:pointer;
+   border: none;
+   height:3em;
    line-height: 1em;
    padding: 10px 25px;
    color: #ffffff;
-   font-size: 100%;
+   font-size: 110%;
    font-family: inherit;
    width: auto;
-}</style>
+}
+.sort {
+  flex-grow:1;
+}
+.sort:first-child{
+  flex-grow:2;
+}
+.black{
+  color:#111;
+  display: inline-block;
+  padding-right: 100px;
+}
+</style>
 
-<form id="ic_signupform" method="POST" action="https://app.icontact.com/icp/core/mycontacts/signup/designer/form/?id=293&cid=1683162&lid=7304"><div class="elcontainer normal inline-label-left left-aligned inline-button"><div class="form-header"><h3>Wicked Silly News by Email, Sign Up Today!</h3></div><div class="sortables"><div class="formEl fieldtype-input required" data-validation-type="1" data-label="Email Address" style="display: inline-block; width: 100%;"><label>Email Address<span class="indicator required">*</span></label><input type="text" placeholder="" name="data[email]"></div><div class="formEl fieldtype-checkbox required" dataname="listGroups" data-validation-type="1" data-label="Lists" style="display: none; width: 100%;"><h3>Lists<span class="indicator required">*</span></h3><div class="option-container"><label class="checkbox"><input type="checkbox" alt="" name="data[listGroups][]" value="22900" checked="checked">617VIP - Wicked Silly News</label></div></div><div class="submit-container"><input type="submit" value="Subscribe to List" class="btn btn-submit"></div></div><div class="hidden-container"></div></div></form><img src="//app.icontact.com/icp/core/signup/tracking.gif?id=293&cid=1683162&lid=7304"/>
+<form id="ic_signupform" method="POST" action="https://app.icontact.com/icp/core/mycontacts/signup/designer/form/?id=293&cid=1683162&lid=7304">
+  <div class="elcontainer normal inline-label-left left-aligned inline-button">
+    <div class="form-header">
+      <h3>WANT MORE <span class = 'black'>WICKED SILLY NEWS?</span></h3>
+    </div>
+  <div class="sortables">
+    <div class="formEl fieldtype-input required sort" data-validation-type="1" data-label="Email Address">
+       <!-- <label>Email Address<span class="indicator required">*</span></label>  -->
+      <input type="text" placeholder="type your email here" name="data[email]">
+    </div>
+    <div class="formEl fieldtype-checkbox required" dataname="listGroups" data-validation-type="1" data-label="Lists" style="display: none; width: 0;">
+      <h3>Lists<span class="indicator required">*</span></h3>
+      <div class="option-container">
+        <label class="checkbox">
+          <input type="checkbox" alt="" name="data[listGroups][]" value="22900" checked="checked">617VIP - Wicked Silly News
+        </label>
+      </div>
+    </div>
+    <div class="submit-container sort">
+      <input type="submit" value="SUBSCRIBE" class="btn btn-submit">
+    </div>
+  </div>
+  <div class="hidden-container">
+  </div>
+  </div>
+</form>
+<span style="display: none;">
+  <img src="//app.icontact.com/icp/core/signup/tracking.gif?id=293&cid=1683162&lid=7304"/>
+</span>

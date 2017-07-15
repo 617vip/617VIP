@@ -14,6 +14,7 @@ body{
 }
 footer{
   background-color:#222;
+  border-top:3px solid #2f86c5;
   color:#fff;
 }
 a{
@@ -62,7 +63,7 @@ a:focus{
 }
 main{
   min-height:72vh;
-  padding:75px 25px 25px 25px;
+  padding:75px 12.5px 12.5px 12.5px;
 }
 main .flex-in a:hover{
   text-decoration: underline !important;
@@ -91,18 +92,43 @@ main img{
   width: 100%;
   max-width: 640px;
 }
-footer > .flex{
-  padding: 20px 25px;
+footer > header.flex{
+  padding: 0 !important;
+}
+footer .child{
+  margin:0;
+}
+footer header .quad {
+  padding: 5px 15px;
+}
+footer header .duo {
+  background-color: #2f86c5;
 }
 .foot-links{
   border-top:1px solid #333;
   padding:7.5px;
-  margin-top: 15px;
+}
+.foot-links:after{
+  content: '';
+  display: table;
+  clear:both;
 }
 .foot-links a{
-  font-weight:300;
-  text-align:center;
-  color:#aaa;
+  display: inline-block;
+  float: left;
+  padding: 0px 10px;
+  border-right: 1px solid rgb(105, 105, 105);
+}
+.foot-links a:last-of-type{
+  border-right: 0;
+}
+.copyrights{
+     float: right;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding-bottom: 10px;
 }
 .post-content p{
   padding:15px 0;
@@ -199,7 +225,7 @@ header{
   align-items: stretch !important;
 }
 .brand{
-  margin-left:25px;
+  margin-left:12.5px;
   margin-right:10px;
   background-size:100%;
   width:150px;
@@ -417,7 +443,6 @@ nav.toggled .desc{
   }
   footer header .quad{
     width:50%;
-    padding-right:15px;
   }
   .foot-links .flex-in{
     padding: 0 25px;
@@ -460,11 +485,6 @@ nav.toggled .desc{
   }
   .toggle-menu{
     display: none;
-  }
-  .foot-links a{
-    border-right: 1px solid #555;
-    line-height: 1em;
-    flex-grow: 1;
   }
   .duo{
     width:49%;

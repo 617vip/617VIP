@@ -12,8 +12,7 @@
       {% endfor %}
     </div>
   </header>
-  <div class="foot-links flex-in">
-    <header class = 'child main flex-in'>
+  <header class="foot-links">
       {% for category in site.data.footer %}
         {% if category == 'home' %} 
          <a  href="{{ "/" | relative_url }}">{{ category | capitalize }}</a>
@@ -21,9 +20,8 @@
           <a href="{{site.baseurl}}/{{  category | slugify}}/">{{ category | capitalize }}</a>
         {% endif %}
       {% endfor %}
-    </header>
-    <span class = ' child third flex'>{{ site.copyright | escape }}</span>
-  </div>
+    <span class = 'copyrights'>{{ site.copyright | escape }}</span>
+  </header>
 </footer>
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
