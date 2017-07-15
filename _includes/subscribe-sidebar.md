@@ -9,16 +9,14 @@
 </style>
 
 <style type="text/css" id="signupBuilderStyles">
-#ic_signupform .elcontainer {
-   background-size: 100%; 
-   background-position: center;
-   background-repeat: no-repeat;
+aside #ic_signupform .elcontainer {
+   background: #2f86c5 !important;
    text-align: left;
    /* max-width: 450px; */
    padding: 15px 0 0;
    font-size: 12px;
    color: #5a5a5e;
-   font-family: lucida grande;
+   margin-bottom:10px;
 }
 
 #ic_signupform .elcontainer.center-aligned .formEl { 
@@ -185,19 +183,29 @@
 .sort:first-child{
   flex-grow:2;
 }
-.black{
-  color:#111;
-  display: inline-block;
-  padding-right: 100px;
+.blue{
+  background-color: transparent !important;
+}
+.blue h3{
+  color:#fff;
+}
+.middle-separator{
+  width:100%;
+  height:228px;
+  margin-bottom:15px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-image: url({{ site.baseurl }}/assets/subscribe.jpg);
 }
 </style>
 
 <form id="ic_signupform" method="POST" action="https://app.icontact.com/icp/core/mycontacts/signup/designer/form/?id=293&cid=1683162&lid=7304">
   <div class="elcontainer normal inline-label-left left-aligned inline-button">
-    <div class="form-header">
-      <h3>WANT MORE <span class = 'black'>WICKED SILLY NEWS?</span></h3>
+    <div class="form-header blue">
+      <h3>WICKED SILLY NEWS? NEVER MISS ANY</h3>
     </div>
-  <div class="sortables">
+  <div class = 'middle-separator'></div>
+  <div class="sortables blue">
     <div class="formEl fieldtype-input required sort" data-validation-type="1" data-label="Email Address">
        <!-- <label>Email Address<span class="indicator required">*</span></label>  -->
       <input type="text" placeholder="type your email here" name="data[email]">

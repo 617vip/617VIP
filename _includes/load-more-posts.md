@@ -2,13 +2,13 @@
   {% assign offset = paginator.page  | times:paginator.per_page %}
   {% assign currentPage = paginator.page %}
 {% else %}
-  {% assign offset = 6 %}
+  {% assign offset = 4 %}
   {% assign currentPage = 2 %}
 {% endif %}
 <div class = 'child main'>
   <div class = 'postContainer' id='blogContainer' data-page='{{ currentPage }}' data-totalPages='{{ paginator.total_pages }}'>
     <ul class = 'more-list'>
-      {% for post in pageLoopMore  limit:site.paginate offset:offset %}
+      {% for post in pageLoopMore  limit:site.paginate offset: offset %}
       <li class = 'flex out post-item'>  
         {% assign date_format = '%b %-d, %Y' %}
         {% if page.title != 'Wicked Silly News' %}

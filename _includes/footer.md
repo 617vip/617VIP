@@ -4,7 +4,7 @@
       <a class="" href="{{ "/" | relative_url }}"><img src = '{{ site.baseurl }}/assets/logo.png' alt = 'footer-logo'></a>
     </div>
     <div class="child duo">
-        {% include subscribe.md %}
+        {% include subscribe-footer.md %}
     </div>
     <div class="quad flex">
         {% for item in site.data.social %}

@@ -24,10 +24,9 @@ layout: default
   </div>
     {% include share.md %}
 </div>
-<hr>
 {% include ads.md %}
 <ul class="post-list">
-  {% for post in pageLoop  limit: 6 %}
+  {% for post in pageLoop  limit: 4 %}
     <li class = 'flex out post-item'>  
       {% assign date_format = "%b %-d, %Y" %}
       {% assign cat = page.title | upcase%}
@@ -39,14 +38,14 @@ layout: default
         <p><h1>{{ post.title | escape }}</h1></p>
         <p class = 'post-excerpt'>{{post.excerpt | truncate: 175 | strip_html }}</p>
       </a>
-      <hr>
     </li>
     {% endfor %}
   </ul>
 </section>
 <section class = 'flex-in'>
   {% include load-more-posts.md %}
-  <div class = 'child third'>
+  <aside class = 'child third'>
+    {% include subscribe-sidebar.md %}
     <div id="archives">
     <p class = 'more'>Even More Wicked</p>
     {% for category in site.categories %}
@@ -67,5 +66,5 @@ layout: default
       </div>
     {% endfor %}
     </div>
-  </div>
+  </aside >
 </section>

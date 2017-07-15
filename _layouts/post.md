@@ -49,6 +49,26 @@ layout: default
   <aside class = ' child third'>
    <div id="archives">
       {% for category in site.categories %}
+        <div class="archive-group">
+          {% capture category_name %}{{ category | first }}{% endcapture %}
+          {% assign cat = cat | downcase | capitalize %}
+            {% if category_name == cat %}
+            <div id="#{{ category_name | slugize }}"></div>
+            <p></p>
+            <a  href="{{site.baseurl}}/category/{{  category_name | downcase }}"><h3 class="right category-head {{ category_name | downcase }}">{{ category_name | upcase}}</h3></a>
+            <a name="{{ category_name | slugize }}"></a>
+            {% for post in site.categories[category_name] limit : 2 %}
+              <div class="archive-item">
+                <img src = '{{ site.baseurl }}/assets/posts/{{ post.permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
+                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
+                <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
+              </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+      {% endfor %}
+      {% include subscribe-sidebar.md %}
+      {% for category in site.categories %}
       <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}
          {% assign cat = cat | downcase | capitalize %}
