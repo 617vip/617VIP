@@ -289,6 +289,9 @@ nav.toggled .desc{
   .nex-post{
     text-align:right;
   }
+  .related-posts .duo:nth-child(5){
+    display: none;
+  }
   .quad{
     width:100%;
   }

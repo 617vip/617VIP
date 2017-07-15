@@ -33,13 +33,13 @@ layout: default
       {% include disqus_comments.md %}
     {% endif %}
     <a  href="{{site.baseurl}}/category/{{  cat | downcase}}"><h3 class="flex category-head {{ cat |downcase }}"><span>MORE SILLY {{ category_name | upcase}} NEWS</span></h3></a>
-    <div class = 'flex out'>
+    <div class = 'flex out related-posts'>
       {% assign kind = page.categories | first %}
        {% for post in site.categories[kind] | limit: 5 %}
-          {% unless post.url == page.url %}
+          {% unless post.title == page.title %}
            <a href="{{ site.baseurl }}{{ post.url }}" class = 'child duo flex-down'>
               <img src = '{{ site.baseurl }}/assets/posts/{{ post.permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
-              <h2 itemprop="name headline">{{ page.title | escape }}</h2>
+              <h2 itemprop="name headline">{{ post.title | escape }}</h2>
               <time class="post-meta" >{{ post.date | date: date_format }}</time>
            </a>
           {% endunless %}
