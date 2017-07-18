@@ -187,7 +187,7 @@
 .black{
   color:#111;
   display: inline-block;
-  padding-right: 100px;
+  /*padding-right: 100px;*/
 }
 </style>
 

@@ -6,18 +6,21 @@
       <a class="brand flex-in" href="{{ "/" | relative_url }}"></a>
       </div>
       {% if page_paths %}
-        <nav class="main main-menu">
+        <nav class="child main-menu">
           <p class="flex desc">
           <img src = '{{ site.baseurl }}/assets/logo-big.png' alt = 'logo'>
           </p>
           <p class = 'flex'>
-          {% for category in site.data.menu %}
-            <a class="{{category}}" href="{{site.baseurl}}/category/{{  category}}">{{ category | upcase }}</a>
-          {% endfor %}
+            <p class = 'browse'>BROWSE CATEGORIES <span><i class = 'fa fa-arrow-down' aria-hidden = 'true'></i></span></p>
+            <div class = 'expands'>
+              {% for category in site.data.menu %}
+                <a class="{{category}}" href="{{site.baseurl}}/category/{{  category}}">{{ category | upcase }}</a>
+              {% endfor %}
+           </div>
           </p>
         </nav>
       {% endif %}
-      <div class = 'small flex'>
+      <div class = ' flex quad '>
       {% for item in site.data.social %}
          <a href = '{{ item.url }}' class = 'flex {{ item.icon}} social' target = '_blank'><i class = 'fa fa-{{ item.icon }}' aria-hidden = 'true'></i></a>
       {% endfor %}

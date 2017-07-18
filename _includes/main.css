@@ -3,7 +3,7 @@
 *:before{
   box-sizing: border-box;
 }
-body,div,section,header,footer,input,p,ul,li,main,form,input,h5,img{
+body,div,section,header,footer,input,p,ul,li,main,form,input,h1,h2,h3,h4,h5,img{
   margin:0;
   padding:0;
 }
@@ -14,7 +14,7 @@ body{
 }
 footer{
   background-color:#222;
-  border-top:3px solid #2f86c5;
+  border-top:4px solid #2f86c5;
   color:#fff;
 }
 a{
@@ -59,7 +59,7 @@ a:focus{
 }
 .child{
   width:100%;
-  margin:7.5px auto;
+  margin:0 auto;
 }
 main{
   min-height:72vh;
@@ -71,9 +71,9 @@ main .flex-in a:hover{
 }
 nav a{
   flex: 1 auto;
-  padding:15px;
-  margin:1.5px;
-  background-color:#111;
+  padding: 8px 15px;
+  margin:0.5px;
+  background-color:#343434;
   transition: all 0.3s ease-in-out;
   color:#fff !important;
 }
@@ -193,7 +193,7 @@ h3.category-head{
   top:0;
   background-color: #fff;
   box-shadow: 1px 2px 3px rgba(0,0,0,.35);
-  border-top:3px solid #2f86c5;
+  border-top:4px solid #2f86c5;
 }
 header{
   position:relative;
@@ -213,9 +213,10 @@ header{
 .toggle-menu{
   top:3px;
   right:0;
-  background-color:#111;
+  background-color:#343434;
   color:#fff;
   cursor:pointer;
+  font-size: 21px;
   width:56px;
   height:56px;
 }
@@ -238,21 +239,25 @@ header{
   padding:0;
   align-items:center;
 }
-.top-header .small:last-of-type,
+.top-header .quad:last-of-type,
 .top-header nav{
   display: none;
 }
 nav.toggled{
   display:initial;
-  background-color:#111;
+  background-color:#343434;
 }
-nav.toggled + .small:last-of-type{
+nav.toggled + .quad:last-of-type{
   display: flex;
+  min-height:90px;
+  border-bottom: 4px solid#2f86c5;
 }
 nav.toggled a{
   display:block;
   width:100%;
-  padding-left:25px;
+  padding: 10px 0 10px 25px;
+  font-size: 20px;
+  font-weight: bold;
   border-bottom:1px solid #aaa;
 }
 nav.toggled a:last-child{
@@ -261,6 +266,10 @@ nav.toggled a:last-child{
 nav.toggled .desc{
   background-color: #2f86c5;
   width:100%;
+  padding:10px 0;
+}
+nav.toggled .expands{
+  flex-direction: column;
 }
 .meta-tags a {
     color: #FFF;
@@ -296,6 +305,7 @@ nav.toggled .desc{
   }
   .main-menu img{
     width:100%;
+    max-width: 300px;
   }
   .hold-featured{
     position: relative;
@@ -396,6 +406,26 @@ nav.toggled .desc{
    background-color: #222;
    color:inherit;
 }
+.browse{
+  padding: 8px 15px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #343434;
+  display:none;
+  position: relative;
+  cursor:pointer;
+  max-width:360px;
+
+}
+.browse span{
+  padding:8px;
+  position:absolute;
+  right:10px;
+  top:0;
+}
+.expands{
+  display:flex;
+}
 @media screen and (max-width: 667px) {
   .title{
     height:56px;
@@ -446,6 +476,7 @@ nav.toggled .desc{
     padding: 0 25px;
   }
 }
+
 @media screen and (min-width: 667px) and (max-width: 832px){
   .featured .catch{
     padding:5px !important;
@@ -458,28 +489,67 @@ nav.toggled .desc{
     margin:10px 0;
     padding:0 15px;
   }
+  .browse {
+    display: block;
+  }
+  .expands{
+    display: none;
+    height:0;
+    transition: all 0.3s ease-in;
+  }
+  .expands{
+    background-color: #343434;
+  }
+  .expanded{
+    display: block;
+    position:absolute;
+    height: initial;
+    width:360px;
+  }
+  .expanded a{
+    display: block;
+    text-align:left;
+    margin-top:15px;
+    margin-bottom: 15px;
+    border-bottom:1px solid #777;
+  }
+  .expanded a:last-child{
+    border-bottom: none;
+  }
+  
 }
 @media screen and (min-width: 667px) {
-  .top-header .small:last-of-type{
+  h1{
+    font-size:34px;
+    line-height:40px;
+  }
+  .top-header .quad:last-of-type{
     color:#fff;
     display: flex;
-    width:15.5%;
+    width:20%;
     background-repeat: no-repeat;
     background-position: center;
   }
+  .top-header .quad.title{
+    width: 24%;
+  }
   nav a{
     text-align: center;
-    padding:4px;
+    padding:8px 15px;
+    font-size:24px;
+    display: inline-block;
   }
   .featured .main{
     width:67% !important;
     padding-left:0 !important;
   }
   .main-menu{
-    padding:2.5px 25px;
+    padding:0 25px;
+    position: relative;
   }
   .top-header nav{
     display:initial;
+    width:56%;
   }
   .toggle-menu{
     display: none;
@@ -510,15 +580,26 @@ nav.toggled .desc{
     padding:4px 0;
   }
   .top-header .quad{
-    width:17.5%;
+    width:22%;
   }
   .header header{
-    padding:0;
+    padding:0 15px;
+  }
+  .brand{
+    width: 215px;
+    height: 65px;
+    margin: 15px;
+    margin: 0 auto 5px auto;
+  }
+  .main-menu img{
+    max-width: 517px;
+    max-height: 36px;
+    margin-bottom: 10px;
   }
   header,
   main{
-    max-width:1128px;
-    padding:90px  25px 25px;
+    max-width:960px;
+    padding:90px 15px;
     margin:0 auto;
   }
   article.post.child.main {

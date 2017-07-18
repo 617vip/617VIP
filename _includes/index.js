@@ -4,6 +4,11 @@
     $(this).toggleClass('fa-bars').toggleClass('fa-close');
     $('.top-header nav').toggleClass('toggled');
   });
+
+  $('.browse').on('click', function() {
+     $('.expands').toggleClass('expanded');
+     $('.browse .fa').toggleClass('fa-arrow-down').toggleClass('fa-arrow-up');
+  });
 })();
 
 (function() {

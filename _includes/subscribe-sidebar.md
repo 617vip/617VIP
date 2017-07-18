@@ -9,11 +9,14 @@
 </style>
 
 <style type="text/css" id="signupBuilderStyles">
+#ic_signupform .elcontainer .form-header h3 {
+  font-size:25px !important;
+}
 aside #ic_signupform .elcontainer {
    background: #2f86c5 !important;
    text-align: left;
    /* max-width: 450px; */
-   padding: 15px 0 0;
+   padding: 15px 1.5px;
    font-size: 12px;
    color: #5a5a5e;
    margin-bottom:10px;
