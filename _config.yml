@@ -4,7 +4,7 @@ email: your-email@domain.com
 address: "Call: 617-383-7232 <br>Write: 617VIP, Inc.<br> Address: 867 Boylston Street, 5th Floor Boston, MA 02116"
 description: 'Wicked Silly News'
 baseurl: ""
-url: "http://617vip.com" 
+url: "http://onweru.github.io/617vip" 
 copyright: Copyright 617VIP, Inc. All Rights Reserved
 twitter_username: the617vip
 markdown: kramdown
