@@ -5,6 +5,7 @@
   {% assign offset = 4 %}
   {% assign currentPage = 2 %}
 {% endif %}
+<div class = 'mobile'>{% include subscribe-sidebar.md %}</div>
 <div class = 'child main'>
   <div class = 'postContainer' id='blogContainer' data-page='{{ currentPage }}' data-totalPages='{{ paginator.total_pages }}'>
     <ul class = 'more-list'>

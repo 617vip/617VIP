@@ -32,6 +32,7 @@ layout: default
     {% if site.disqus.shortname %}
       {% include disqus_comments.md %}
     {% endif %}
+    <div class = 'mobile'>{% include subscribe-sidebar.md %}</div>
     <a  href="{{site.baseurl}}/category/{{  cat | downcase}}"><h3 class="flex category-head {{ cat |downcase }}"><span>MORE SILLY {{ cat }} NEWS</span></h3></a>
     <div class = 'flex out related-posts'>
       {% assign kind = page.categories | first %}
@@ -67,7 +68,8 @@ layout: default
             {% endif %}
         </div>
       {% endfor %}
-      {% include subscribe-sidebar.md %}
+      <div class = 'desktop'>{% include subscribe-sidebar.md %}</div>
+      <p class = 'more'>Even More Wicked</p>
       {% for category in site.categories %}
       <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}

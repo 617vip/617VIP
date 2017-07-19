@@ -48,7 +48,7 @@ layout: default
 <!-- Load More Posts -->
 {% include load-more-posts.md %}
 <aside class = 'child third'>
-  {% include subscribe-sidebar.md %}
+ <div class = 'desktop'>{% include subscribe-sidebar.md %}</div>
   <div id="archives">
   <p class = 'more'>Even More Wicked</p>
     {% for category in site.categories %}

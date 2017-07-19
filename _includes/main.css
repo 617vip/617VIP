@@ -148,6 +148,9 @@ h1.post-title{
   width:100%;
   background-color: #fff796;
   text-align: center;
+  font-size: 20px;
+  font-weight:bold;
+  margin:5px auto;
   text-transform: uppercase;
   padding:12.5px;
 }
@@ -206,6 +209,9 @@ header{
   line-height: 32px;
   letter-spacing: -1px;
   color:#111;
+}
+.desktop{
+  display:none;
 }
 .desc{
   color:#fff;
@@ -273,12 +279,15 @@ nav.toggled .expands{
   flex-direction: column;
 }
 .meta-tags a {
-    color: #FFF;
-    padding: 7.5px;
-    display: inline-block;
-    background: #343434 none repeat scroll 0% 0%;
-    text-decoration: none;
-    margin: 2.5px;
+  color: #FFF;
+  padding: 7.5px;
+  display: inline-block;
+  background: #343434 none repeat scroll 0% 0%;
+  text-decoration: none;
+  margin: 2.5px;
+}
+.more-list h2{
+  padding-bottom:20px;
 }
   .previous-next{
     width:100%;
@@ -388,7 +397,7 @@ nav.toggled .expands{
      line-height: 0; 
 }
 .featured .title{
-  min-height: 160px;
+  min-height: 180px;
   color:#fff;
 }
 .loadMore{
@@ -537,6 +546,12 @@ nav.toggled .expands{
   
 }
 @media screen and (min-width: 667px) {
+  .desktop{
+    display: initial;
+  }
+  .mobile{
+    display:none;
+  }
   h1{
     font-size:34px;
     line-height:40px;
