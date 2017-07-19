@@ -13,7 +13,7 @@ body{
   line-height: 1.5em;
 }
 footer{
-  background-color:#222;
+  background-color:#333;
   border-top:4px solid #2f86c5;
   color:#fff;
 }
@@ -208,7 +208,7 @@ header{
   font-weight: 300;
   line-height: 32px;
   letter-spacing: -1px;
-  color:#111;
+  color:#333;
 }
 .desktop{
   display:none;
@@ -417,7 +417,7 @@ nav.toggled .expands{
    right:0;
    top:0;
    padding:15px;
-   background-color: #222;
+   background-color: #343434;
    color:inherit;
 }
 .browse{
