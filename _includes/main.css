@@ -404,13 +404,15 @@ nav.toggled .expands{
    background-color: #2f86c5;
    color:#fff;
    padding:15px;
-   font-size:1.1em;  
+   font-size:1em;  
+   font-weight: bold;
+   padding-right:50px;
    position:relative;
    border:none;
    outline:none;
    cursor:pointer;
 }
-.loadMore span{
+.loadMore span:last-of-type{
    position:absolute;
    right:0;
    top:0;
