@@ -10,9 +10,11 @@
   .category-head.{{ category.name }} {
      background-color: {{ category.color }};
      color:#fff;
+     font-size:20px;
    }
   span.{{ category.name }} {
     color: {{ category.color }};
+    font-size:18px;
   }
   h1.post-title.{{ category.name }} {
     color: {{ category.color }};

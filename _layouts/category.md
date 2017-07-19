@@ -6,6 +6,15 @@ layout: default
 {% assign pageLoopMore = pageLoop %}
 <section class = 'flex-in'>
 {% assign firstPost = pageLoop | first %}
+<style>
+@media screen and (min-width: 667px) and (max-width: 832px){
+    .featured .main{
+      background-image: url({{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg);
+      background-size:cover;
+      background-repeat:no-repeat;
+    }
+  }
+</style>
 <div class = 'hold-featured'>
   <div class = 'flex featured'>
     <div class = 'child third flex'>

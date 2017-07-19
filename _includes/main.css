@@ -132,12 +132,13 @@ footer header .duo {
 .post-content p{
   padding:15px 0;
 }
-.post-excerpt{
-  color:#444;
+.post-excerpt{ 
+    color: #444;
+    padding: 20px 0;
 }
 h1.post-title{
-  font-size:36px;
-  line-height: 50px;
+  font-size:24px;
+  line-height: 27px;
   margin-top: 30px;
   margin-bottom: 15px;
   padding-top: 0px;
@@ -284,6 +285,7 @@ nav.toggled .expands{
     background-color: #fff795;
     padding:12.5px;
     margin:10px 0;
+    font-size:20px;
   }
   .half{
     width:50%;
@@ -309,6 +311,7 @@ nav.toggled .expands{
   }
   .hold-featured{
     position: relative;
+    width: 100%;
     padding:0;
     margin:0;
   }
@@ -332,6 +335,7 @@ nav.toggled .expands{
     right:0;
     padding:0 7.5px;
     font-size:20px;
+    font-weight: 700;
   }
   .featured img{
     margin: 0;
@@ -346,23 +350,21 @@ nav.toggled .expands{
   }
   .featured .catch{
     background-color: #fff795;
-    padding:25px !important;
-    font-size:28px;
+    font-size: 40px;
   }
   .featured .catch div:last-child {
-      margin-bottom: 7.5px;
-      margin-right: 25px;
+      padding: 12px 15px;
       margin-top: 0;
   }
   .featured .catch div {
-      margin-top: 7.5px;
       font-weight: 700;
-      margin-left: 25px;
+      padding:12px 15px 0 15px;
   }
   .featured h1{
     color: #fff !important;
     font-size:32px;
-    padding:0 25px;
+    padding:20px 15px;
+    line-height: 34px;
   }
   .right{
     text-align:right;
@@ -377,6 +379,7 @@ nav.toggled .expands{
   .post-summary p{
     flex-grow: 1;
   }
+  
   .share-box{
     display: none;
   }
@@ -415,7 +418,6 @@ nav.toggled .expands{
   position: relative;
   cursor:pointer;
   max-width:360px;
-
 }
 .browse span{
   padding:8px;
@@ -437,22 +439,30 @@ nav.toggled .expands{
     background-repeat: no-repeat;
     border-bottom:3px solid #2f86c5;
   }
-  .featured .items{
-    height: 100px;
-    padding:12.5px !important;
-  }
   .featured .title{
     position: absolute;
     top:100%;
-    min-height:125px;
   }
   .featured h1 {
     margin:0;
-    padding:0;
+    padding:15px 20px;
     font-size:28px;
   }
+  .featured .catch div:last-child {
+      padding: 12px 30px;
+      margin-top: 0;
+  }
+  .featured .catch div {
+      font-weight: 700;
+      padding:12px 15px 0 15px;
+  }
+  .featured h1{
+    color: #fff !important;
+    font-size:32px;
+    line-height: 34px;
+  }
   .hold-featured{
-    margin-bottom: 180px;
+    margin-bottom: 200px;
   }
   .post-item{
     position:relative;
@@ -478,16 +488,24 @@ nav.toggled .expands{
 }
 
 @media screen and (min-width: 667px) and (max-width: 832px){
+  h1{
+    font-size: 24px !important;
+    line-height: 27px !important;
+  }
   .featured .catch{
     padding:5px !important;
   }
   .featured .catch,
   .featured .title h1{
-    line-height: 27px;
+    font-size: 28px !important;
+    line-height: 30px !important;
   }
   .featured h1{
     margin:10px 0;
     padding:0 15px;
+  }
+  .featured .main img{
+    display:none;
   }
   .browse {
     display: block;
@@ -522,6 +540,10 @@ nav.toggled .expands{
   h1{
     font-size:34px;
     line-height:40px;
+  }
+  h1.post-title{
+    font-size: 36px;
+    line-height: 50px;
   }
   .top-header .quad:last-of-type{
     color:#fff;
@@ -616,6 +638,9 @@ nav.toggled .expands{
   }
   .related-posts{
     align-items: flex-start;
+  }
+  .related-posts .duo:first-child{
+    padding-right:15px;
   }
   .loadMore{
     width: calc(100% - 25px);
