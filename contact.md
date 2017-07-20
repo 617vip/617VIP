@@ -15,21 +15,22 @@ published: true
    input,textarea{
     display:block;
     width:100%;
-    margin:22.5px auto;
-    padding:15px;
-    font-size:1.1em !important;
+    margin:12.5px auto;
+    padding:12.5px 15px;
+    font-size:1em !important;
     border-radius:6px;
-    border:none;
+    border:1px solid transparent;
     outline:none;
     -webkit-appearance:none;
-    background-color:#eeffee;
+    background-color:#eee;
     transition: all 0.3s ease-in-out; 
    }
    input:hover,
    input:focus,
    textarea:hover,
    textarea:focus{
-     background-color:#fafafa;
+     background-color:#fefefe;
+     border:1px solid #dedede;
    }
   ::-webkit-input-placeholder{
       color:#444;
@@ -89,8 +90,7 @@ published: true
   }
   .alert-error .fa{
     margin-right:25px;
-    color: #D8000C;
-    background-color: #FFBABA;
+    color: #FFBABA;
   }
   .contact-us{
     align-items: stretch;
@@ -129,9 +129,11 @@ published: true
     <div class = 'form-widget'>
       <div id = 'notification'></div>
       <form  id = 'contact-form' method = 'POST' action = 'https://formspree.io/{{site.email}}'>
-        <input type = 'text' placeholder = 'Name' name = 'name' class = 'input-field'>
-        <input type = 'email' placeholder = 'Email Address' name = 'email' class = 'input-field'>
-        <textarea placeholder = 'Type your message' name = 'message' class = 'input-field'></textarea>
+        <input type = 'text' placeholder = 'Name' name = 'Name' class = 'input-field' required>
+        <input type = 'email' placeholder = 'Email Address' name = 'Email' class = 'input-field' required>
+        <input type = 'text' pattern="[789][0-9]{9}" placeholder = 'Phone Number' name = 'Phone' class = 'input-field'>
+        <input type = 'textl' placeholder = 'Subject' name = 'Subject' class = 'input-field'>
+        <textarea placeholder = 'Type your message' name = 'Message' class = 'input-field'></textarea>
         <input type = 'submit' value = 'Submit Message'>
       </form>
      </div>
