@@ -175,7 +175,7 @@ h3.category-head{
   height:32px;
   width:32px;
   color:#fff;
-  margin-left:5px;
+  /* margin-left:5px; */
 }
 .social .fa{
   color:inherit;
