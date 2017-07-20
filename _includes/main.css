@@ -38,6 +38,8 @@ a:focus{
 }
 .flex, .flex-in{
   width:100%;
+  margin: 0 auto;
+  max-width:960px;
   display:flex;
   flex-flow: row wrap;
 }
@@ -266,7 +268,7 @@ header{
   display: none;
 }
 nav.toggled{
-  display:initial;
+  display:block;
   background-color:#343434;
 }
 nav.toggled + .quad:last-of-type{
@@ -564,7 +566,7 @@ nav.toggled .expands{
 }
 @media screen and (min-width: 667px) {
   .desktop{
-    display: initial;
+    display: block;
   }
   .mobile{
     display:none;
@@ -580,6 +582,7 @@ nav.toggled .expands{
   .top-header .quad:last-of-type{
     color:#fff;
     display: flex;
+
     width:20%;
     background-repeat: no-repeat;
     background-position: center;
@@ -589,7 +592,7 @@ nav.toggled .expands{
   }
   nav a{
     text-align: center;
-    padding:8px 15px;
+    padding:8px;
     font-size:24px;
     display: inline-block;
   }
@@ -602,7 +605,7 @@ nav.toggled .expands{
     position: relative;
   }
   .top-header nav{
-    display:initial;
+    display:block;
     width:56%;
   }
   .toggle-menu{
@@ -684,6 +687,7 @@ nav.toggled .expands{
   }
   .share-box{
     display: flex;
+
     position:absolute;
     z-index:2;
     bottom:0;
@@ -709,5 +713,14 @@ nav.toggled .expands{
   }
   .fa-twitter {
       background-color: #4099FF;
+  }
+}
+@media screen and (min-width: 959px){
+  .top-header,
+  main{
+    flex-basis: 100%;
+    max-width: 960px;
+    width:960px;
+    margin:0 auto;
   }
 }
