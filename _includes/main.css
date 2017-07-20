@@ -202,6 +202,11 @@ h3.category-head{
 header{
   position:relative;
 }
+.main-container{
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+}
 .brand,
 .desc{
   font-size: 28px;

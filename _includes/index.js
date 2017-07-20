@@ -45,3 +45,51 @@ function loadMorePosts() {
 }
 
 $(".loadMore").click(loadMorePosts);
+
+(function contactUs() {
+ 
+  function  notifyUser(notification, mark) {
+  var $casing = $('#notification');
+  $('.input-field').val('');
+  $casing.append(notification);
+  $casing.addClass(mark).addClass('showing');
+  function  removeNotification() {
+     $casing.find('.alert').remove(); 
+     $casing.removeClass(mark).removeClass('showing');
+      console.log('perfecto');
+  }
+
+  setTimeout( removeNotification , 7000);
+
+  }
+
+  var $contactForm = $('#contact-form');
+  var $formWidget = $('form-widget');
+  $contactForm.submit(function(e) {
+    e.preventDefault();
+    $.ajax({
+      url: '//formspree.io/{{ site.email }}',
+      method: 'POST',
+      data: $(this).serialize(),
+      dataType: 'json',
+      beforeSend: function() {
+        $contactForm.append ('<div class="alert alert-loading"><i></i>Sending message…</div>');
+      },
+      success: function(data) {
+        $contactForm.find('.alert-loading').remove();
+        var $notification = `<div class="alert alert-success">
+                                          <i class="fa fa-check-circle-o" aria-hidden="true"></i> Thanks, We'll get back to you Asap
+                                      </div>`;
+        notifyUser($notification, 'success');
+      },
+      error: function(err) {
+        $contactForm.find('.alert-loading').remove();
+        var $notification = `<div class="alert alert-error">
+                                            <i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ops, there was an error.
+                                        </div>` ;
+        notifyUser(notification, 'error');
+      }
+    });
+  });
+})();
+

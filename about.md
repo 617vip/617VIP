@@ -1,9 +1,7 @@
 ---
 layout: page
-title: ABOUT
-author: 7347pwpadmin
-comments: true
-categories: []
+title: about
+permalink: /about/
 ---
 617VIP.com is a satirical publication published online at 617VIP.com.
 
