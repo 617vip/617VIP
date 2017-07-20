@@ -131,7 +131,7 @@ published: true
       <form  id = 'contact-form' method = 'POST' action = 'https://formspree.io/{{site.email}}'>
         <input type = 'text' placeholder = 'Name' name = 'Name' class = 'input-field' required>
         <input type = 'email' placeholder = 'Email Address' name = 'Email' class = 'input-field' required>
-        <input type = 'text' pattern="[789][0-9]{9}" placeholder = 'Phone Number' name = 'Phone' class = 'input-field'>
+        <input type = 'number' placeholder = 'Phone Number' name = 'Phone' class = 'input-field'>
         <input type = 'textl' placeholder = 'Subject' name = 'Subject' class = 'input-field'>
         <textarea placeholder = 'Type your message' name = 'Message' class = 'input-field'></textarea>
         <input type = 'submit' value = 'Submit Message'>
