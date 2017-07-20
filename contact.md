@@ -74,7 +74,7 @@ published: true
   }
   #notification.showing{
     opacity:1;
-    background-color:#f9f9f9;
+    background-color:#fafafa;
   }
   .alert {
     margin-bottom: 0;
