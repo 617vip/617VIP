@@ -133,7 +133,7 @@ footer header .duo {
   padding:15px 0;
 }
 .post-excerpt{ 
-    color: #444;
+    color: #333;
     padding: 20px 0;
 }
 h1.post-title{
@@ -184,9 +184,6 @@ h3.category-head{
 .twitter{
   background-color: #4099FF;
 }
-.address{
-  color:#aaa;
-}
 .toggle-menu,
 .header{
   position:fixed;
@@ -206,6 +203,19 @@ header{
   min-height: 75vh;
   display: flex;
   align-items: center;
+}
+.main-container h1,
+.main-container h2,
+.main-container h3{
+  color:#333;
+  font-weight:bold;
+}
+.main-container p{
+  padding:12.5px 0;
+  color:#333;
+}
+.main-container > div{
+  width:100%;
 }
 .brand,
 .desc{

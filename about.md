@@ -3,6 +3,8 @@ layout: page
 title: about
 permalink: /about/
 ---
+# About
+
 617VIP.com is a satirical publication published online at 617VIP.com.
 
 617VIP.com is self published.

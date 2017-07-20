@@ -3,6 +3,8 @@ layout: page
 title: Privacy Policy
 permalink: /privacy-policy/
 ---
+# Privacy Policy
+
 We won't sell your email and will respect your privacy.
 
 We use Google Analytics to track visitors behavior, this is not personally identifying.
