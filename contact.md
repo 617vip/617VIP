@@ -32,8 +32,8 @@ published: true
      background-color:#fafafa;
    }
   ::-webkit-input-placeholder{
-    color:#444;
-    font-size:1.1em;
+      color:#444;
+      font-size:1.1em !important;
     }
    .form textarea{
      min-height:100px;
@@ -94,10 +94,21 @@ published: true
   }
   .contact-us{
     align-items: stretch;
+    color:#333;
   }
   .contact-us h2{
-    padding: 25px 0;
+    padding: 15px 0;
     color:#343434;
+  }
+  .contact-us h3{
+    color:#343434;
+    font-size: 1.1em;
+    font-weight:bold;
+    padding: 12.5px 0;
+  }
+  .contact-us p{
+    padding: 7.5px 0;
+    color: inherit;
   }
   .alert-loading{
     width:100%;
@@ -105,12 +116,15 @@ published: true
   }
 </style>
 <section class = 'flex contact-us'>
-  <ul class="address child third">
+  <div class="address child third">
     <h2>Contact 617VIP</h2>
-      {% if site.address %}
-      <li>{{ site.address }}</li>
-      {% endif %}
-  </ul>
+    <h3>Call:</h3>
+    {{ site.data.address.call }}
+    <h3>Write:</h3>
+    {% for item in site.data.address.write %}
+    <p>{{ item }}</p>
+    {% endfor %}
+  </div>
   <div class = 'form flex child main'>
     <div class = 'form-widget'>
       <div id = 'notification'></div>

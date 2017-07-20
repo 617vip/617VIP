@@ -54,7 +54,7 @@ layout: default
 <section class = 'flex-in'>
   {% include load-more-posts.md %}
   <aside class = 'child third'>
-  <div class = 'desktop'>{% include subscribe-sidebar.md %}</div
+  <div class = 'desktop'>{% include subscribe-sidebar.md %}</div>
     <div id="archives">
     <p class = 'more'>Even More Wicked</p>
     {% for category in site.categories %}
