@@ -27,7 +27,8 @@ layout: default
       {% include disqus_comments.md %}
     {% endif %}
     <div class = 'mobile'>{% include subscribe-sidebar.md %}</div>
-    <a  href="{{site.baseurl}}/category/{{  cat | downcase}}"><h3 class="flex category-head {{ cat |downcase }}"><span>MORE SILLY {{ cat }} NEWS</span></h3></a>
+    <span class = 'mark'>
+    <a  href="{{site.baseurl}}/category/{{  cat | downcase}}"></span><h3 class="flex category-head {{ cat |downcase }}"><span>MORE SILLY {{ cat }} NEWS</span></h3></a>
     <div class = 'flex out related-posts'>
       {% assign kind = page.categories | first %}
        {% for post in site.categories[kind] limit: 5 %}

@@ -1,20 +1,22 @@
-/* Css with ruby code  */
+/* css with ruby code  */
 {% for category in site.data.categories %}
    .featured .title.{{ category.name }} {
      background-color: {{ category.color }};
      font-size:32px;
    }
-  nav a.{{ category.name }}:hover{
-     color: {{category.color }} !important;
-  }
   .category-head.{{ category.name }} {
      background-color: {{ category.color }};
      color:#fff;
      font-size:20px;
    }
+  span.{{ category.name }} a{
+    text-decoration: color: {{ category.color }};
+   }
   span.{{ category.name }} {
     color: {{ category.color }};
     font-size:18px;
+    font-weight:700;
+    text-transform: uppercase;
   }
   h1.post-title.{{ category.name }} {
     color: {{ category.color }};
@@ -33,5 +35,6 @@
 @media screen and (min-width: 667px) {
   .brand{
     background-image: url({{ site.baseurl }}/assets/header-logo.png);
+    margin:0;
   }
 }

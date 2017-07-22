@@ -62,8 +62,8 @@ layout: default
         {% capture category_name %}{{ category | first }}{% endcapture %}
         {% if category_name != page.title %}
         <div id="#{{ category_name | slugize }}"></div>
-        <p></p>
-        <a  href="{{site.baseurl}}/category/{{  category_name | downcase }}" class = 'mark'><h3 class="right category-head {{ category_name | downcase }}">{{ category_name | upcase}}</h3></a>
+        <span class = 'mark'>
+        <a  href="{{site.baseurl}}/category/{{  category_name | downcase }}"></span><h3 class="right category-head {{ category_name | downcase }}">{{ category_name | upcase}}</h3></a>
         <a name="{{ category_name | slugize }}"></a>
         {% for post in site.categories[category_name] limit : 3 %}
         <div class="archive-item">

@@ -71,8 +71,8 @@ main .flex-in a:hover{
   text-decoration: underline !important;
   text-decoration-color:inherit;
 }
-a.mark:hover,
-a.mark:focus{
+.archive-group .mark a:hover,
+.archive-group .mark a:focus{
   -moz-text-decoration-color: #fff !important;
   text-decoration-color: #fff !important;
 }
@@ -645,7 +645,7 @@ nav.toggled .expands{
     width:22%;
   }
   .header header{
-    padding:0;
+    padding:0 15px;
   }
   .brand{
     width: 215px;
@@ -654,14 +654,14 @@ nav.toggled .expands{
     margin: 0 auto 5px auto;
   }
   .main-menu img{
-    max-width: 517px;
+    max-width: 480px;
     max-height: 36px;
     margin-bottom: 10px;
   }
   header,
   main{
     max-width:960px;
-    padding:90px 0;
+    padding:90px 15px;
     margin:0 auto;
   }
   article.post.child.main {
@@ -684,11 +684,10 @@ nav.toggled .expands{
   }
   .loadMore{
     width: calc(100% - 25px);
+    margin:0;
   }
   .share-button {
-      margin: 0px 2.5px;
       border: none;
-      padding: 7.5px;
   }
   .share-box{
     display: flex;
@@ -696,27 +695,65 @@ nav.toggled .expands{
     position:absolute;
     z-index:2;
     bottom:0;
-    right: 40px;
-    width:58%;
+    left: 34%;
+    width:100%;
+    max-width:540px;
     padding:0;
   }
   .share-box a{
     color:#fff !important;
   } 
-  .share-box .fa{
+  .share-box a{
+    position:relative;
     flex-grow: 1;
-    margin:0 3.5px;
+    margin:0 3.5px 1.5px 3.5px;
+    border-radius:2.5px 4px;
+    padding:6px;
+    max-width:100px;
+    text-align: center;
+    padding-bottom: 9px;
+    color:#fefefe;
+    transition:color 0.3s ease-in;
   }
-  .fa-facebook {
+  .share-box:hover{
+    color:#fff;
+  }
+  .share-box .fa{
+    position: relative;
+    z-index:5;
+  }
+  .share-box a:before,
+  .share-box a:after{
+    content:'';
+    position: absolute;
+    left:0;
+    width:100%;
+    padding:4px;
+    border-radius:0 0 2.5px 2.5px;
+  }
+  .share-box a:after{
+    bottom:0;
+    background-color: rgba(0,0,0,0.3);
+    z-index:1;
+  }
+  .share-box a:before{
+    bottom: 4px;
+    z-index:3;
+    padding: 2.5px;
+    background-color:inherit;
+  }
+
+
+  .facebook {
       background-color: #3b5998;
   }
-  .fa-envelope {
+  .envelope {
       background-color: #444444;
   }
-  .fa-reddit {
+  .reddit {
       background-color: #ff5700;
   }
-  .fa-twitter {
+  .twitter {
       background-color: #4099FF;
   }
 }
