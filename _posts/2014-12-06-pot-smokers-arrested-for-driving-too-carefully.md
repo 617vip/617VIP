@@ -3,12 +3,6 @@ layout: post
 title: Pot Smokers Arrested For Driving Too Carefully
 permalink: /pot-smokers-arrested-for-driving-too-carefully/
 categories: [Local]
-tags:
-  - ganja
-  - Marijuana
-  - police
-  - pot
-  - weed
 ---
 Dullard County, Alabama
 

@@ -3,14 +3,6 @@ layout: post
 title: Scientists Prove Why Marijuana is Awesome
 permalink: /scientists-prove-why-marijuana-is-awesome/
 categories: [Life]
-tags:
-  - Awesome
-  - Herb
-  - Marijuana
-  - pot
-  - Scientists
-  - Stoned
-  - weed
 ---
 With all the debate these days about legalizing Marijuana, it is great to know that many people find marijuana to be helpful for a variety of reasons. Gone are the days when pot users were called stoners and potheads. What exactly makes marijuana so awesome? We ask a scientist. Mr Scientist!
 1) The fiber in Marijuana plants, or hemp, can be cultivated to make various products. These include paper, rope and even fabrics. Pot is cheap to grow and cultivate so just think of a world with cheaper paper, rope and fabrics. The leftovers after cultivation can still be smoked! Talk about a win- win situation!

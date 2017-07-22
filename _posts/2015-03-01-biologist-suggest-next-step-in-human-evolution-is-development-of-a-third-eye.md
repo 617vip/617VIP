@@ -3,12 +3,6 @@ layout: post
 title: "Biologist Suggest Next Step in Human Evolution: Development of Third Eye"
 permalink: /biologist-suggest-next-step-in-human-evolution-is-development-of-a-third-eye/
 categories: [Tech]
-tags:
-  - Evolution
-  - God
-  - Hipsters
-  - SayWhatAgain
-  - third eye
 ---
 According to evolutionary biologist Dr. Øyvind Øystein, head of the anthropology department at Oslo's Ginnungagap University, humans will ultimately develop a third eye promoted by the process of natural selection.
 

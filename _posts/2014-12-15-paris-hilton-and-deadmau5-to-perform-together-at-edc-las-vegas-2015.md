@@ -3,12 +3,6 @@ layout: post
 title: Paris Hilton and deadmau5 to Perform Together at EDC Las Vegas 2015
 permalink: /paris-hilton-and-deadmau5-to-perform-together-at-edc-las-vegas-2015/
 categories: [Life]
-tags:
-  - deadmau5
-  - EDC
-  - Electric Daisy Carnival
-  - Las Vegas
-  - Paris Hilton
 ---
 Could deadmau5 and Paris Hilton actually share the same stage at this year's Electric Daisy Carnival music festival in Las Vegas? While deadmau5 has been an outspoken critic of the blonde hotel heiress' DJ appearances, stranger things have happened. He<a href="http://www.tmz.com/2014/11/03/deadmau5-paris-hilton-perform-for-a-price-make-a-wish-video-beef-feud/" target="_blank" data-cke-saved-href="http://www.tmz.com/2014/11/03/deadmau5-paris-hilton-perform-for-a-price-make-a-wish-video-beef-feud/"> recently told TMZ</a> that he'd get on stage and DJ with her for a price--an undisclosed, but very high price. This comment comes despite his recent criticism of Hilton, calling her a "phony DJ." It would be tough to deny that the duo would be a great publicity stunt for deadmau5. Could it even be that they're even working on a track together that they plan to have drop during EDC?
 

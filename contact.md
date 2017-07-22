@@ -22,7 +22,7 @@ published: true
     border:1px solid transparent;
     outline:none;
     -webkit-appearance:none;
-    background-color:#eee;
+    background-color:#f9f9f9;
     transition: all 0.3s ease-in-out; 
    }
    input:hover,
@@ -30,7 +30,7 @@ published: true
    textarea:hover,
    textarea:focus{
      background-color:#fefefe;
-     border:1px solid #dedede;
+     border:1px solid #f7f7f7;
    }
   ::-webkit-input-placeholder{
       color:#444;

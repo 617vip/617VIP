@@ -3,14 +3,6 @@ layout: post
 title: Rumored Apple Car Will Fly, Shoot Lasers, Make Life Perfect For Millions of People
 permalink: /rumored-apple-car-will-fly-shoot-lasers-make-life-perfect-for-millions-of-people/
 categories: [Life, Tech]
-tags:
-  - Apple
-  - Cars
-  - electric cars
-  - Lasers
-  - Life
-  - self-driving cars
-  - Tesla
 ---
 In 2007, Apple changed the face of mobile technology as we know it with the release of the iPhone. A few years later, they did it again with the iPad - the world's first (popular, anyway) home tablet device. In just a few short years the iPad and similar tablets have supplanted the need for a laptop computer for millions of people around the world. Now, if rumors are to be believed, Apple is poised to do it again - not from the perspective of changing the way we live our lives inside the home, however, but rather what we do outside it. Industry analysts predicted that in the next few years, Apple will unveil its own car.
 

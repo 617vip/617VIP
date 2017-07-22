@@ -3,14 +3,6 @@ layout: post
 title: Donald Trump Forces James Comey to Eat Covfefe Cake
 permalink: /donald-trump-forces-james-comey-to-eat-covfefe-cake/
 categories: [Politics]
-tags:
-  - cake
-  - chocolate cake
-  - Covfefe
-  - Donald Trump
-  - James Comey
-  - President Trump
-  - Trump
 ---
 James Comey was a little surprised at first when he received Donald Trump's invitation to join the President for a one-on-one dinner at the Mar-a-Lago. After all, since the whole bit where the two of them had traded barbs like kindergartners going at it on the playground tensions between the President and former FBI director had been a little heated. Nevertheless, Comey accepted and soon found himself stepping into the elaborate Mar-a-Lago dining room.
 

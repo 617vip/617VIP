@@ -22,12 +22,6 @@ layout: default
     <div class="post-content" itemprop="articleBody">
       {{ content }}
     </div>
-    <div class = 'meta-tags'>
-     Tagged With:
-      {% for tag in page.tags %}
-        <a href = '{{ '/' | relative_url }}'>{{ tag | capitalize }}</a>
-      {% endfor %}
-    </div>
     {% include nextprev.md %}
     {% if site.disqus.shortname %}
       {% include disqus_comments.md %}
@@ -69,7 +63,7 @@ layout: default
         </div>
       {% endfor %}
       <div class = 'desktop'>{% include subscribe-sidebar.md %}</div>
-      <p class = 'more'>Even More Wicked</p>
+      <p class = 'more'>Even More Wicked Silly News</p>
       {% for category in site.categories %}
       <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}

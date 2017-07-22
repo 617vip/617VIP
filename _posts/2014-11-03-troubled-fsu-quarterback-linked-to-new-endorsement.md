@@ -3,10 +3,6 @@ layout: post
 title: Troubled FSU Quarterback Linked to new Endorsement?
 permalink: /troubled-fsu-quarterback-linked-to-new-endorsement/
 categories: [Sports]
-tags:
-  - Florida State
-  - Florida State Seminoles
-  - Jameis Winston
 ---
 Jameis Winston is known as the resilient quarterback of the Florida State Seminoles. He is a Heisman Trophy winner who can’t seem to stay out of trouble or out of the news. Among other things, the quarterback has been linked to stealing soda from a fast food restaurant, a rape allegation, shooting out windows with a BB gun, and screaming obscenities while standing on top of a table at the FSU student union. Most recently he has been accused of signing over 900 items for sale. Yet no allegations, no charges, seem to stick.
 

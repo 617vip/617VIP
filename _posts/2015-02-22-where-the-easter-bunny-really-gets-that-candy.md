@@ -3,9 +3,6 @@ layout: post
 title: Where the Easter Bunny Really Gets That Candy
 permalink: /where-the-easter-bunny-really-gets-that-candy/
 categories: [Life]
-tags:
-  - Candy
-  - Easter Bunny
 ---
 Kids have long wondered where a giant rabbit with no factories, no established base camp complete with helpers (like Santa's North Pole) and no known source of income has been able to provide baskets heavily laden with candy every Easter season. We sent one of our undercover experts to investigate and finally reveal the shocking truth. Our insider was able to secure an exclusive interview with a condifential informant, known only as "Jingle" that reveals just where the so-called Easter Bunny's chocolate really comes from.
 

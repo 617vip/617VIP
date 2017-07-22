@@ -3,11 +3,6 @@ layout: post
 title: NRA President Celebrates Another Successful Mass Shooting in America
 permalink: /nra-president-celebrates-another-successful-mass-shooting-in-america/
 categories: [Politics]
-tags:
-  - Guns
-  - Mass Shootings
-  - NRA
-  - Wayne LaPierre
 ---
 Has any situation triggered you into a thought of owning a gun? Well, we have for many years believed that if only everyone would be armed, perhaps there would be such a better chance of curbing every terrible event in the society. The society we live in has taught us to believe that some bad people plan horrific events. The question, however, is what are the good people doing? What’s wrong when who is considered to be a good a person is armed to protect?
 

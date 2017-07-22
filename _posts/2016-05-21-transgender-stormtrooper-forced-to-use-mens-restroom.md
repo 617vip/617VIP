@@ -3,14 +3,6 @@ layout: post
 title: Transgender Stormtrooper Forced to Use Men's Restroom
 permalink: /transgender-stormtrooper-forced-to-use-mens-restroom/
 categories: [Life]
-tags:
-  - bathrooms
-  - FN-2022
-  - Hannah Clark
-  - Pissing everywhere
-  - Star Wars
-  - Transgender Stormtrooper
-  - USA
 ---
 According to the First Order, a Stormtrooper by the name of FN-2022 has caused plenty of uproar in the galaxy and beyond by using the female restrooms on Urthha, known by most of us as Earth. The problem? FN-2022 is a male to female transgender soldier. While most of the universe accepts gay and transgender individuals, Earth seems to be a few centuries behind a majority of the galaxy. When asked to comment on this rising issue, Supreme Leader Snoke had no comment, however his advisors did take the time to make this statement:
 

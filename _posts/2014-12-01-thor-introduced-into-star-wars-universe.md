@@ -2,12 +2,7 @@
 layout: post
 title: Thor Introduced Into Star Wars Universe
 permalink: /thor-introduced-into-star-wars-universe/
-categories: [ Life]
-tags:
-  - Chris Hemsworth
-  - Marvel
-  - Star Wars
-  - Thor
+categories: [ Life ]
 ---
 Walt Disney's acquisition of the Star Wars franchise along with the Marvel comic world, has allowed for many opportunities only dreamed up in Tumblr fan-fiction. J. J. Abrams in a recent interview with Starfanz Weekly, has announced that he will be including Chris Hemsworth's fan favorite "Thor" character into the Star Wars universe. Fans have been tweeting their thoughts stating the decision was one of "pure joy" to "totally a waste of my time". While Abrams decision is a new one in context with the Star Wars series, Chris Hemsworth felt that it had been in the works for years stating, "Thor was always meant to reign to the side of Skywalker, as it ties into a much greater Viking heritage that is only now being discovered within the futuristic empire".
 
