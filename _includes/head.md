@@ -6,11 +6,11 @@
   <title>{% if page.title %}{{ page.title | escape }} | {{site.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
  <link rel="apple-touch-icon"  href="{{ site.baseurl }}/assets/apple-icon.png">
- <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico">
+ <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico"
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <meta name="theme-color" content="#ffffff">
-  <script src='https://use.fontawesome.com/22572db09e.js'></script>
+  <script src='https://use.fontawesome.com/22572db09e.js' async></script>
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.md %}
   {% endif %}
