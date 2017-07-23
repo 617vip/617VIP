@@ -678,15 +678,11 @@ nav.toggled .expands{
   header,
   main{
     max-width:960px;
-    padding:5px 15px 75px 15px;
+    padding:90px 15px 75px 15px;
     margin:0 auto;
   }
   main{
     position: relative;
-  }
-  main > .flex-in:first-of-type,
-  .main-container > div:first-of-type{
-    padding-top:90px;
   }
   article.post.child.main {
     padding: 0 20px 0 0;
@@ -776,6 +772,11 @@ nav.toggled .expands{
     position: relative;
     margin: 0;
     padding: 35px 0 0 0;
+  }
+  .fb-holder{
+    padding:3%;
+    width:100%;
+    min-height:100px;
   }
   .holder .share-box{
     left:0;

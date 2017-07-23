@@ -6,4 +6,4 @@
   js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="http://617vip.com/" data-width="320" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+<div class="fb-page" data-href="http://617vip.com/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>

@@ -24,7 +24,7 @@ layout: default
     <div class="post-content" itemprop="articleBody">
       {{ content }}
     </div>
-    {% include fb-like.md %}
+    <div class = 'fb-holder'>{% include fb-like.md %}</div>
     {% include nextprev.md %}
     {% if site.disqus.shortname %}
       {% include disqus_comments.md %}
