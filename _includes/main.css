@@ -137,7 +137,7 @@ footer header .duo {
     padding-bottom: 10px;
 }
 .post-content p{
-  padding:15px 0;
+  padding:10px 0;
 }
 .post-excerpt{ 
     color: #333;
@@ -146,8 +146,7 @@ footer header .duo {
 h1.post-title{
   font-size:24px;
   line-height: 27px;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin: 15px 0;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -742,10 +741,16 @@ nav.toggled .expands{
     padding: 2.5px;
     background-color:inherit;
   }
-
-
+  .holder{
+    position: relative;
+    margin: 0;
+    padding: 35px 0 0 0;
+  }
+  .holder .share-box{
+    left:0;
+  }
   .facebook {
-      background-color: #3b5998;
+      background-color: rgb(59, 89, 152);;
   }
   .envelope {
       background-color: #444444;
@@ -754,7 +759,7 @@ nav.toggled .expands{
       background-color: #ff5700;
   }
   .twitter {
-      background-color: #4099FF;
+      background-color: rgb(29, 161, 242);
   }
 }
 @media screen and (min-width: 959px){

@@ -17,18 +17,20 @@ layout: default
         {% endif %}
       </p>
       <img src = '{{ site.baseurl }}/assets/posts/{{ page. permalink | remove: '/'}}.jpg' alt = '{{ page. permalink | remove: '/'}}'>
+      <div class = 'holder'>{% include share.md %}</div>
       <h1 class="post-title {{ page.categories | first | downcase}}" itemprop="name headline">{{ page.title | escape }}</h1>
     </section>
     <div class="post-content" itemprop="articleBody">
       {{ content }}
     </div>
+    {% include fb-like.md %}
     {% include nextprev.md %}
     {% if site.disqus.shortname %}
       {% include disqus_comments.md %}
     {% endif %}
     <div class = 'mobile'>{% include subscribe-sidebar.md %}</div>
     <span class = 'mark'>
-    <a  href="{{site.baseurl}}/category/{{  cat | downcase}}"></span><h3 class="flex category-head {{ cat |downcase }}"><span>MORE SILLY {{ cat }} NEWS</span></h3></a>
+    <a  href="{{site.baseurl}}/category/{{  cat | downcase}}"></span><h3 class="flex category-head {{ cat |downcase }}"><span>MORE WICKED SILLY {{ cat }} NEWS</span></h3></a>
     <div class = 'flex out related-posts'>
       {% assign kind = page.categories | first %}
        {% for post in site.categories[kind] limit: 5 %}
