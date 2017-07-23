@@ -10,7 +10,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <meta name="theme-color" content="#ffffff">
-  <script src='https://use.fontawesome.com/22572db09e.js' async></script>
+  <script src='https://use.fontawesome.com/22572db09e.js' ></script>
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.md %}
   {% endif %}
