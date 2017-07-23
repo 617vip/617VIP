@@ -31,7 +31,7 @@ layout: default
     {% endif %}
     <div class = 'mobile'>{% include subscribe-sidebar.md %}</div>
     <span class = 'mark'>
-    <a  href="{{site.baseurl}}/category/{{  cat | downcase}}"></span><h3 class="flex category-head {{ cat |downcase }}"><span>MORE WICKED SILLY {{ cat }} NEWS</span></h3></a>
+    <a  href="{{site.baseurl}}/category/{{  cat | downcase}}" class="flex category-head {{ cat |downcase }}"><span>MORE WICKED SILLY {{ cat }} NEWS</span></a>
     <div class = 'flex out related-posts'>
       {% assign kind = page.categories | first %}
        {% for post in site.categories[kind] limit: 5 %}

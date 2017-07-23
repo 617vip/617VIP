@@ -167,12 +167,15 @@ h1.post-title{
   text-transform: uppercase;
   padding:12.5px;
 }
-h3.category-head{
+.category-head{
   width:100%;
   padding:7.5px 12.5px;
   margin:0;
   font-size: 1em;
   color:#fff;
+}
+.mark .category-head{
+  text-align: center;
 }
 .archive-item{
   border-bottom: 1px solid #aaa;
