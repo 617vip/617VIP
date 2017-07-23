@@ -1,6 +1,6 @@
-<script type="text/javascript" src="//app.icontact.com/icp/static/form/javascripts/validation.js"></script>
+<script type="text/javascript" src="//app.icontact.com/icp/static/form/javascripts/validation.js" async></script>
 
-<script type="text/javascript" src="//app.icontact.com/icp/static/form/javascripts/tracking.js"></script>
+<script type="text/javascript" src="//app.icontact.com/icp/static/form/javascripts/tracking.js" async></script>
 
  <link rel="stylesheet" type="text/css" href="//app.icontact.com/icp/static/human/css/signupBuilder/formGlobalStyles.css"> 
 
