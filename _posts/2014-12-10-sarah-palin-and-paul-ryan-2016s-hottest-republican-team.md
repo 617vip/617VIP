@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Sarah Palin And Paul Ryan: 2016's Hottest Republican Team"
 permalink: /sarah-palin-and-paul-ryan-2016s-hottest-republican-team/
 categories: [Politics]

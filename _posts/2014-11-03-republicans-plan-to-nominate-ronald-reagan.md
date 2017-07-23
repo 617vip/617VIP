@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Republicans Plan to Nominate Ronald Reagan
 permalink: /republicans-plan-to-nominate-ronald-reagan/
 categories: [Politics]

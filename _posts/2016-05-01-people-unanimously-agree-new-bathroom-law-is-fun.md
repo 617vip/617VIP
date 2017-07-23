@@ -1,5 +1,4 @@
 ---
-layout: post
 title: People Unanimously Agree New Bathroom Law Is Fun
 permalink: /people-unanimously-agree-new-bathroom-law-is-fun/
 categories: [Politics]

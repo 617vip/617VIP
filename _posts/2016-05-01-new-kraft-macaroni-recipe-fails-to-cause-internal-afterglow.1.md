@@ -1,5 +1,4 @@
 ---
-layout: post
 title: New Kraft Macaroni Recipe Fails to Cause Internal Afterglow
 permalink: /new-kraft-macaroni-recipe-fails-to-cause-internal-afterglow/
 categories: [Life]

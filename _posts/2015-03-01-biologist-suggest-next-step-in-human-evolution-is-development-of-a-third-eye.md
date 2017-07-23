@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Biologist Suggest Next Step in Human Evolution: Development of Third Eye"
 permalink: /biologist-suggest-next-step-in-human-evolution-is-development-of-a-third-eye/
 categories: [Tech]

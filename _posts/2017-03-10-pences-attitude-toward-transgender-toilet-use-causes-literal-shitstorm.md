@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Pence's Attitude Toward Transgender Toilet Use Causes Literal Shitstorm
 permalink: /pences-attitude-toward-transgender-toilet-use-causes-literal-shitstorm/
 categories: [Politics]

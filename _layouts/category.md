@@ -33,7 +33,7 @@ layout: default
   </div>
     {% include share.md %}
 </div>
-{% include ads.md %}
+<div class = 'ads-container'>{% include ads.md %}</div>
 <ul class="post-list">
   {% for post in pageLoop  limit: 4 %}
     <li class = 'flex out post-item'>  
@@ -42,11 +42,11 @@ layout: default
       <a class="post-image child main" href="{{ post.url | relative_url }}">
         <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
       </a>
-      <a class = 'post-summary child third flex-down' href="{{ post.url | relative_url }}">
-        <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'>{{ cat }}</span></p>
-        <p><h1>{{ post.title | escape }}</h1></p>
+      <div class = 'post-summary child third flex-down'>
+        <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'><a href="{{ post.url | relative_url }}"> {{ cat }}</a></span></p>
+        <p><h1><a href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a></h1></p>
         <p class = 'post-excerpt'>{{post.excerpt | truncate: 175 | strip_html }}</p>
-      </a>
+      </div>
     </li>
     {% endfor %}
   </ul>
@@ -56,14 +56,13 @@ layout: default
   <aside class = 'child third'>
   <div class = 'desktop'>{% include subscribe-sidebar.md %}</div>
     <div id="archives">
-    <p class = 'more'>Even More Wicked</p>
+    <p class = 'more'>Even More Wicked Silly News</p>
     {% for category in site.categories %}
       <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}
         {% if category_name != page.title %}
         <div id="#{{ category_name | slugize }}"></div>
-        <span class = 'mark'>
-        <a  href="{{site.baseurl}}/category/{{  category_name | downcase }}"></span><h3 class="right category-head {{ category_name | downcase }}">{{ category_name | upcase}}</h3></a>
+        <a  href="{{site.baseurl}}/category/{{  category_name | downcase }}" class="right category-head {{ category_name | downcase }} mark">{{ category_name | upcase}}</a>
         <a name="{{ category_name | slugize }}"></a>
         {% for post in site.categories[category_name] limit : 3 %}
         <div class="archive-item">
@@ -77,3 +76,4 @@ layout: default
     </div>
   </aside >
 </section>
+<div class = 'ads-container'>{% include ads.md %}</div>

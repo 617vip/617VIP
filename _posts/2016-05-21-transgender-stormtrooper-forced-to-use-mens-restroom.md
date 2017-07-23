@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Transgender Stormtrooper Forced to Use Men's Restroom
 permalink: /transgender-stormtrooper-forced-to-use-mens-restroom/
 categories: [Life]

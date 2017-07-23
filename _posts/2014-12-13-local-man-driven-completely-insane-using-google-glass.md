@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Local Man Driven Completely Insane Using Google Glass
 permalink: /local-man-driven-completely-insane-using-google-glass/
 categories: [ Local, Tech]

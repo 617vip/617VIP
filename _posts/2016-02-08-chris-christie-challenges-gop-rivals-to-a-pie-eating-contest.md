@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Chris Christie Challenges GOP Rivals to a Pie Eating Contest
 permalink: /chris-christie-challenges-gop-rivals-to-a-pie-eating-contest/
 categories: [Politics]

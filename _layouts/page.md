@@ -5,4 +5,4 @@ layout: default
   <div>
   {{ content }}
   </div>
-</sectiom>
+</section>

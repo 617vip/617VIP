@@ -33,7 +33,6 @@ a:visited{
 }
 a:hover,
 a:focus{
-  color:inherit;
   text-decoration: none !important;
 }
 .flex, .flex-in{
@@ -72,7 +71,9 @@ main .flex-in a:hover{
   text-decoration-color:inherit;
 }
 .archive-group .mark a:hover,
-.archive-group .mark a:focus{
+.archive-group .mark a:focus,
+.archive-item .mark:focus,
+.archive-item .mark:focus{
   -moz-text-decoration-color: #fff !important;
   text-decoration-color: #fff !important;
 }
@@ -95,7 +96,7 @@ nav a:hover{
   background-color: #2f86c5;
 }
 main img{
-  margin:7.5px auto;
+  margin:0 auto 7.5px 0;
   width: 100%;
 }
 footer > header.flex{
@@ -149,6 +150,12 @@ h1.post-title{
   margin: 15px 0;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+.ads-container{
+  display: flex;
+  width:100%;
+  margin:20px auto 10px auto;
+  justify-content: center;
 }
 .more{
   width:100%;
@@ -206,9 +213,14 @@ header{
   position:relative;
 }
 .main-container{
-  min-height: 75vh;
+  width:100%;
+  max-width:960px;
+  min-height: 480px;;
+  height: 75%;
+  margin:0 auto;
   display: flex;
   align-items: center;
+
 }
 .main-container h1,
 .main-container h2,
@@ -222,6 +234,8 @@ header{
 }
 .main-container > div{
   width:100%;
+  max-width:960px;
+  margin:0 auto;
 }
 .brand,
 .desc{
@@ -332,6 +346,9 @@ nav.toggled .expands{
   .related-posts .duo:nth-child(5){
     display: none;
   }
+  .related-posts .duo{
+    padding: 12.5px 0;
+  }
   .quad{
     width:100%;
   }
@@ -395,6 +412,7 @@ nav.toggled .expands{
     font-size:32px;
     padding:20px 15px;
     line-height: 34px;
+    width:100%;
   }
   .right{
     text-align:right;
@@ -403,7 +421,7 @@ nav.toggled .expands{
     align-items: stretch;
   }
   .post-item{
-    padding:2.5px 0;
+    padding:0;
     border-top: 1px solid #aaa ;
   }
   .post-summary p{
@@ -616,7 +634,7 @@ nav.toggled .expands{
     display: none;
   }
   .duo{
-    width:49%;
+    width:50%;
   }
   .foot-links .child,
   .foot-links .flex-in{
@@ -660,8 +678,15 @@ nav.toggled .expands{
   header,
   main{
     max-width:960px;
-    padding:90px 15px;
+    padding:5px 15px 75px 15px;
     margin:0 auto;
+  }
+  main{
+    position: relative;
+  }
+  main > .flex-in:first-of-type,
+  .main-container > div:first-of-type{
+    padding-top:90px;
   }
   article.post.child.main {
     padding: 0 20px 0 0;
@@ -678,8 +703,14 @@ nav.toggled .expands{
   .related-posts{
     align-items: flex-start;
   }
-  .related-posts .duo:first-child{
-    padding-right:15px;
+  .related-posts .duo{
+    padding: 15px 0;
+  }
+  .related-posts .duo:nth-child(2n+1){
+    padding-right:10px;
+  }
+  .related-posts .duo:nth-child(2n){
+    padding-left:10px;
   }
   .loadMore{
     width: calc(100% - 25px);

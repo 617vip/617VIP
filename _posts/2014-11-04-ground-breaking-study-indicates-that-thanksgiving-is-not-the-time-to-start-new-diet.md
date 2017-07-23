@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ground Breaking Study Indicates that Thanksgiving is not the Time to Start New Diet
 permalink: /ground-breaking-study-indicates-that-thanksgiving-is-not-the-time-to-start-new-diet/
 categories: [Life]

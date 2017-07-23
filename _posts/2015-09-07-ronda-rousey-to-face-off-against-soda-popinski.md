@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ronda Rousey to Face Off Against Soda Popinski
 permalink: /ronda-rousey-to-face-off-against-soda-popinski/
 categories: [Sports]

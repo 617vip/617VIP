@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Martin Shkreli Pissed His Pants in Front of His Board of Directors, Literally"
 permalink: /martin-shkreli-pissed-his-pants-in-front-of-his-board-of-directors-literally/
 categories: [Politics]

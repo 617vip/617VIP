@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Video Shows Donald Trump Using Copious Amounts of Cocaine
 permalink: /video-shows-donald-trump-using-copious-amounts-of-cocaine/
 categories: [Politics]

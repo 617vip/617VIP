@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Thor Introduced Into Star Wars Universe
 permalink: /thor-introduced-into-star-wars-universe/
 categories: [ Life ]

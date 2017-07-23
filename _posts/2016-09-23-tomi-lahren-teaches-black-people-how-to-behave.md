@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tomi Lahren Teaches Black People How to Behave
 permalink: /tomi-lahren-teaches-black-people-how-to-behave/
 categories: [Politics]

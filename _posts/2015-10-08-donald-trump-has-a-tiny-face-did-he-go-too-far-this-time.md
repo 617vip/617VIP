@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Donald Trump Has a TINY FACE! Did He Go Too Far This Time?
 permalink: /donald-trump-has-a-tiny-face-did-he-go-too-far-this-time/
 categories: [Politics]

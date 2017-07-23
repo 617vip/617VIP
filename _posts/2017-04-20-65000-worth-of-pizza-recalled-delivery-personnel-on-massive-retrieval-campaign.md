@@ -1,5 +1,4 @@
 ---
-layout: post
 title: $65,000 Worth of Pizza Recalled, Delivery Personnel on Massive Retrieval Campaign
 permalink: /65000-worth-of-pizza-recalled-delivery-personnel-on-massive-retrieval-campaign/
 categories: [ Local]

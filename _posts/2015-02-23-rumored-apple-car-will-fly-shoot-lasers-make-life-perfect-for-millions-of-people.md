@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Rumored Apple Car Will Fly, Shoot Lasers, Make Life Perfect For Millions of People
 permalink: /rumored-apple-car-will-fly-shoot-lasers-make-life-perfect-for-millions-of-people/
 categories: [Life, Tech]

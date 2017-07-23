@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Apple Does About Face, Opens Everyone's iCloud to Everyone Else
 permalink: /apple-does-about-face-opens-everyones-icloud-to-everyone-else/
 categories: [ Tech]

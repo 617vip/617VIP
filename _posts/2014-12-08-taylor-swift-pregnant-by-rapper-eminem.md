@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Taylor Swift Pregnant by Rapper Eminem
 permalink: /taylor-swift-pregnant-by-rapper-eminem/
 categories: [Life]

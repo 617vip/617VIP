@@ -19,13 +19,10 @@
         {% endif %}
         <a class='post-image child duo' href='{{ post.url | relative_url }}'>
           <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: "/"}}.jpg' alt = '{{ post. permalink | remove: "/"}}'/></a>
-        <a class = 'post-summary child duo flex-down' href='{{ post.url | relative_url }}'>
-          <p class = 'flex out'>
-          <span class = 'post-meta'>{{ post.date | date: date_format }}</span>
-          <span class = 'right {{ cat | downcase }}'>{{ cat }}</span>
-          </p>
-          <p><h2>{{ post.title | escape }}</h2></p>
-        </a>
+        <div class = 'post-summary child duo flex-down'>
+        <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'><a href="{{ post.url | relative_url }}"> {{ cat }}</a></span></p>
+        <p><h2><a href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a></h2></p>
+      </div>
       </li>
       {% endfor %}
     </ul>

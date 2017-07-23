@@ -1,5 +1,4 @@
 ---
-layout: post
 title: New Hampshire Man Faces Lawsuit for Verizon Harrassment
 permalink: /new-hampshire-man-faces-lawsuit-for-verizon-harrassment/
 categories: [Local]

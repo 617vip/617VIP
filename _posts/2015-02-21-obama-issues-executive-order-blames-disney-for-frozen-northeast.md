@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Obama Issues Executive Order, Blames Disney For "Frozen" Northeast
 permalink: /obama-issues-executive-order-blames-disney-for-frozen-northeast/
 categories: [Politics]

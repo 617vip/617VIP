@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Where the Easter Bunny Really Gets That Candy
 permalink: /where-the-easter-bunny-really-gets-that-candy/
 categories: [Life]

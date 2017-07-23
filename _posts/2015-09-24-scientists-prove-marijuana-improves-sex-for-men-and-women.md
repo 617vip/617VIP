@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Scientists Prove Marijuana Improves Sex for Men and Women
 permalink: /scientists-prove-marijuana-improves-sex-for-men-and-women/
 categories: [Life]

@@ -18,3 +18,11 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+defaults:
+  -
+    scope:
+      path: '_posts'
+      type: 'posts'
+    values:
+      layout: 'post'
+      permalink: /:title/

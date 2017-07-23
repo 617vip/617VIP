@@ -8,7 +8,13 @@
      background-color: {{ category.color }};
      color:#fff;
      font-size:20px;
+     display:block;
+     padding:8px 12px;
    }
+  nav .{{ category.name }}:hover,
+  nav .{{ category.name }}:focus {
+    color: {{ category.color }} !important;
+  }
   span.{{ category.name }} a{
     text-decoration: color: {{ category.color }};
    }

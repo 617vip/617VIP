@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Taylor Swift to Star in Remake of Super Mario Bros
 permalink: /taylor-swift-to-star-in-remake-of-super-mario-bros/
 categories: [Life]

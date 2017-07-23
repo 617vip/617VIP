@@ -1,5 +1,4 @@
 ---
-layout: post
 title: New Medical Marijuana strain, Kylie Jenner Lips, Gives Users 'Kylie' Look
 permalink: /new-medical-marijuana-strain-kylie-jenner-lips-gives-users-kylie-look/
 categories: [Life]

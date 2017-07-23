@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kid Destroys Priceless Artifact While Playing Kinect
 permalink: /kid-destroys-priceless-artifact-while-playing-kinect/
 categories: [Tech]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: NRA President Celebrates Another Successful Mass Shooting in America
 permalink: /nra-president-celebrates-another-successful-mass-shooting-in-america/
 categories: [Politics]

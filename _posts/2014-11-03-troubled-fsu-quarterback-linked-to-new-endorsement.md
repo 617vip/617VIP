@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Troubled FSU Quarterback Linked to new Endorsement?
 permalink: /troubled-fsu-quarterback-linked-to-new-endorsement/
 categories: [Sports]

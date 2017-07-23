@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Scientists Prove Why Marijuana is Awesome
 permalink: /scientists-prove-why-marijuana-is-awesome/
 categories: [Life]

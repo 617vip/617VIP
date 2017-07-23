@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Coca-Cola, McDonalds, Announce Big Mac Soda
 permalink: /coca-cola-mcdonalds-announce-big-mac-soda/
 categories: [Life]

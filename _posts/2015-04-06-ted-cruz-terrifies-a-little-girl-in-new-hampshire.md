@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ted Cruz Terrifies a Little Girl in New Hampshire
 permalink: /ted-cruz-terrifies-a-little-girl-in-new-hampshire/
 categories: [Politics]

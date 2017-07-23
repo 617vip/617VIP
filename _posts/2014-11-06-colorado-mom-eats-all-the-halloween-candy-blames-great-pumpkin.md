@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Colorado Mom Eats All The Halloween Candy, Blames Great Pumpkin
 permalink: /colorado-mom-eats-all-the-halloween-candy-blames-great-pumpkin/
 categories: [Local]

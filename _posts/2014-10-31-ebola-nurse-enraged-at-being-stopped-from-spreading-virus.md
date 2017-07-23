@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ebola Nurse Enraged at Being Stopped From Spreading Virus
 permalink: /ebola-nurse-enraged-at-being-stopped-from-spreading-virus/
 categories: [ Politics]

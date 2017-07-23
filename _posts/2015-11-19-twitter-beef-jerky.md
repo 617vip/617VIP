@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Twitter Beef Jerky
 permalink: /twitter-beef-jerky/
 categories: [Tech]

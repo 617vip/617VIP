@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hillary Clinton Plans to Open Area 51 to Public
 permalink: /hillary-clinton-plans-to-open-area-51-to-public/
 categories: [ Politics]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Local High School adds Klingon to Foreign Language Curriculum
 permalink: /local-high-school-adds-klingon-to-foreign-language-curriculum/
 categories: [Local]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Recent Undergraduate Art Major Actually Has Really Cool Etsy Shop
 permalink: /recent-undergraduate-art-major-actually-has-really-cool-etsy-shop/
 categories: [ Life]

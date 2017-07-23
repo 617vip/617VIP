@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kate Upton to Play in the WNBA
 permalink: /kate-upton-to-play-in-the-wnba/
 categories: [Sports]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Booze and Botox Are Beautiful
 permalink: /booze-and-botox-are-beautiful/
 categories: [ Life]

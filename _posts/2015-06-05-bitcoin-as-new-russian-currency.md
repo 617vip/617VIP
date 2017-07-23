@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Bitcoin as New Russian Currency
 permalink: /bitcoin-as-new-russian-currency/
 categories: [ Politics, Tech]

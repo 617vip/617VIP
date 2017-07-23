@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Grindr to Change Name to Pokeaman Go
 permalink: /grindr-to-change-name-to-pokeaman-go/
 categories: [Life, Tech]

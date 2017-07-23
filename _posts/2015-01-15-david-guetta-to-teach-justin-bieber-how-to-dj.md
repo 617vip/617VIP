@@ -1,5 +1,4 @@
 ---
-layout: post
 title: David Guetta to Teach Justin Bieber How to DJ
 permalink: /david-guetta-to-teach-justin-bieber-how-to-dj/
 categories: [Life]

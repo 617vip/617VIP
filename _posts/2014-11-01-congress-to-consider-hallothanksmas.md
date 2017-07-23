@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Congress to Consider HalloThanksMas
 permalink: /congress-to-consider-hallothanksmas/
 categories: [Politics]

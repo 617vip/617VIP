@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Elite International Team Initiates 'Scientific Jihad' To Refine Revolutionary Alternative Fuel
 permalink: /elite-international-team-initiates-scientific-jihad-to-refine-revolutionary-alternative-fuel/
 categories: [Tech]

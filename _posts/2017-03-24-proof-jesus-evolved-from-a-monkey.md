@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Proof Jesus Evolved from a Monkey
 permalink: /proof-jesus-evolved-from-a-monkey/
 categories: [ Tech]

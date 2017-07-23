@@ -1,5 +1,4 @@
 ---
-layout: post
 title: iPhone 7 To Be Even Larger 
 permalink: /iphone-7-to-be-even-larger/
 categories: [Tech]

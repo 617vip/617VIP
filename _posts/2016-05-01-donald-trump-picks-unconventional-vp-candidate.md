@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Donald Trump Picks Unconventional VP Candidate
 permalink: /donald-trump-picks-unconventional-vp-candidate/
 categories: [Politics]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Wade Boggs to Open Bar in Boston's Seaport
 permalink: /wade-boggs-to-open-bar-in-bostons-seaport/
 categories: [Sports]
