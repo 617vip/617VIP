@@ -22,6 +22,5 @@
   {% endif %}
   <style>
      {% include main.css %}
-     {% include rubys.css %}
   </style>
 </head>

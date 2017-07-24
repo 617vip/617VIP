@@ -54,7 +54,6 @@ layout: default
           {% assign cat = cat | downcase | capitalize %}
             {% if category_name == cat %}
             <div id="#{{ category_name | slugize }}"></div>
-            <p></p>
             <a  href="{{site.baseurl}}/category/{{  category_name | downcase }}" class="right category-head {{ category_name | downcase }}">{{ category_name | upcase}}</a>
             <a name="{{ category_name | slugize }}" class = 'mark'></a>
             {% for post in site.categories[category_name] limit : 2 %}
