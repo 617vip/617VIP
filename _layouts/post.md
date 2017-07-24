@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<div class = 'ads-container'>{% include ads.md %}</div>
 <section class = 'flex-in'>
+<div class = 'ads-container'>{% include ads.md %}</div>
   <article class="post child main" itemscope itemtype="http://schema.org/BlogPosting">
     <section class="post-header">
       <div class="post-meta">

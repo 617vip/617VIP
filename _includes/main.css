@@ -780,6 +780,7 @@ nav.toggled .expands{
     padding:3%;
     width:100%;
     min-height:100px;
+    max-height:250px;
   }
   .holder .share-box{
     left:0;
@@ -808,6 +809,13 @@ nav.toggled .expands{
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
      /* IE10+ CSS styles go here */
+     .ads-container{
+       position: relative;
+       
+     }
+     main {
+       padding: 0 15px 75px 15px;
+     }
      .main-container > div:first-of-type,
      main > .flex-in:first-of-type{
          padding-top:96px;
