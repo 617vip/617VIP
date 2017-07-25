@@ -13,13 +13,23 @@
 <div class = 'flex move'>
   <a href = '{{ page.previous.url | relative_url }}' class = 'duo flex child'>
   {% if page.previous.url %}
-    <div class = 'half '><img src = '{{ site.baseurl }}/assets/posts/{{ page.previous.permalink | remove: '/'}}.jpg' alt = '{{ page.previous.permalink | remove: '/'}}'></div>
+    {% if page.previous.image %}  
+      {% assign prevImage = page.previous.image %}
+    {% else %}
+      {% assign prevImage = page.previous.permalink | remove: '/' %}
+    {% endif %}
+    <div class = 'half '><img src = '{{ site.baseurl }}/assets/posts/{{ prevImage }}.jpg' alt = '{{ prevImage }}'></div>
     <div class = 'half'><h5>{{ page.previous.title }}</h5></div>
   {% endif %}
   </a>
   <a href = '{{ page.next.url| relative_url }}' class = 'duo flex child'>
   {% if page.next.url %}
-    <div class = 'half '><img src = '{{ site.baseurl }}/assets/posts/{{ page.next.permalink | remove: '/'}}.jpg' alt = '{{ page.next.permalink | remove: '/'}}'></div>
+    {% if page.next.image %}  
+      {% assign nextImage = page.next.image %}
+    {% else %}
+      {% assign nextImage = page.next.permalink | remove: '/' %}
+    {% endif %}
+    <div class = 'half '><img src = '{{ site.baseurl }}/assets/posts/{{ nextImage }}.jpg' alt = '{{ nextImage }}'></div>
     <div class = 'half'><h5>{{ page.next.title }}</h5></div>
   {% endif %}
   </a>

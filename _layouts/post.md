@@ -17,7 +17,12 @@ layout: default
           • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
         {% endif %}
       </div>
-      <img src = '{{ site.baseurl }}/assets/posts/{{ page. permalink | remove: '/'}}.jpg' alt = '{{ page. permalink | remove: '/'}}'>
+      {% if page.image %}  
+        {% assign image = page.image %}
+      {% else %}
+        {% assign image = page.permalink | remove: '/' %}
+      {% endif %}
+      <img src = '{{ site.baseurl }}/assets/posts/{{ image }}.jpg' alt = '{{ page. permalink | remove: '/'}}'>
       <div class = 'holder'>{% include share.md %}</div>
       <h1 class="post-title {{ page.categories | first | downcase}}" itemprop="name headline">{{ page.title | escape }}</h1>
     </section>
@@ -35,10 +40,15 @@ layout: default
     <div class = 'flex out related-posts'>
       {% assign kind = page.categories | first %}
        {% for post in site.categories[kind] limit: 5 %}
+          {% if post.image %}  
+            {% assign image = post.image %}
+          {% else %}
+            {% assign image = post.permalink | remove: '/' %}
+          {% endif %}
           {% unless post.title == page.title %}
            <div  class = 'child duo flex-down'>
               <a href="{{ site.baseurl }}{{ post.url }}">
-              <img src = '{{ site.baseurl }}/assets/posts/{{ post.permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
+              <img src = '{{ site.baseurl }}/assets/posts/{{ image }}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
               <h2 itemprop="name headline">{{ post.title | escape }}</h2></a>
               <time class="post-meta" >{{ post.date | date: date_format }}</time>
            </div>
@@ -57,8 +67,13 @@ layout: default
             <a  href="{{site.baseurl}}/category/{{  category_name | downcase }}" class="right category-head {{ category_name | downcase }}">{{ category_name | upcase}}</a>
             <a name="{{ category_name | slugize }}" class = 'mark'></a>
             {% for post in site.categories[category_name] limit : 2 %}
+               {% if post.image %}  
+                {% assign image = post.image %}
+              {% else %}
+                {% assign image = post.permalink | remove: '/' %}
+              {% endif %}
               <div class="archive-item">
-                <img src = '{{ site.baseurl }}/assets/posts/{{ post.permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
+                <img src = '{{ site.baseurl }}/assets/posts/{{ image }}.jpg' alt = '{{ post. permalink | remove: '/'}}'>
                 <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
                 <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
               </div>

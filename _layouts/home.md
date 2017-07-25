@@ -6,6 +6,20 @@ layout: default
 {% assign pageLoop = site.posts %}
 {% assign pageLoopMore = site.posts offset: 6 %}
 {% assign firstPost = pageLoop | first %}
+{% if firstPost.image %}  
+  {% assign firstImage = firstPost.image %}
+{% else %}
+  {% assign firstImage = firstPost.permalink | remove: '/' %}
+{% endif %}
+<style>
+@media screen and (min-width: 667px) and (max-width: 832px){
+    .featured .main{
+      background-image: url({{ site.baseurl }}/assets/posts/{{ firstImage }}.jpg);
+      background-size:cover;
+      background-repeat:no-repeat;
+    }
+  }
+</style>
 <div class = 'hold-featured'>
   <div class = 'flex featured'>
     <div class = 'child third flex'>
@@ -19,7 +33,7 @@ layout: default
       </a>
     </div>
     <a href = '{{ firstPost.url | relative_url }}' class = 'child main '>
-      <img src = '{{ site.baseurl }}/assets/posts/{{ firstPost.permalink | remove: '/'}}.jpg' alt = '{{ firstPost.permalink | remove: '/' }}'>
+      <img src = '{{ site.baseurl }}/assets/posts/{{ firstImage }}.jpg' alt = '{{ firstImage }}'>
     </a>
     {% include share.md %}
   </div>
@@ -30,8 +44,13 @@ layout: default
     <li class = 'flex out post-item'>
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       {% assign cat = post.categories | first | upcase%}
+      {% if post.image %}  
+        {% assign image = post.image %}
+      {% else %}
+        {% assign image = post.permalink | remove: '/' %}
+      {% endif %}
       <a class="post-image child main" href="{{ post.url | relative_url }}">
-        <img src = '{{ site.baseurl }}/assets/posts/{{ post. permalink | remove: '/'}}.jpg' alt = '{{ post. permalink | remove: '/'}}'/>
+        <img src = '{{ site.baseurl }}/assets/posts/{{ image }}.jpg' alt = '{{ image }}'/>
       </a>
       <div class = 'post-summary child third flex-down'>
         <p class = 'flex out'><span class="post-meta">{{ post.date | date: date_format }}</span><span class = 'right {{ cat | downcase }}'><a href="{{ post.url | relative_url }}"> {{ cat }}</a></span></p>
