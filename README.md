@@ -1,40 +1,26 @@
 ![Wicked Silly News](assets/logo-big.png)
 # Writing New Stories
-There are two ways to go about it
+To write new stories/articles you create a new file in the **_posts** directory. The file for a story follows the following naming convention.
 
+YEAR-MONTH-DATE-POST_TITLE.md
 
+For example if you want to write a new story about Elon Musk's Tesla Model 3s  you would  follow these steps
 
+* Create a new file in the **_posts** directory named
+ <!-- > 2017-09-01-elon-musks-tesla-model-3s.md 
+![metadata](assets/examples/metadata.png)
+ -->
+* At the top of file write a pair of 3 dashes.This is where you write the articles front matter goes
+<!-- > ---
+![metadata](assets/examples/metadata.png)
+   --- -->
+* In between the dashes, set the article's metadata (permalink, categories, image, title). The image name is optional. 
+<!-- > ---
+![metadata](assets/examples/metadata2.png)
+   title: " Elon Musk's Tesla Model 3s"
+   permalink: /elon-musks-tesla-model-3s/
+   categories: [Tech]
+   image: elon-musk
+   --- -->
+* If you do not specify the image, the article will try to look for a file named as the permalink
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="//societypieces.us16.list-manage.com/subscribe/post?u=bab6ad2e6b37baee2ac6487ba&amp;id=fe422fd0ad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Subscribe to our mailing list</label>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bab6ad2e6b37baee2ac6487ba_fe422fd0ad" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
