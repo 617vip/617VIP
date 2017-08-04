@@ -128,7 +128,8 @@ published: true
   <div class = 'form flex child main'>
     <div class = 'form-widget'>
       <div id = 'notification'></div>
-      <form  id = 'contact-form' method = 'POST' action = 'https://formspree.io/{{site.email}}'>
+      <form  id = 'contact-form' method = 'POST' action = 'thank-you' netlify-honeypot = 'gotcha' netlify>
+        <input name = 'gotcha' class = 'hidden'>
         <input type = 'text' placeholder = 'Name' name = 'Name' class = 'input-field' required>
         <input type = 'email' placeholder = 'Email Address' name = 'Email' class = 'input-field' required>
         <input type = 'number' placeholder = 'Phone Number' name = 'Phone' class = 'input-field'>
