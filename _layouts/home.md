@@ -38,7 +38,14 @@ layout: default
     {% include share.md %}
   </div>
 </div>
-<div class = 'ads-container'>{% include ads.md %}</div>
+<div class = 'ads-container'>
+  <div class = 'desktop'>
+    {% include ads/ads-header.md %}
+  </div>
+  <div class = 'mobile'>
+    {% include ads/ads-header-mobile.md %}
+  </div>
+</div>
 <ul class="post-list">
   {% for post in site.posts limit: 4 %}
     <li class = 'flex out post-item'>
@@ -86,4 +93,11 @@ layout: default
   </div>
 </aside>
 </section>
-<div class = 'ads-container'>{% include ads.md %}</div>
+<div class = 'ads-container'>
+  <div class = 'desktop'>
+    {% include ads/ads-footer.md %}
+  </div>
+  <div class = 'mobile'>
+    {% include ads/ads-footer-mobile.md %}
+  </div>
+</div>

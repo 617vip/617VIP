@@ -2,7 +2,14 @@
 layout: default
 ---
 <section class = 'flex-in'>
-<div class = 'ads-container'>{% include ads.md %}</div>
+<div class = 'ads-container'>
+  <div class = 'desktop'>
+    {% include ads/ads-header.md %}
+  </div>
+  <div class = 'mobile'>
+    {% include ads/ads-header-mobile.md %}
+  </div>
+</div>
   <article class="post child main" itemscope itemtype="http://schema.org/BlogPosting">
     <section class="post-header">
       <div class="post-meta">
@@ -102,4 +109,11 @@ layout: default
     </div>
   </aside>
 </section>
-<div class = 'ads-container'>{% include ads.md %}</div>
+<div class = 'ads-container'>
+  <div class = 'desktop'>
+    {% include ads/ads-footer.md %}
+  </div>
+  <div class = 'mobile'>
+    {% include ads/ads-footer-mobile.md %}
+  </div>
+</div>
