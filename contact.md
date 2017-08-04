@@ -128,7 +128,7 @@ published: true
   <div class = 'form flex child main'>
     <div class = 'form-widget'>
       <div id = 'notification'></div>
-      <form  id = 'contact-form' method = 'POST' action = 'thank-you' netlify-honeypot = 'gotcha' netlify>
+      <form  id = 'contact-form' method = 'POST' action = '{{ page.url }}' netlify-honeypot = 'gotcha' netlify>
         <input name = 'gotcha' class = 'hidden'>
         <input type = 'text' placeholder = 'Name' name = 'Name' class = 'input-field' required>
         <input type = 'email' placeholder = 'Email Address' name = 'Email' class = 'input-field' required>
