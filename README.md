@@ -20,5 +20,5 @@ For example if you want to write a new story about Elon Musk's Tesla Model 3s  y
 
 * If you do not specify the image, the article will try to look for a file named as the permalink
 
-> At the moment, this template only **.jpg** images
+> At the moment, this template only supports **.jpg** images
 
