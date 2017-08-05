@@ -22,3 +22,4 @@ For example if you want to write a new story about Elon Musk's Tesla Model 3s  y
 
 > At the moment, this template only supports **.jpg** images
 
+Images for the stories live in the **assets/posts** folder
