@@ -1,4 +1,4 @@
-![Wicked Silly News](assets/logo-big.png)
+![Wicked Silly News](assets/header-logo.png)
 # Writing New Stories
 To write new stories/articles you create a new file in the **_posts** directory. The file for a story follows the following naming convention.
 
