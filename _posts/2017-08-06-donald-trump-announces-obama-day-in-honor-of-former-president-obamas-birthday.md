@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 Title: >-
   “Donald Trump Announces Obama Day in Honor of Former President Obama's
   Birthday”
