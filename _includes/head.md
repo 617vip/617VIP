@@ -27,14 +27,14 @@
   <meta property='og:type' content='article' />
   <meta property='og:title' content='{{ page.title }}' />
   <meta property='og:url' content='{{ site.url }}{{ page.url }}' />
-  <meta property='og:description' content='{{ page.excerpt }}'/>
+  <meta property='og:description' content='{{ page.excerpt | truncate: 160 }}'/>
   <meta property='og:image' itemprop = 'image' content='{{site.url}}/assets/posts/{{ postImage }}.jpg' />
   <meta name="twitter:card" content="summary" />
   <meta name='twitter:site' content='@{{ site.twitter }}' />
   <meta name="twitter:url" content='{{ site.url }}{{ page.url }}' />
   <meta name='twitter:creator' content='@{{ site.twitter }}' />
   <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content='{{ page.excerpt }}'/> 
+  <meta name="twitter:description" content='{{ page.excerpt | truncate: 150 }}'/> 
   <meta name='twitter:image:src' content='{{site.url}}/assets/posts/{{ postImage }}.jpg' />
   <link rel='mask-icon' href='{{site.baseurl}}/safari.svg' color='#5bbad5'>
   <meta name='theme-color' content='#ffffff'>
