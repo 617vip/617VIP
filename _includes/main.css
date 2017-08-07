@@ -199,7 +199,7 @@ h1.post-title{
   color:#fff;
   margin:5px; 
 }
-.social .fa{
+.social .icon{
   color:inherit;
 }
 .facebook {
@@ -277,7 +277,7 @@ header{
   cursor:pointer;
   font-size: 21px;
   width:56px;
-  height:56px;
+  height:57.5px;
 }
 .top-header{
   justify-content: flex-start !important;
@@ -466,22 +466,31 @@ nav.toggled .expands{
   } 
   .share-box a{
     position:relative;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
     flex-grow: 1;
     margin:0 1.5px 1.5px 1.5px;
     border-radius:2.5px 4px;
-    padding:6px 3px;
-    max-width:84px;
+    padding:6px;
+    max-width:96px;
+    height:32px;
     text-align: center;
     padding-bottom: 9px;
     color:#fefefe;
     transition:color 0.3s ease-in;
   }
+  .share-box a span{
+    font-size:15px;
+    margin-left:4px;
+  } 
   .share-box:hover{
     color:#fff;
   }
-  .share-box .fa{
+  .share-box .icon{
     position: relative;
     z-index:5;
+    height:16px !important;
   }
   .share-box a:before,
   .share-box a:after{
@@ -543,7 +552,7 @@ nav.toggled .expands{
    position:absolute;
    right:0;
    top:0;
-   padding:15px;
+   padding:14px;
    background-color: #343434;
    color:inherit;
 }
@@ -566,7 +575,7 @@ nav.toggled .expands{
 .expands{
   display:flex;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .share-box a span{
     display: none;
   } 

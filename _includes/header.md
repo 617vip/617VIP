@@ -11,7 +11,7 @@
           <img src = '{{ site.baseurl }}/assets/logo-big.png' alt = 'logo'>
           </p>
           <p class = 'flex'>
-            <p class = 'browse'>BROWSE CATEGORIES <span><i class = 'fa fa-arrow-down' aria-hidden = 'true'></i></span></p>
+            <p class = 'browse'>BROWSE CATEGORIES <span><i class = 'icon icon-arrow-down' aria-hidden = 'true'></i></span></p>
             <div class = 'expands'>
               {% for category in site.data.menu %}
                 <a class="{{category}}" href="{{site.baseurl}}/category/{{  category}}">{{ category | upcase }}</a>
@@ -22,9 +22,9 @@
       {% endif %}
       <div class = ' flex quad '>
       {% for item in site.data.social %}
-         <a href = '{{ item.url }}' class = 'flex {{ item.icon}} social' target = '_blank'><i class = 'fa fa-{{ item.icon }}' aria-hidden = 'true'></i></a>
+         <a href = '{{ item.url }}' class = 'flex {{ item.icon}} social' target = '_blank'><i class = 'icon icon-{{ item.icon }}' aria-hidden = 'true'></i></a>
       {% endfor %}
       </div>
-      <i class = 'flex fa fa-bars toggle-menu'></i>
+      <i class = 'flex icon icon-bars toggle-menu'></i>
   </header>
 </section>

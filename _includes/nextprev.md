@@ -1,12 +1,12 @@
 <div class="previous-next flex">
   <a class="previous-post half" href="{{ page.previous.url | relative_url }}">
   {% if page.previous.url %}
-    <i class="fa fa-chevron-left" aria-hidden="true"></i> {{'Previous News ' | upcase}}
+    <i class="icon icon-left" aria-hidden="true"></i> {{'Previous News ' | upcase}}
   {% endif %}
   </a>
   <a class="next-post half right" href="{{ page.next.url | relative_url}}">
   {% if page.next.url %}
-    <span>{{ ' Next News' | upcase }} <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+    <span>{{ ' Next News' | upcase }} <i class="icon icon-right" aria-hidden="true"></i></span>
   {% endif %}
   </a>
 </div>

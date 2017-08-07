@@ -1,24 +1,32 @@
 
 (function() {
   $('.toggle-menu').on('click', function() {
-    $(this).toggleClass('fa-bars').toggleClass('fa-close');
+    $(this).toggleClass('icon-bars').toggleClass('icon-close');
     $('.top-header nav').toggleClass('toggled');
   });
 
   $('.browse').on('click', function() {
      $('.expands').toggleClass('expanded');
-     $('.browse .fa').toggleClass('fa-arrow-down').toggleClass('fa-arrow-up');
+     $('.browse .icon').toggleClass('icon-arrow-down').toggleClass('icon-arrow-up');
   });
 })();
 
 (function() {
-    var font, s;
+    var font, font1, s, t;
     font = document.createElement('link');
     font.type = 'text/css'; 
     font.rel = 'stylesheet';
     font.href = 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700';
     s = document.getElementsByTagName('link')[0]; 
     s.parentNode.insertBefore(font, s);
+
+    font1 = document.createElement('link');
+    font1.type = 'text/css'; 
+    font1.rel = 'stylesheet';
+    font1.href = 'https://file.myfontastic.com/XJbAgRNrWhky7heFpqzdyn/icons.css';
+    t = document.getElementsByTagName('link')[0]; 
+    t.parentNode.insertBefore(font1, t);
+
   })();
 
 

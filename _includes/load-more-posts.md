@@ -35,6 +35,6 @@
   {% assign postCount = pageLoop | size %}
   {% assign postsCovered = site.paginate | plus:offset %}
   {% if postsCovered < postCount %}
-    <button class="loadMore flex"><span class = 'mobile'>LOAD MORE WICKED SILLY NEWS</span><span class = 'desktop'>SHOW ME MORE WICKED SILLY NEWS</span><span><i class="fa fa-arrow-down" aria-hidden="true"></i></span></button>
+    <button class="loadMore flex"><span class = 'mobile'>LOAD MORE WICKED SILLY NEWS</span><span class = 'desktop'>SHOW ME MORE WICKED SILLY NEWS</span><span><i class="icon icon-arrow-down" aria-hidden="true"></i></span></button>
   {% endif %}
   </div>

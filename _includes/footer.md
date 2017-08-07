@@ -8,7 +8,7 @@
     </div>
     <div class="quad flex">
         {% for item in site.data.social %}
-        <a href = '{{ item.url }}' class = ' flex {{ item.icon}} social' target = '_blank'><i class = 'fa fa-{{ item.icon }}' aria-hidden = 'true'></i></a>
+        <a href = '{{ item.url }}' class = ' flex {{ item.icon}} social' target = '_blank'><i class = 'icon icon-{{ item.icon }}' aria-hidden = 'true'></i></a>
       {% endfor %}
     </div>
   </header>
