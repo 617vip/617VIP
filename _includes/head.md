@@ -11,9 +11,9 @@
   {% endif %}
   <meta property='og:site_name' content='{{site.title}}' />
   {% if page.excerpt %}
-    {% assign pageDesc = page.excerpt %}
+    {% assign pageDesc = page.excerpt | strip_html | truncate: 160 %}
   {% else %}
-    {% assign pageDesc = site.description %}
+    {% assign pageDesc = site.description | strip_html | truncate: 160 %}
   {% endif %}
    {% if page.layout == 'post' %}
   <script type='application/ld+json'>
@@ -21,7 +21,7 @@
     '@type': 'BlogPosting',
     'name': '{{site.title}}',
     'headline': '{{page.title}}',
-    'description': '{{pageDesc | strip_html | truncate: 160 }}',
+    'description': '{{pageDesc }}',
     'url': '{{site.url}}{{page.url}}'}
   </script>}
   <meta property='article:published_time' content='{{page.date | date_to_xmlschema}}' />
@@ -31,14 +31,14 @@
   <meta property='og:title' content='{{ page.title }}' />
   <meta property="article:publisher" content="http://www.facebook.com/{{ site.facebook }}" />
   <meta property='og:url' content='{{ site.url }}{{ page.url }}' />
-  <meta property='og:description' content='{{ pageDesc | truncate: 150 }}'/>
+  <meta property='og:description' content='{{ pageDesc  }}'/>
   <meta property='og:image' itemprop = 'image' content='{{site.url}}/assets/posts/{{ postImage }}.jpg' />
   <meta name="twitter:card" content="summary" />
   <meta name='twitter:site' content='@{{ site.twitter }}' />
   <meta name="twitter:url" content='{{ site.url }}{{ page.url }}' />
   <meta name='twitter:creator' content='@{{ site.twitter }}' />
   <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content='{{ pageDesc | truncate: 150 }}'/> 
+  <meta name="twitter:description" content='{{ pageDesc }}'/> 
   <meta name='twitter:image:src' content='{{site.url}}/assets/posts/{{ postImage }}.jpg' />
   <link rel='mask-icon' href='{{site.baseurl}}/safari.svg' color='#5bbad5'>
   <meta name='theme-color' content='#ffffff'>
