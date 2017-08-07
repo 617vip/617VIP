@@ -8,9 +8,8 @@
   {% else %}
     {% assign postImage = page.permalink | remove: '/' %}
   {% endif %}
-  <meta property='og:site_name' content='{{site.title}}' />
   {% if page.excerpt %}
-    {% assign pageDesc = page.excerpt | strip_html | truncate: 160 %}
+    {% assign pageDesc = page.excerpt | strip_html | truncate: 160 | remove: '...' %}
   {% endif %}
    {% if page.layout == 'post' %}
   <script type='application/ld+json'>
@@ -23,6 +22,8 @@
   </script>}
   <meta property='article:published_time' content='{{page.date | date_to_xmlschema}}' />
   {% endif %}
+  <meta itemprop='description' name='description' content='{{ pageDesc  }}'/>
+  <meta property='og:site_name' content='{{site.title}}' />
   <meta property='og:locale' content='en_US' />
   <meta property='og:type' content='article' />
   <meta property='og:title' content='{{ page.title }}' />

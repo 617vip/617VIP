@@ -74,7 +74,7 @@ main{
   min-height:72vh;
   padding:75px 12.5px 12.5px 12.5px;
 }
-main .flex-in a:hover{
+main .flex-in a:not(.share-button):hover{
   text-decoration: underline !important;
   text-decoration-color:inherit;
 }
