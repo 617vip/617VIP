@@ -694,6 +694,7 @@ nav.toggled .expands{
     bottom:0;
   }
   .desktop{
+    width: 100%;
     display: block;
   }
   .mobile{
