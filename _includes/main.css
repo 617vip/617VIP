@@ -790,6 +790,9 @@ nav.toggled .expands{
     padding:90px 15px 15px 15px;
     margin:0 auto;
   }
+  main.blogPost{
+    padding-top:50px;
+  }
   main{
     position: relative;
   }
