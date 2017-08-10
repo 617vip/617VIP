@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 {{ content }}
 <section class = 'flex-in'>
@@ -24,8 +25,8 @@ layout: default
   <div class = 'flex featured'>
     <div class = 'child third flex'>
       <div class = 'catch items'>
-        <div class = 'left'>{{ 'Wicked story' | upcase }}</div>
-        <div class = 'right'>{{ 'of the day' | upcase }}</div>
+        <div class = 'left'>{{ 'Featured Wicked' | upcase }}</div>
+        <div class = 'right'>{{ 'Silly Story' | upcase }}</div>
       </div>
       <a  href = '{{ firstPost.url | relative_url }}' class = 'title {{ firstPost.categories | first | downcase }} items'>
         <h1>{{ firstPost.title }}</h1>
