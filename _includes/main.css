@@ -787,7 +787,7 @@ nav.toggled .expands{
   header,
   main{
     max-width:960px;
-    padding:90px 15px 75px 15px;
+    padding:90px 15px 15px 15px;
     margin:0 auto;
   }
   main{
