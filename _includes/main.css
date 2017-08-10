@@ -649,8 +649,8 @@ nav.toggled .expands{
   }
   .featured .catch,
   .featured .title h1{
-    font-size: 28px !important;
-    line-height: 30px !important;
+    font-size: 25px !important;
+    line-height: 27px !important;
   }
   .featured h1{
     margin:10px 0;
