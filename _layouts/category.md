@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 {{content}}
 {% assign pageLoop = site.categories[page.title] %}
@@ -24,8 +25,8 @@ layout: default
   <div class = 'flex featured'>
     <div class = 'child third flex'>
       <div class = 'catch items child'>
-        <div class = 'left'>{{ 'Wicked story' | upcase }}</div>
-        <div class = 'right'>{{ 'of the day' | upcase }}</div>
+        <div class = 'left'>{{ 'Featured Wicked' | upcase }}</div>
+        <div class = 'right'>{{ 'Silly Story' | upcase }}</div>
       </div>
       <a  href = '{{ firstPost.url | relative_url }}' class = 'title {{ page.title | downcase }} items child flex'>
         <h1>{{ firstPost.title }}</h1>
