@@ -8,6 +8,9 @@ permalink: >-
 categories:
   - Politics
 image: donald-trump-announces-obama-day-in-honor-of-former-president-obamas-birthday
+title: >-
+  “Donald Trump Announces Obama Day in Honor of Former President Obama's
+  Birthday”
 ---
 Friday, August 4th, 2017 marked Barack Obama’s 56th birthday. Unsurprisingly, Obama’s birthday led the media to lose its collective mind with the internet full of stories clarifying the reasons why almost everyone missed President Obama. In other words the day made such a big deal for the guy, it was as if he was still the president. Although not yet legal, fans of Obama treated the day like an official Obama Day Holiday, making #obamaday a trending topic on Twitter.
 
