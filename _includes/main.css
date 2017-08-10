@@ -56,7 +56,7 @@ a:focus{
 }
 .flex-in{
   justify-content: space-between;
-  padding:25px 0;
+  padding:12.5px 0;
 }
 .flex-down{
   display:flex;
