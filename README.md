@@ -12,3 +12,9 @@ Images for the stories live in the **assets/posts** folder
 
 ### Optimize Images for better SEO performance
 Use this [online compressor tool](https://compressor.io/) to compress/optimize your images
+
+Images need to be optimize in two cases,
+
+* When uploading ad banner media in adbutler panel
+
+* When posting new stories
