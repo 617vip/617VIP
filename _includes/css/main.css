@@ -104,7 +104,7 @@ nav a:hover{
   background-color: #2f86c5;
 }
 main img{
-  margin:0 auto 7.5px 0;
+  margin:0 auto 5px 0;
   width: 100%;
 }
 footer > header.flex{
@@ -275,7 +275,7 @@ header{
   background-color:#343434;
   color:#fff;
   cursor:pointer;
-  font-size: 21px;
+  font-size: 28px;
   width:56px;
   height:57.5px;
 }
@@ -579,6 +579,15 @@ nav.toggled .expands{
   .share-box a span{
     display: none;
   } 
+  .mobile{
+    width:100%;
+  }
+  main.blog-post{
+    padding:25px 12.5px 5px 12.5px;
+  }
+  .share-box a {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 667px) {
   .title{
@@ -790,7 +799,7 @@ nav.toggled .expands{
     padding:90px 15px 15px 15px;
     margin:0 auto;
   }
-  main.blogPost{
+  main.blog-post{
     padding-top:50px;
   }
   main{

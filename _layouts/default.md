@@ -6,7 +6,7 @@ layout: compress
   {% include head.md %}
   <body>
     {% include header.md %}
-    <main class="page-content {% if page.layout == 'post' %}blogPost{% endif %}" aria-label="Content">
+    <main class="page-content {% if page.layout == 'post' %}blog-post{% endif %}" aria-label="Content">
         {{ content }}
     </main>
     {% include footer.md %}

@@ -12,21 +12,13 @@
 })();
 
 (function() {
-    var font, font1, s, t;
+    var font,  s;
     font = document.createElement('link');
     font.type = 'text/css'; 
     font.rel = 'stylesheet';
     font.href = 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700';
     s = document.getElementsByTagName('link')[0]; 
     s.parentNode.insertBefore(font, s);
-
-    font1 = document.createElement('link');
-    font1.type = 'text/css'; 
-    font1.rel = 'stylesheet';
-    font1.href = 'https://file.myfontastic.com/XJbAgRNrWhky7heFpqzdyn/icons.css';
-    t = document.getElementsByTagName('link')[0]; 
-    t.parentNode.insertBefore(font1, t);
-
   })();
 
 
@@ -85,7 +77,7 @@ $(".loadMore").click(loadMorePosts);
 
         var $notification = `
           <div class="alert alert-success">
-              <i class="fa fa-check-circle-o" aria-hidden="true"></i> Thanks, We'll get back to you Asap
+            Thanks, We'll get back to you Asap
           </div>`;
 
         notifyUser($notification, 'success');
@@ -96,7 +88,7 @@ $(".loadMore").click(loadMorePosts);
 
         var $notification = `
           <div class="alert alert-error">
-              <i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ops, there was an error.
+            Ops, there was an error.
           </div>` ;
 
         notifyUser(notification, 'error');

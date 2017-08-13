@@ -49,6 +49,7 @@
   {% include google-analytics.md %}
   {% endif %}
   <style>
-     {% include main.css %}
+     {% include css/main.css %}
+     {% include css/icon.css %}
   </style>
 </head>
