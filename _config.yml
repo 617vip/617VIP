@@ -9,7 +9,7 @@ markdown: kramdown
 theme: minima
 paginate: 6
 paginate_path: '/page:num/'
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
