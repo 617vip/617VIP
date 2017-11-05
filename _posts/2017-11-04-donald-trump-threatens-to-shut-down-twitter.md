@@ -4,7 +4,7 @@ permalink: /donald-trump-threatens-to-shut-down-twitter/
 categories:
   - Politics
 ---
-## A New Post
+
 In a news conference this morning, President Donald Trump made some startling threats to Twitter and its users.  Recently, the President’s Twitter had been temporarily shut down for eleven minutes by an employee who is no longer with the company.  To no surprise, Trump had some choice words, and strong accusations, to offer reporters.
 
 The President started off by addressing the deletion of his account as “domestic terror”.  He went on claim that the act was committed not by a lone wolf, but a hoard of millennial terrorists.
