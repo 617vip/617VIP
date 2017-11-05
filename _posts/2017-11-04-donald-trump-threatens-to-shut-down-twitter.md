@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 permalink: /donald-trump-threatens-to-shut-down-twitter/
 categories:
   - Politics
