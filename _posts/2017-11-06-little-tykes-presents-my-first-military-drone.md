@@ -1,5 +1,8 @@
 ---
 published: false
+permalink: /little-tykes-presents-my-first-military-drone/
+categories:
+  - Tech
 ---
 After the widely anticipated release of their “My First Drone”, Little Tikes has announced their plans to create a toy that will be on every child’s Christmas wish-list, and perhaps most Americans’, too.  Produced in association with the United States government and Toys R Us, the “My First Military Drone” is set to be the cutest UAV on the market.
 
