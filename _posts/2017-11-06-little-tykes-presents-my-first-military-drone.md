@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 permalink: /little-tykes-presents-my-first-military-drone/
 categories:
   - Tech
