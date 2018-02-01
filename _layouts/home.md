@@ -5,7 +5,7 @@ published: true
 {{ content }}
 <section class = 'flex-in'>
 {% assign pageLoop = site.posts %}
-{% assign pageLoopMore = site.posts offset: 6 %}
+{% assign pageLoopMore = site.posts | offset: 6 %}
 {% assign firstPost = pageLoop | first %}
 {% if firstPost.image %}  
   {% assign firstImage = firstPost.image %}
